@@ -1,0 +1,6 @@
+[submodule "src/dynamixel_pro_controller"]
+	path = src/dynamixel_pro_controller
+	url = git://github.com/baxelrod/dynamixel_pro_controller
+[submodule "src/dynamixel_pro_driver"]
+	path = src/dynamixel_pro_driver
+	url = git://github.com/baxelrod/dynamixel_pro_driver
