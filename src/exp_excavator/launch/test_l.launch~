@@ -4,6 +4,7 @@
   <!-- Optoforce Node -->
 	<group>
 		<include file="$(find optoforce)/launch/optoforce.launch"/>
-		<include file="$(find pointgrey_camera_driver)/launch/camera.launch"/>
+<!--		<include file="$(find pointgrey_camera_driver)/launch/camera.launch"/> -->
+		<include file="$(find exp_excavator)/launch/camera_custom.launch"/>
 	</group>
 </launch>
