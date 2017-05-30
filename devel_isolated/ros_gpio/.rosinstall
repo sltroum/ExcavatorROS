@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yutak/ros_ws/devel_isolated/ros_gpio/setup.sh

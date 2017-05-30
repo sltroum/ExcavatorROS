@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libdynamixel_pro_driver.so -o /home/filippos/ros_ws/devel/lib/libdynamixel_pro_driver.so CMakeFiles/dynamixel_pro_driver.dir/src/dynamixel_pro_driver.cpp.o /opt/ros/indigo/lib/libserial.so -Wl,-rpath,/opt/ros/indigo/lib: 

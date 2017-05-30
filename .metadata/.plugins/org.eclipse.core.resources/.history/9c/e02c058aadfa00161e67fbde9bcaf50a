@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+'''
+Created on Feb 24, 2017
+
+@author: yutak
+'''
+
+import rospy
+import std_msgs.msg as msg
+
+class DynamixelManager:
+    def __init__(self):
+        rospy.init_node('dynamixel_manager', anonymous=True)
+    
+    def update(self):
+        rospy.spin()
+
+if __name__ == '__main__':
+    dm = DynamixelManager()
+    
+    try:
+        dm.update()
+
+    except rospy.ROSInterruptException:
+        pass

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>dynamixel_pro_controller</name>
+  <version>0.8.4</version>
+  <description>The dynamixel_pro_controller package</description>
+
+  <maintainer email="baxelrod.rosmaint@mit.edu">Brian Axelrod</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <!-- <url type="website">http://ros.org/wiki/dynamixel_pro_controller</url> -->
+
+
+  <author email="baxelrod.rosmaint@mit.edu">Brian Axelrod</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>dynamixel_pro_driver</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>yaml-cpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>yaml-cpp</run_depend>
+  <run_depend>dynamixel_pro_driver</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>message_generation</run_depend>
+
+  <export>
+  </export>
+</package>

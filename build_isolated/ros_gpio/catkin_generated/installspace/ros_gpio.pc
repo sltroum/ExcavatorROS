@@ -1,0 +1,8 @@
+prefix=/home/yutak/ros_ws/install_isolated
+
+Name: ros_gpio
+Description: Description of ros_gpio
+Version: 0.0.4
+Cflags: -I/home/yutak/ros_ws/install_isolated/include
+Libs: -L/home/yutak/ros_ws/install_isolated/lib 
+Requires: 

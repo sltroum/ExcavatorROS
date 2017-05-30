@@ -1,0 +1,37 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+
+  <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_right" >
+    <remap from="joy" to="joy_right" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_right.yaml" />
+  </node>
+  <node pkg="joy" type="joy_node" name="joy_node_left" >
+    <remap from="joy" to="joy_left" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_left.yaml" />
+  </node>
+  <node pkg="exp_excavator" type="joy_msg_manager.py" name="joy_msg_manager"
+        output="screen" />
+  
+  <!-- speed commander node -->
+  <node pkg="exp_excavator" type="speed_commander.py" name="speed_commander"
+        output="screen" />
+  
+  <!-- dynamixel node -->
+  <node pkg="exp_excavator" type="dynamixel_manager.py"
+        name="dynamixel_manager" output="screen" />
+  <node name="dynamixel_pro_controller" pkg="dynamixel_pro_controller"
+        type="dynamixel_pro_controller_node" output="screen">
+    <rosparam>
+      device: '/dev/ttyUSB0'
+      baudrate: 1000000
+      serial_timeout_ms: 1
+      servos: [{id: 3, joint_name: 'bucket_joint'}]
+    </rosparam>
+  </node>
+
+</launch>

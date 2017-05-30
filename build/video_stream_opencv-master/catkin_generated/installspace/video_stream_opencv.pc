@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/install
+
+Name: video_stream_opencv
+Description: Description of video_stream_opencv
+Version: 1.0.2
+Cflags: 
+Libs: -L/home/filippos/ros_ws/install/lib 
+Requires: 

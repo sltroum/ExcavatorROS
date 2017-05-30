@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="excavator_model">
+
+  <xacro:property name="L1" value="0.7125"/>
+  <xacro:property name="L2" value="0.3656"/>
+  <xacro:property name="L3" value="0.1858"/>
+  <xacro:property name="theta1_max" value="1.1647"/>
+  <xacro:property name="theta1_min" value="-0.7689"/>
+  <xacro:property name="theta2_max" value="2.7581"/>
+  <xacro:property name="theta2_min" value="0.6059"/>
+  <xacro:property name="theta3_max" value="2.4674"/>
+  <xacro:property name="theta3_min" value="-0.6128"/>
+
+  <link name="world"/>
+  
+  <joint name="world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link"/>
+
+  <joint name="boom_foot_pin" type="revolute">
+    <parent link="base_link"/>
+    <child link="boom"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="${theta1_min}" upper="${theta1_max}" effort="10" velocity="10"/>
+  </joint>
+  <transmission name="trans_boom_foot_pin">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="boom_foot_pin">
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="act_boom_foot_pin">
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
+      <mechanismReduction>1</mechanismReduction>
+    </actuator>
+  </transmission>
+
+  <link name="boom">
+    <visual>
+    <origin xyz="${L1/2.} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${L1} 0.05 0.1"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="0.7 0.7 0 1"/>
+      </material>
+    </visual>
+  </link>
+  <gazebo reference="boom">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <joint name="boom_top_pin" type="revolute">
+    <parent link="boom"/>
+    <child link="arm"/>
+    <origin xyz="${L1} 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="${theta2_min}" upper="${theta2_max}" effort="10" velocity="10"/>
+  </joint>
+  <transmission name="trans_boom_top_pin">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="boom_top_pin">
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="act_boom_top_pin">
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
+      <mechanismReduction>1</mechanismReduction>
+    </actuator>
+  </transmission>
+
+  <link name="arm">
+    <visual>
+      <origin xyz="${L2/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${L2} 0.05 0.1"/>
+      </geometry>
+      <material name="yellow"/>
+    </visual>
+  </link>
+  <gazebo reference="arm">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <joint name="arm_top_pin" type="revolute">
+    <parent link="arm"/>
+    <child link="bucket"/>
+    <origin xyz="${L2} 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="${theta3_min}" upper="${theta3_max}" effort="10" velocity="10"/>
+  </joint>
+  <transmission name="trans_arm_top_pin">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="arm_top_pin">
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="act_arm_top_pin">
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
+      <mechanismReduction>1</mechanismReduction>
+    </actuator>
+  </transmission>
+
+  <link name="bucket">
+    <visual>
+      <origin xyz="${L3/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${L3} ${1.027/8.0} ${0.75/8.0}"/>
+      </geometry>
+      <material name="yellow"/>
+    </visual>
+  </link>
+  <gazebo reference="bucket">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/excavator_model</robotNamespace>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,50 @@
+#!/usr/bin/python
+'''
+Created on Feb 21, 2017
+
+@author: yutak
+'''
+
+import rospy
+import joy_listener as jl
+import std_msgs.msg as msg
+import sensor_msgs.msg as smsg
+
+class JoyMsgManager:
+    def __init__(self):
+        self.sample_rate = 100 #[Hz]
+        rospy.init_node('joy_msg_manager', anonymous=True)
+        
+        self.sub_joy_right = rospy.Subscriber('joy_right', smsg.Joy,
+                                              cb_joy_right)
+        self.sub_joy_left = rospy.Subscriber('joy_left', smsg.Joy,
+                                             cb_joy_left)
+        
+        self.pub_joy_boom = rospy.Publisher('val_joy_boom', msg.Float64,
+                                            queue_size= 1)
+        self.pub_joy_arm = rospy.Publisher('val_joy_arm', msg.Float64,
+                                           queue_size= 1)
+        self.pub_joy_bucket = rospy.Publisher('val_joy_bucket', msg.Float64,
+                                              queue_size= 1)
+        self.pub_joy_swing = rospy.Publisher('val_joy_swing', msg.Float64,
+                                             queue_size= 1)
+    
+    def update(self):            
+        rospy.spin()
+        
+    def cb_joy_right(self, joy):
+            self.pub_joy_boom.publish(joy.axis[0])
+            self.pub_joy_bucket.publish(joy.axis[1])
+            
+    def cb_joy_left(self, joy):
+            self.pub_joy_arm.publish(joy.axis[0])
+            self.pub_joy_swing.publish(joy.axis[1])
+        
+if __name__ == '__main__':
+    jm = JoyMsgManager()
+    
+    try:
+        jm.update()
+
+    except rospy.ROSInterruptException:
+        pass

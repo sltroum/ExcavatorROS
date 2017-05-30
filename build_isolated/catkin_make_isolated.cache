@@ -1,0 +1,2 @@
+ex_model:gaze_arm:ros_gpio
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/yutak/ros_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/yutak/ros_ws/install_isolated

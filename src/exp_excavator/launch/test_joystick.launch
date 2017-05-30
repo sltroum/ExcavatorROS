@@ -1,0 +1,21 @@
+<launch>
+
+  <node pkg="exp_excavator" type="joy_msg_manager.py" name="joy_msg_manager"
+        output="screen" >
+    <param name="test" type="bool" value="true" />
+  </node>
+
+  <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_right" >
+    <remap from="joy" to="joy_right" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_right.yaml" />
+  </node>
+  <node pkg="joy" type="joy_node" name="joy_node_left" >
+    <remap from="joy" to="joy_left" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_left.yaml" />
+  </node>
+
+</launch>

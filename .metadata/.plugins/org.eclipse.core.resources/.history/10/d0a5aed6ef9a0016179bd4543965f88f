@@ -1,0 +1,62 @@
+﻿#include <ros/ros.h>
+#include <sensor_msgs/JointState.h>
+
+int main(int argc, char** argv) {
+	// define constants
+	const int JOINT_NUM = 3;
+	const double theta_max[] = {1.1647, 2.7581, 2.4674};
+	const double theta_min[] = {-0.7689, 0.6059, -0.6128};
+
+	// define initial values
+	double theta[JOINT_NUM];
+	for(int i=0; i < 3; i++) {
+		theta[i] = (theta_max[i] + theta_min[i]) / 2.0;
+	}
+	bool theta_flag[] = {true, true, true};
+
+	ros::init(argc, argv, "joint_state_publisher");
+	ros::NodeHandle n;
+	ros::Publisher joint_pub = n.advertise<sensor_msgs::JointState>("joint_states", 1);
+	ros::Rate loop_rate(30);
+
+	// message declarations
+	sensor_msgs::JointState joint_state;
+
+	while (ros::ok()) {
+		//update joint_state
+		for(int i=0; i < 3; i++) {
+			if(theta_flag[i]) {
+				theta[i] += 0.01;
+				if(theta[i] > theta_max[i]) {
+					theta[i] = theta_max[i];
+					theta_flag[i] = !theta_flag[i];
+				}
+			}
+			else {
+				theta[i] -= 0.01;
+				if(theta[i] < theta_min[i]) {
+					theta[i] = theta_min[i];
+					theta_flag[i] = !theta_flag[i];
+				}
+			}
+		}
+
+		joint_state.header.stamp = ros::Time::now();
+		joint_state.name.resize(3);
+		joint_state.velocity.resize(3);
+		joint_state.name[0] = "boom_foot_pin";
+		joint_state.velocit[0] = theta[1];
+		joint_state.name[1] = "boom_top_pin";
+		joint_state.velocity[1] = theta[2];
+		joint_state.name[2] = "arm_top_pin";
+		joint_state.velocity[2] = theta[3];
+
+		// send the joint state and transform
+		joint_pub.publish(joint_state);
+
+		// This will adjust as needed per iteration
+		loop_rate.sleep();
+	}
+
+	return 0;
+}

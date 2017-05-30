@@ -1,0 +1,117 @@
+/*
+ * epos_manager.cpp
+ *
+ *  Created on: Feb 22, 2017
+ *      Author: yutak
+ */
+
+#include <iostream>
+#include <stdio.h>
+
+#include <ros/ros.h>
+#include <sensor_msgs/Joy.h>
+#include <epos_library/Definitions.h>
+#include <exp_excavator/JointValues.h>>
+
+class EposManager {
+public:
+	EposManager();
+	~EposManager();
+
+private:
+	void spdComCallbackBoom(const std_msgs::Float64ConstPtr& val);
+	void spdComCallbackArm(const std_msgs::Float64ConstPtr& val);
+
+	ros::NodeHandle n;
+	ros::Subscriber subSpdComBoom, subSpdComArm, sub_joy_bucket, sub_joy_swing;
+	void *pHandleBoom, *pHandleArm;
+	unsigned short nodeIdBoom;
+	unsigned short nodeIdArm;
+};
+
+EposManager::EposManager() {
+	unsigned int err;
+	char *pDeviceName = (char*)"EPOS2";
+	char *pProtocolStackName = (char*)"MAXON SERIAL V2";
+	char *pInterfaceName = (char*)"USB";
+	char *pPortNameBoom = (char*)"USB0";
+	char *pPortNameArm = (char*)"USB1";
+
+	nodeIdBoom = 1;
+	nodeIdArm = 2;
+
+	pHandleBoom = VCS_OpenDevice(pDeviceName, pProtocolStackName,
+			 	 	 	 	 	 pInterfaceName, pPortNameBoom, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom OpenDevice Error:0x%08x", err);
+	}
+	VCS_SetOperationMode(pHandleBoom, nodeIdBoom, OMD_VELOCITY_MODE, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom SetOperationMode Error:0x%08x", err);
+	}
+	VCS_SetEnableState(pHandleBoom, nodeIdBoom, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom SetEnableStateError:0x%08x", err);
+	}
+
+	pHandleArm = VCS_OpenDevice(pDeviceName, pProtocolStackName,
+	 	 	 	 	 	 	 	pInterfaceName, pPortNameArm, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm OpenDevice Error:0x%08x", err);
+	}
+	VCS_SetOperationMode(pHandleArm, nodeIdArm, OMD_VELOCITY_MODE, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm SetOperationMode Error:0x%08x", err);
+	}
+	VCS_SetEnableState(pHandleArm, nodeIdArm, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm device set enable state error:0x%08x", err);
+	}
+
+	subSpdCom = n.subscribe<exp_excavator::JointValues_>(
+			"spd_commands", 10, &EposManager::spdComCallback, this);
+}
+
+EposManager::~EposManager() {
+	unsigned int err;
+
+	VCS_SetDisableState(pHandleBoom, nodeIdBoom, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom SetDisableState Error:0x%08x", err);
+	}
+
+	VCS_SetDisableState(pHandleArm, nodeIdArm, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm SetDisableState Error:0x%08x", err);
+	}
+}
+
+void EposManager::spdComCallbackBoom(const std_msgs::Float64ConstPtr& val) {
+	unsigned int err;
+	long vel = long(val->data);
+
+	VCS_SetVelocityMust(pHandleBoom, nodeIdBoom, vel, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom SetVelocityMust Error:0x%08x", err);
+	}
+}
+
+void EposManager::spdComCallbackArm(const std_msgs::Float64ConstPtr& val) {
+	unsigned int err;
+	long vel = long(val->data);
+
+	VCS_SetVelocityMust(pHandleArm, nodeIdArm, vel, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm SetVelocityMust Error:0x%08x", err);
+	}
+}
+
+int main(int argc, char** argv) {
+	ros::init(argc, argv, "epos_manager");
+	EposManager em;
+	ROS_INFO("EPOS Manager has started.");
+
+	ros::spin();
+
+	return 0;
+}

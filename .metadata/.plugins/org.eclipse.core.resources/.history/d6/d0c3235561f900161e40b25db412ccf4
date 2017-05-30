@@ -1,0 +1,35 @@
+<launch>
+
+  <param name="robot_description" textfile="$(find exp_excavator)/launch/example.urdf" />
+  
+  <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_right" >
+    <remap from="joy" to="joy_right" />
+    <param name="dev" type="string" value="/dev/input/js2" />
+    <param name="deadzone" value="0.12" />
+  </node>
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_left" >
+    <remap from="joy" to="joy_left" />
+    <param name="dev" type="string" value="/dev/input/js3" />
+    <param name="deadzone" value="0.12" />
+  </node>
+  <node respawn="true" pkg="exp_excavator"
+        type="joy_msg_manager.py" name="joy_msg_manager" />
+  
+  <!-- epos node -->
+  <node name="epos_hardware" pkg="epos_hardware" type="epos_hardware_node" args="boom_actuator">
+    <rosparam command="load" file="$(find exp_excavator)/launch/boom_actuator.yaml" />
+  </node>
+
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+	output="screen" args="joint_state_controller velocity_controller"/>
+  <param name="velocity_controller/type" value="velocity_controllers/JointVelocityController" />
+  <param name="velocity_controller/joint" value="test_joint" />
+  <param name="position_controller/type" value="position_controllers/JointPositionController" />
+  <param name="position_controller/joint" value="test_joint" />
+  <param name="joint_state_controller/type" value="joint_state_controller/JointStateController" />
+  <param name="joint_state_controller/publish_rate" value="50" />
+
+</launch>

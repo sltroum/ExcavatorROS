@@ -1,0 +1,55 @@
+#!/usr/bin/python
+'''
+Created on Feb 24, 2017
+
+@author: yutak
+'''
+
+import rospy
+import stds.msg as msg
+import exp_excavator.msg as cmsg
+
+class SpeedCommander:
+    def __init__(self):
+        self.rate = 100 #[Hz]
+        
+        self.joy_val = cmsg.JointValues()
+        self.joy_val.boom = 0.0
+        self.joy_val.arm = 0.0
+        self.joy_val.bucket = 0.0
+        self.joy_val.swing = 0.0
+        
+        rospy.init_node('speed_commander', anonymous=True)
+        
+        self.sub_joy = rospy.Subscriber('joy_val', cmsg.JointValues,
+                                        self.cb_joy)
+        
+        self.pub_spd_com = rospy.Publisher('spd_com_boom', cmsg.JointValues,
+                                           queue_size=10)
+    
+    def cb_joy(self, msg):
+        self.joy_val = msg
+    
+    def update(self):
+        r = rospy.Rate(self.rate)
+        
+        # Main Loop
+        while not rospy.is_shutdown():
+            spd_com = cmsg.JointValues()
+            spd_com.boom = self.joy_val.boom * 10.0
+            spd_com.arm = self.joy_val.arm * 10.0
+            spd_com.bucket = self.joy_val_bucket * 0.5
+            spd_com.swing = self.joy_val_swing * 0.0
+            
+            self.pub_spd_com.publish(spd_com)
+            
+            r.sleep()
+            
+if __name__ == '__main__':
+    sc = SpeedCommander()
+    
+    try:
+        sc.update()
+
+    except rospy.ROSInterruptException:
+        pass

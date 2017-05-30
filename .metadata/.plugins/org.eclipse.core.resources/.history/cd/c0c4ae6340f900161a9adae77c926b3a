@@ -1,0 +1,41 @@
+#!/usr/bin/python
+'''
+Created on Feb 21, 2017
+
+@author: yutak
+'''
+
+import rospy
+import joy_listener as jl
+import std_msgs.msg as msg
+
+def para_in():
+    sample_rate = 100 #[Hz]
+    
+    rospy.init_node('exp_joystick', anonymous=True)
+
+    r = rospy.Rate(sample_rate)
+    
+    jl_r = jl.JoyListener(1/sample_rate, "joy_right")
+    jl_l = jl.JoyListener(1/sample_rate, "joy_left")
+    
+    vel_pub_boom = rospy.Publisher("vel_com_boom", msg.Float64,
+                                   queue_size= 1)
+    vel_pub_arm = rospy.Publisher("vel_com_arm", msg.Float64,
+                                  queue_size= 1)
+    vel_pub_bucket = rospy.Publisher("vel_com_bucket", msg.Float64,
+                                     queue_size= 1)
+    
+    while not rospy.is_shutdown():
+        vel_pub_boom.publish(jl_r.get(1))
+        vel_pub_arm.publish(jl_l.get(1))
+        vel_pub_bucket.publish(jl_r.get(0))
+        
+        r.sleep()
+
+if __name__ == '__main__':
+    try:
+        para_in()
+
+    except rospy.ROSInterruptException:
+        pass

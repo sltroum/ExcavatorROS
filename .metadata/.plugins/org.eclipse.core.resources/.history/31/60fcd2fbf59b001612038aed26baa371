@@ -1,0 +1,62 @@
+<launch>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find ex_model)/urdf/excavator_model.xacro"/>
+
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model excavator_model"/>
+
+  <rosparam>
+    excavator_model:
+      joint_state_controller1:
+        type: joint_state_controller/JointStateController
+        publish_rate: 50
+
+      joint_state_controller2:
+        type: joint_state_controller/JointStateController
+        publish_rate: 50
+
+      joint_state_controller3:
+        type: joint_state_controller/JointStateController
+        publish_rate: 50
+
+      joint_velocity_controller1:
+        type: velocity_controllers/JointVelocityController
+        joint: boom_foot_pin
+        pid: {p: 300.0, i: 0.1, d: 20.0}
+
+      joint_velocity_controller2:
+        type: velocity_controllers/JointVelocityController
+        joint: boom_top_pin
+        pid: {p: 300.0, i: 0.1, d: 20.0}
+        
+      joint_velocity_controller3:
+        type: velocity_controllers/JointVelocityController
+        joint: arm_top_pin
+        pid: {p: 300.0, i: 0.1, d: 20.0}
+  </rosparam>
+
+  <node name="controller_spawner1" pkg="controller_manager"
+        type="spawner" respawn="false"
+        output="screen" ns="/excavator_model"
+        args="joint_velocity_controller1 joint_state_controller1"/>
+
+  <node name="controller_spawner2" pkg="controller_manager"
+        type="spawner" respawn="false"
+        output="screen" ns="/excavator_model"
+        args="joint_velocity_controller2 joint_state_controller2"/>
+
+  <node name="controller_spawner3" pkg="controller_manager"
+        type="spawner" respawn="false"
+        output="screen" ns="/excavator_model"
+        args="joint_velocity_controller3 joint_state_controller3"/>
+
+  <node name="velocity_command_publisher" pkg="ex_model" type="test_gazebo"/>
+
+</launch>

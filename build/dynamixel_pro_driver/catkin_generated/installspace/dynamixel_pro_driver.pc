@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/install
+
+Name: dynamixel_pro_driver
+Description: Description of dynamixel_pro_driver
+Version: 0.8.3
+Cflags: -I/home/filippos/ros_ws/install/include
+Libs: -L/home/filippos/ros_ws/install/lib -ldynamixel_pro_driver
+Requires: serial

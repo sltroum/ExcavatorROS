@@ -1,0 +1,53 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+
+  <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_right" >
+    <remap from="joy" to="joy_right" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_right.yaml" />
+  </node>
+  <node pkg="joy" type="joy_node" name="joy_node_left" >
+    <remap from="joy" to="joy_left" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_left.yaml" />
+  </node>
+  <node pkg="exp_excavator" type="joy_msg_manager.py" name="joy_msg_manager"
+        output="screen" />
+  
+  <!-- speed commander node -->
+  <node pkg="exp_excavator" type="speed_commander_teleop.py"
+        name="spd_com_teleop" output="screen" />
+  
+  <!-- epos node -->
+  <node pkg="exp_excavator" type="epos_manager" name="epos_manager"
+        output="screen" />
+        
+  <!-- dynamixel node -->
+  <node pkg="exp_excavator" type="dynamixel_manager.py"
+        name="dynamixel_manager" output="screen" />
+  <node name="dynamixel_pro_controller" pkg="dynamixel_pro_controller"
+        type="dynamixel_pro_controller_node" output="screen">
+    <rosparam>
+      device: '/dev/ttyUSB0'
+      baudrate: 1000000
+      serial_timeout_ms: 10
+      servos: [{id: 3, joint_name: 'bucket_joint'}]
+    </rosparam>
+  </node>
+
+
+  <!-- Optoforce Node -->
+  <node name="$(anon optoforce)" pkg="optoforce" type="optoforce_node.py" output="screen">
+    <param name="port" value="/dev/ttyACM0"/>
+    <param name="speed" value="100Hz"/>
+    <param name="filter" value="15Hz"/>
+    <param name="zero" value="true"/>
+    <param name="type" value="s-ch/6-axis"/>
+    <param name="starting_index" value="0"/>
+    <rosparam command="load" file="$(find optoforce)/config/single_channel_6_axis_generic_scale.yaml"/>
+  </node>
+
+</launch>

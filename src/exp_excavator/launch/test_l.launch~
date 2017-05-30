@@ -1,0 +1,9 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+  <!-- Optoforce Node -->
+	<group>
+		<include file="$(find optoforce)/launch/optoforce.launch"/>
+		<include file="$(find pointgrey_camera_driver)/launch/camera.launch"/>
+	</group>
+</launch>

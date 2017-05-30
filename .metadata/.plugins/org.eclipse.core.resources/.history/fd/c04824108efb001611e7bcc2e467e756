@@ -1,0 +1,67 @@
+#!/usr/bin/python
+'''
+Created on Feb 21, 2017
+
+@author: yutak
+'''
+
+import rospy
+import std_msgs.msg as msg
+import sensor_msgs.msg as smsg
+import exp_excavator.msg as cmsg
+
+class JoyMsgManager:
+    def __init__(self):
+        rospy.init_node('joy_msg_manager', anonymous=True)
+        
+        self.test = rospy.get_param('~test', False)
+        
+        self.joy_val_msg = cmsg.JoyValues()
+        self.joy_val_msg.boom = 0.0
+        self.joy_val_msg.arm = 0.0
+        self.joy_val_msg.bucket = 0.0
+        self.joy_val_msg.swing = 0.0
+        
+        self.sub_spd_com_bucket = rospy.Subscriber('joy_right', smsg.Joy,
+                                              self.cb_joy_right)
+        self.sub_joy_left = rospy.Subscriber('joy_left', smsg.Joy,
+                                             self.cb_joy_left)
+        
+        self.pub_joy_boom = rospy.Publisher('joy_val_boom', msg.Float64,
+                                            queue_size= 10)
+        self.pub_joy_arm = rospy.Publisher('joy_val_arm', msg.Float64,
+                                           queue_size= 10)
+        self.pub_joy_bucket = rospy.Publisher('joy_val_bucket', msg.Float64,
+                                              queue_size= 10)
+        self.pub_joy_swing = rospy.Publisher('joy_val_swing', msg.Float64,
+                                             queue_size= 10)
+
+        
+    def cb_joy_right(self, joy):
+            self.joy_val_msg.boom = joy.axes[1]
+            self.joy_val_msg.bucket = joy.axes[0]
+            self.pub_joy_boom.publish()
+            self.pub_joy_bucket.publish(joy.axes[0])
+            
+            if self.test:
+                rospy.loginfo('Boom Joystick Value:%f' %self.joy_val_msg.boom)
+                rospy.loginfo('Bucket Joystick Value:%f' %self.joy_val_msg.bucket)
+            
+    def cb_joy_left(self, joy):
+            self.joy_val_msg.arm = joy.axes[1]
+            self.joy_val_msg.swing = joy.axes[0]
+            self.pub_joy_arm.publish(joy.axes[1])
+            self.pub_joy_swing.publish(joy.axes[0])
+            
+            if self.test:
+                rospy.loginfo('Arm Joystick Value:%f' %joy.axes[1])
+                rospy.loginfo('Swing Joystick Value:%f' %joy.axes[0])
+        
+if __name__ == '__main__':
+    jm = JoyMsgManager()
+    
+    try:              
+        rospy.spin()
+
+    except rospy.ROSInterruptException:
+        pass

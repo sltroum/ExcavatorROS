@@ -1,0 +1,63 @@
+#!/usr/bin/python
+'''
+Created on Feb 24, 2017
+
+@author: yutak
+'''
+
+import rospy
+import std_msgs.msg as msg
+import exp_excavator.msg as cmsg
+
+class SpeedCommander:
+    def __init__(self):
+        self.rate = 100 #[Hz]
+        
+        self.joy_val_msg = cmsg.JointValues()
+        self.joy_val_msg.boom = 0.0
+        self.joy_val_msg.arm = 0.0
+        self.joy_val_msg.bucket = 0.0
+        self.joy_val_msg.swing = 0.0
+        
+        rospy.init_node('speed_commander', anonymous=True)
+        
+        self.sub_joy = rospy.Subscriber('joy_val', cmsg.JointValues,
+                                        self.cb_joy)
+        
+        self.pub_spd_boom = rospy.Publisher('spd_com_boom',msg.JointValues,
+                                            queue_size=10)
+        self.pub_spd_arm = rospy.Publisher('spd_com_arm',msg.Float64,
+                                           queue_size=10)
+        self.pub_spd_bucket = rospy.Publisher('spd_com_bucket',msg.Float64,
+                                              queue_size=10)
+        self.pub_spd_swing = rospy.Publisher('spd_com_swing',msg.Float64,
+                                             queue_size=10)
+    
+    def cb_joy(self, msg):
+        self.joy_val_msg = msg
+    
+    def update(self):
+        r = rospy.Rate(self.rate)
+        
+        # Main Loop
+        while not rospy.is_shutdown():
+            spd_com_boom = self.joy_val_boom * 10.0
+            spd_com_arm = self.joy_val_arm * 10.0
+            spd_com_bucket = self.joy_val_bucket * 0.5
+            spd_com_swing = self.joy_val_swing * 0.0
+            
+            self.pub_spd_boom.publish(spd_com_boom)
+            self.pub_spd_arm.publish(spd_com_arm)
+            self.pub_spd_bucket.publish(spd_com_bucket)
+            self.pub_spd_swing.publish(spd_com_swing)
+            
+            r.sleep()
+            
+if __name__ == '__main__':
+    sc = SpeedCommander()
+    
+    try:
+        sc.update()
+
+    except rospy.ROSInterruptException:
+        pass

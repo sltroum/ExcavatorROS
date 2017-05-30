@@ -1,0 +1,14 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+  <!-- Optoforce Node -->
+  <node name="$(anon optoforce)" pkg="optoforce" type="optoforce_node.py" output="screen">
+    <param name="port" value="/dev/ttyACM0"/>
+    <param name="speed" value="100Hz"/>
+    <param name="filter" value="15Hz"/>
+    <param name="zero" value="true"/>
+    <param name="type" value="s-ch/6-axis"/>
+    <param name="starting_index" value="0"/>
+    <rosparam command="load" file="$(find optoforce)/config/single_channel_6_axis_generic_scale.yaml"/>
+  </node>
+</launch>

@@ -1,0 +1,67 @@
+/*
+ * epos_manager.cpp
+ *
+ *  Created on: Feb 22, 2017
+ *      Author: yutak
+ */
+
+#include <iostream>
+
+#include <ros/ros.h>
+#include <std_msgs/Float64.h>
+#include <epos_library/Definitions.h>
+
+class EposManager {
+public:
+	EposManager();
+
+private:
+	void joyCallbackBoom(const std_msgs::Float64ConstPtr& val);
+	void joyCallbackArm(const std_msgs::Float64ConstPtr& val);
+
+	ros::NodeHandle n;
+	ros::Subscriber sub_joy_boom, sub_joy_arm, sub_joy_bucket, sub_joy_swing;
+	void *pHandleBoom, *pHandleArm;
+};
+
+EposManager::EposManager() {
+
+	unsigned int err;
+	char *pDeviceName = (char*)"EPOS2";
+	char *pProtocolStackName = (char*)"CANopen";
+	char *pInterfaceName = (char*)"USB";
+	char *pPortName0 = (char*)"USB0";
+	char *pPortName1 = (char*)"USB1";
+
+	pHandleBoom = VCS_OpenDevice(pDeviceName, pProtocolStackName,
+			 	 	 	 	 	 pInterfaceName, pPortName0, &err);
+	printf("ErrorCode:%x", err);
+	pHandleArm = VCS_OpenDevice(pDeviceName, pProtocolStackName,
+	 	 	 	 	 	 	 	pInterfaceName, pPortName1, &err);
+	printf("ErrorCode:%x", err);
+
+	sub_joy_boom = n.subscribe<std_msgs::Float64>(
+			"val_joy_boom", 10, &EposManager::joyCallbackBoom, this);
+	sub_joy_arm = n.subscribe<std_msgs::Float64>(
+			"val_joy_arm", 10, &EposManager::joyCallbackArm, this);
+}
+
+void EposManager::joyCallbackBoom(const std_msgs::Float64ConstPtr& val) {
+	unsigned int err;
+	unsigned short nodeID = 31;
+	long vel = long(val->data * 10.0);
+	cout << "Velocity Must:" << vel;
+
+	//VCS_SetVelocityMust( nodeID, vel, &err);
+}
+
+void EposManager::joyCallbackArm(const std_msgs::Float64ConstPtr& val) {
+	//VCS_SetVelocityMust();
+}
+
+int main(int argc, char** argv) {
+	ros::init(argc, argv, "epos_manager");
+	EposManager em;
+
+	ros::spin();
+}

@@ -1,0 +1,8 @@
+prefix=/home/yutak/ros_ws/devel
+
+Name: gaze_arm
+Description: Description of gaze_arm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yutak/ros_ws/devel/lib 
+Requires: 

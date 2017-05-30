@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yutak/ros_ws/install_isolated/setup.sh

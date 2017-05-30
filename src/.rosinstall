@@ -1,0 +1,6 @@
+- git:
+    local-name: dynamixel_pro_controller
+    uri: git://github.com/baxelrod/dynamixel_pro_controller
+- git:
+    local-name: dynamixel_pro_driver
+    uri: git://github.com/baxelrod/dynamixel_pro_driver

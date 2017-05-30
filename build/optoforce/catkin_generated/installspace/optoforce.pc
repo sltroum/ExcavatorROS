@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/install
+
+Name: optoforce
+Description: Description of optoforce
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/filippos/ros_ws/install/lib 
+Requires: geometry_msgs rospy

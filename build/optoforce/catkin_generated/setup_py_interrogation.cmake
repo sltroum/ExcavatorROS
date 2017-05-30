@@ -1,0 +1,6 @@
+set(optoforce_SETUP_PY_VERSION "0.0.1")
+set(optoforce_SETUP_PY_SCRIPTS "")
+set(optoforce_SETUP_PY_PACKAGES "optoforce")
+set(optoforce_SETUP_PY_PACKAGE_DIRS "src/optoforce")
+set(optoforce_SETUP_PY_MODULES "")
+set(optoforce_SETUP_PY_MODULE_DIRS "")

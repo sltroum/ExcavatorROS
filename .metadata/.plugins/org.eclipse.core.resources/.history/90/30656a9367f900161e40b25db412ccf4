@@ -1,0 +1,31 @@
+/*
+ * epos_manager.cpp
+ *
+ *  Created on: Feb 22, 2017
+ *      Author: yutak
+ */
+
+#include <ros/ros.h>
+#include <std_msgs/Float64.h>
+#include <epos_library/Definitions.h>
+
+class EposManager {
+public:
+	EposManager();
+
+private:
+	ros::NodeHandle n;
+	ros::Subscriber sub_joy_boom, sub_joy_arm, sub_joy_bucket, sub_joy_swing;
+};
+
+EposManager::EposManager() {
+	sub_joy_boom = n.subscribe<std_msgs::Float64>("val_joy_boom", 10, &TeleopExModel::joyCallbackRight, this);
+
+}
+
+int main(int argc, char** argv) {
+	ros::init(argc, argv, "teleop_ex_model");
+	EposManager em;
+
+	ros::spin();
+}

@@ -1,0 +1,32 @@
+#!/usr/bin/python
+
+'''
+Created on Feb 24, 2017
+
+@author: yutak
+'''
+
+import rospy
+import std_msgs.msg as msg
+
+class DynamixelManager:
+    def __init__(self):
+        rospy.init_node('dynamixel_manager', anonymous=True)
+        
+        self.sub_joy_right = rospy.Subscriber('joy_val_bucket', msg.Float64,
+                                              self.cb_joy_bucket)
+    
+    def update(self):
+        rospy.spin()
+        
+    def cb_joy_bucket(self, val):
+        val.data
+
+if __name__ == '__main__':
+    dm = DynamixelManager()
+    
+    try:
+        dm.update()
+
+    except rospy.ROSInterruptException:
+        pass

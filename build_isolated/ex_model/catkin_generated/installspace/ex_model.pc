@@ -1,0 +1,8 @@
+prefix=/home/yutak/ros_ws/install_isolated
+
+Name: ex_model
+Description: Description of ex_model
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yutak/ros_ws/install_isolated/lib 
+Requires: roscpp std_msgs joy

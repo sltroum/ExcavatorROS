@@ -1,0 +1,26 @@
+<launch>
+
+  <node respawn="true" pkg="exp_excavator"
+        type="joy_msg_manager.py" name="joy_msg_manager" />
+
+  <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_right" >
+    <remap from="joy" to="joy_right" />
+    <param name="dev" type="string" value="/dev/input/js2" />
+    <param name="deadzone" value="0.12" />
+  </node>
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_left" >
+    <remap from="joy" to="joy_left" />
+    <param name="dev" type="string" value="/dev/input/js3" />
+    <param name="deadzone" value="0.12" />
+  </node>
+  
+  <!-- epos node -->
+  <node respawn="true" pkg="epos_hardware"
+        type="epos_hardware_node" name="epos_node_boom" >
+    <param name="robot_description" type="string" value="boom_actuator" />
+  </node>
+
+</launch>

@@ -1,0 +1,48 @@
+#!/usr/bin/python
+'''
+Created on Feb 21, 2017
+
+@author: yutak
+'''
+
+import rospy
+import joy_listener as jl
+import std_msgs.msg as msg
+
+class JoyMsgManager:
+    def __init__(self):
+        self.sample_rate = 100 #[Hz]
+        rospy.init_node('joy_msg_manager', anonymous=True)
+        
+        self
+        
+        self.vel_pub_boom = rospy.Publisher('vel_com_boom', msg.Float64,
+                                            queue_size= 1)
+        self.vel_pub_arm = rospy.Publisher('vel_com_arm', msg.Float64,
+                                           queue_size= 1)
+        self.vel_pub_bucket = rospy.Publisher('vel_com_bucket', msg.Float64,
+                                              queue_size= 1)
+        self.vel_pub_swing = rospy.Publisher('vel_com_swing', msg.Float64,
+                                             queue_size= 1)
+    
+    def get_joy_msg(self):
+        
+        
+    
+            
+        rospy.spin()
+        
+def cb_joy_right(joy):
+        vel_pub_boom.publish(joy.axis[0])
+        vel_pub_bucket.publish(joy.axis[1])
+        
+def cb_joy_left(joy):
+        vel_pub_arm.publish(joy.axis[0])
+        vel_pub_swing.publish(joy.axis[1])
+        
+if __name__ == '__main__':
+    try:
+        get_joy_msg()
+
+    except rospy.ROSInterruptException:
+        pass

@@ -1,0 +1,36 @@
+﻿#include <ros/ros.h>
+#include <std_msgs/Float64.h>
+
+int main(int argc, char** argv) {
+	// define constants
+	const int JOINT_NUM = 3;
+	const double theta_max[] = {1.1647, 2.7581, 2.4674};
+	const double theta_min[] = {-0.7689, 0.6059, -0.6128};
+
+	// define initial values
+	double theta[JOINT_NUM];
+	for(int i=0; i < 3; i++) {
+		theta[i] = (theta_max[i] + theta_min[i]) / 2.0;
+	}
+	bool theta_flag[] = {true, true, true};
+
+	ros::init(argc, argv, "velocity_command_publisher");
+	ros::NodeHandle n;
+	ros::Publisher velocity_pub1 = n.advertise<std_msgs::Float64>("excavator_model/joint_velocity_controller1/command", 1);
+	ros::Rate loop_rate(30);
+
+	// message declarations
+	std_msgs::Float64 command;
+
+	while (ros::ok()) {
+		command.data = -0.1;
+
+		// send the joint state and transform
+		velocity_pub1.publish(command);
+
+		// This will adjust as needed per iteration
+		loop_rate.sleep();
+	}
+
+	return 0;
+}

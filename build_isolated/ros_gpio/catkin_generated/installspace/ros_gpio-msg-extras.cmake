@@ -1,0 +1,2 @@
+set(ros_gpio_MESSAGE_FILES "msg/GpioState.msg")
+set(ros_gpio_SERVICE_FILES "srv/OpenGpio.srv;srv/CloseGpio.srv;srv/SetGpioDir.srv;srv/SetGpioMode.srv;srv/WriteGpio.srv;srv/ReadGpio.srv;srv/OpenPwm.srv;srv/ClosePwm.srv;srv/WritePwm.srv;srv/ReadPwm.srv;srv/StartPwm.srv;srv/StopPwm.srv;srv/SetPwmPeriod.srv;srv/SetPwmPulseWidth.srv;srv/SetPwmDuty_ms.srv;srv/SetPwmDuty_percent.srv;srv/OpenUart.srv;srv/CloseUart.srv")

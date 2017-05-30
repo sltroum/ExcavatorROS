@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/install
+
+Name: dynamixel_pro_controller
+Description: Description of dynamixel_pro_controller
+Version: 0.8.4
+Cflags: -I/home/filippos/ros_ws/install/include
+Libs: -L/home/filippos/ros_ws/install/lib 
+Requires: 
