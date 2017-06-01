@@ -101,11 +101,14 @@ video_stream_EXTERNAL_OBJECTS =
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libopencv_calib3d.so.2.4.8
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/libimage_transport.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/libmessage_filters.so
-/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libtinyxml.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/libclass_loader.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/libPocoFoundation.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libdl.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/libroslib.so
+/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/librospack.so
+/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libpython2.7.so
+/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libboost_program_options.so
+/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libtinyxml.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/libcamera_info_manager.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /opt/ros/indigo/lib/libroscpp.so
 /home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream: /usr/lib/i386-linux-gnu/libboost_signals.so

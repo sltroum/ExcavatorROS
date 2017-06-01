@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/devel
+
+Name: artoolkit
+Description: Description of artoolkit
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/filippos/ros_ws/devel/lib -lARgsub -lAR -lARMulti -lARvideo -lGL -lglut
+Requires: 

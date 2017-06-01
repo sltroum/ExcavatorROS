@@ -3,8 +3,9 @@
 <launch>
   <!-- Optoforce Node -->
 	<group>
-		<include file="$(find optoforce)/launch/optoforce.launch"/>
+		<!-- <include file="$(find optoforce)/launch/optoforce.launch"/> -->
 		<include file="$(find exp_excavator)/launch/camera_custom.launch"/>
+		<include file="$(find apriltags_ros)/launch/example.launch"/>
 	</group>
 </launch>
 

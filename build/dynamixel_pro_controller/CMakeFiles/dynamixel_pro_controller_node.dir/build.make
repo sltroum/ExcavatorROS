@@ -85,7 +85,6 @@ dynamixel_pro_controller_node_EXTERNAL_OBJECTS =
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libserial.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libroscpp.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libboost_filesystem.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/librosconsole.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/librosconsole_log4cxx.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/librosconsole_backend_interface.so
@@ -93,6 +92,11 @@ dynamixel_pro_controller_node_EXTERNAL_OBJECTS =
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libboost_regex.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libxmlrpcpp.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libroslib.so
+/home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/librospack.so
+/home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libpython2.7.so
+/home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libboost_filesystem.so
+/home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libboost_program_options.so
+/home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libtinyxml.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libroscpp_serialization.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/librostime.so
 /home/filippos/ros_ws/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/i386-linux-gnu/libboost_date_time.so

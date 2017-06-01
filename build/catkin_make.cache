@@ -1,2 +1,2 @@
-dynamixel_pro_controller:dynamixel_pro_driver:ex_model:exp_excavator:optoforce:video_stream_opencv-master
+apriltags_ros-indigo-devel/apriltags:apriltags_ros-indigo-devel/apriltags_ros:dynamixel_pro_controller:dynamixel_pro_driver:ex_model:exp_excavator:optoforce:video_stream_opencv-master
 -DCATKIN_DEVEL_PREFIX=/home/filippos/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/filippos/ros_ws/install -G Unix Makefiles

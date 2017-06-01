@@ -191,6 +191,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Path to a program.
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
+//Path to a file.
+EIGEN_INCLUDE_DIR:PATH=/usr/include/eigen3
+
 //Path to a program.
 EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
 
@@ -259,6 +262,9 @@ RT_LIBRARY:FILEPATH=/usr/lib/i386-linux-gnu/librt.so
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
+//subversion command line client
+Subversion_SVN_EXECUTABLE:FILEPATH=/usr/bin/svn
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -277,6 +283,59 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
+//Dependencies for the target
+apriltag_detector_LIB_DEPENDS:STATIC=general;apriltags;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libtf.so;general;/opt/ros/indigo/lib/libtf2_ros.so;general;/opt/ros/indigo/lib/libactionlib.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libtf2.so;general;/opt/ros/indigo/lib/libcv_bridge.so;general;/usr/lib/i386-linux-gnu/libopencv_videostab.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_video.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_superres.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_stitching.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_photo.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_ocl.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_objdetect.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_ml.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_legacy.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_imgproc.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_highgui.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_gpu.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_features2d.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_core.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_contrib.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_calib3d.so.2.4.8;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/i386-linux-gnu/libuuid.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/i386-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/librospack.so;general;/usr/lib/i386-linux-gnu/libpython2.7.so;general;/usr/lib/i386-linux-gnu/libboost_program_options.so;general;/usr/lib/i386-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/i386-linux-gnu/libboost_signals.so;general;/usr/lib/i386-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/i386-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/i386-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/i386-linux-gnu/libboost_system.so;general;/usr/lib/i386-linux-gnu/libboost_thread.so;general;/usr/lib/i386-linux-gnu/libpthread.so;general;/usr/lib/i386-linux-gnu/libconsole_bridge.so;
+
+//Dependencies for the target
+apriltag_detector_nodelet_LIB_DEPENDS:STATIC=general;apriltags;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libtf.so;general;/opt/ros/indigo/lib/libtf2_ros.so;general;/opt/ros/indigo/lib/libactionlib.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libtf2.so;general;/opt/ros/indigo/lib/libcv_bridge.so;general;/usr/lib/i386-linux-gnu/libopencv_videostab.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_video.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_superres.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_stitching.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_photo.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_ocl.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_objdetect.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_ml.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_legacy.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_imgproc.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_highgui.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_gpu.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_features2d.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_core.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_contrib.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_calib3d.so.2.4.8;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/i386-linux-gnu/libuuid.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/i386-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/librospack.so;general;/usr/lib/i386-linux-gnu/libpython2.7.so;general;/usr/lib/i386-linux-gnu/libboost_program_options.so;general;/usr/lib/i386-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/i386-linux-gnu/libboost_signals.so;general;/usr/lib/i386-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/i386-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/i386-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/i386-linux-gnu/libboost_system.so;general;/usr/lib/i386-linux-gnu/libboost_thread.so;general;/usr/lib/i386-linux-gnu/libpthread.so;general;/usr/lib/i386-linux-gnu/libconsole_bridge.so;general;apriltag_detector;
+
+//Value Computed by CMake
+apriltags_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags
+
+//The directory containing a CMake configuration file for apriltags.
+apriltags_DIR:PATH=/home/filippos/ros_ws/devel/share/apriltags/cmake
+
+//Dependencies for the target
+apriltags_LIB_DEPENDS:STATIC=general;opencv_videostab;general;opencv_video;general;opencv_superres;general;opencv_stitching;general;opencv_photo;general;opencv_ocl;general;opencv_objdetect;general;opencv_ml;general;opencv_legacy;general;opencv_imgproc;general;opencv_highgui;general;opencv_gpu;general;opencv_flann;general;opencv_features2d;general;opencv_core;general;opencv_contrib;general;opencv_calib3d;
+
+//Value Computed by CMake
+apriltags_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags
+
+//Value Computed by CMake
+apriltags_ros_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags_ros
+
+//Value Computed by CMake
+apriltags_ros_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags_ros
+
+//The directory containing a CMake configuration file for apriltagscpp.
+apriltagscpp_DIR:PATH=apriltagscpp_DIR-NOTFOUND
+
+//Value Computed by CMake
+ar_pose_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/ar_tools-master/ar_pose
+
+//Value Computed by CMake
+ar_pose_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/ar_tools-master/ar_pose
+
+//Value Computed by CMake
+ar_tools_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/ar_tools-master/ar_tools
+
+//Value Computed by CMake
+ar_tools_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/ar_tools-master/ar_tools
+
+//Value Computed by CMake
+artoolkit_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/ar_tools-master/artoolkit
+
+artoolkit_DIR:PATH=
+
+//Value Computed by CMake
+artoolkit_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/ar_tools-master/artoolkit
+
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
+
 //The directory containing a CMake configuration file for camera_info_manager.
 camera_info_manager_DIR:PATH=/opt/ros/indigo/share/camera_info_manager/cmake
 
@@ -285,6 +344,9 @@ catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/indigo/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for cmake_modules.
+cmake_modules_DIR:PATH=/opt/ros/indigo/share/cmake_modules/cmake
 
 //The directory containing a CMake configuration file for controller_interface.
 controller_interface_DIR:PATH=/opt/ros/indigo/share/controller_interface/cmake
@@ -404,6 +466,9 @@ message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
+
 //Value Computed by CMake
 optoforce_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/optoforce
 
@@ -437,6 +502,9 @@ rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
 
+//The directory containing a CMake configuration file for rospack.
+rospack_DIR:PATH=/opt/ros/indigo/share/rospack/cmake
+
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
 
@@ -448,6 +516,9 @@ sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for serial.
 serial_DIR:PATH=/opt/ros/indigo/share/serial/cmake
+
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
@@ -472,6 +543,9 @@ video_stream_opencv_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/video_stream_o
 
 //Value Computed by CMake
 video_stream_opencv_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/video_stream_opencv-master
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
@@ -578,7 +652,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -619,10 +693,16 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: EIGEN_INCLUDE_DIR
+EIGEN_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//Details about finding Eigen
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.26()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
+//Details about finding Subversion
+FIND_PACKAGE_MESSAGE_DETAILS_Subversion:INTERNAL=[/usr/bin/svn][v1.8.8()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
@@ -650,6 +730,40 @@ OpenCV_CONFIG_PATH-ADVANCED:INTERNAL=1
 OpenCV_LIB_DIR_DBG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenCV_LIB_DIR_OPT
 OpenCV_LIB_DIR_OPT-ADVANCED:INTERNAL=1
+PC_EIGEN_CFLAGS:INTERNAL=-I/usr/include/eigen3
+PC_EIGEN_CFLAGS_I:INTERNAL=
+PC_EIGEN_CFLAGS_OTHER:INTERNAL=
+PC_EIGEN_FOUND:INTERNAL=1
+PC_EIGEN_INCLUDEDIR:INTERNAL=
+PC_EIGEN_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
+PC_EIGEN_LDFLAGS:INTERNAL=
+PC_EIGEN_LDFLAGS_OTHER:INTERNAL=
+PC_EIGEN_LIBDIR:INTERNAL=
+PC_EIGEN_LIBRARIES:INTERNAL=
+PC_EIGEN_LIBRARY_DIRS:INTERNAL=
+PC_EIGEN_LIBS:INTERNAL=
+PC_EIGEN_LIBS_L:INTERNAL=
+PC_EIGEN_LIBS_OTHER:INTERNAL=
+PC_EIGEN_LIBS_PATHS:INTERNAL=
+PC_EIGEN_PREFIX:INTERNAL=
+PC_EIGEN_STATIC_CFLAGS:INTERNAL=-I/usr/include/eigen3
+PC_EIGEN_STATIC_CFLAGS_I:INTERNAL=
+PC_EIGEN_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_EIGEN_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
+PC_EIGEN_STATIC_LDFLAGS:INTERNAL=
+PC_EIGEN_STATIC_LDFLAGS_OTHER:INTERNAL=
+PC_EIGEN_STATIC_LIBDIR:INTERNAL=
+PC_EIGEN_STATIC_LIBRARIES:INTERNAL=
+PC_EIGEN_STATIC_LIBRARY_DIRS:INTERNAL=
+PC_EIGEN_STATIC_LIBS:INTERNAL=
+PC_EIGEN_STATIC_LIBS_L:INTERNAL=
+PC_EIGEN_STATIC_LIBS_OTHER:INTERNAL=
+PC_EIGEN_STATIC_LIBS_PATHS:INTERNAL=
+PC_EIGEN_VERSION:INTERNAL=3.2.0
+PC_EIGEN_eigen3_INCLUDEDIR:INTERNAL=
+PC_EIGEN_eigen3_LIBDIR:INTERNAL=
+PC_EIGEN_eigen3_PREFIX:INTERNAL=
+PC_EIGEN_eigen3_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
@@ -658,6 +772,9 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //  And it needs to match.  But setuptools won't tell us where
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
+//ADVANCED property for variable: Subversion_SVN_EXECUTABLE
+Subversion_SVN_EXECUTABLE-ADVANCED:INTERNAL=1
+__pkg_config_checked_PC_EIGEN:INTERNAL=1
 __pkg_config_checked_yaml-cpp:INTERNAL=1
 yaml-cpp_CFLAGS:INTERNAL=
 yaml-cpp_CFLAGS_I:INTERNAL=

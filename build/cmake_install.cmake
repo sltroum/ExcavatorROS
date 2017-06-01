@@ -117,10 +117,12 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/filippos/ros_ws/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/dynamixel_pro_driver/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/dynamixel_pro_controller/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/optoforce/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/ex_model/cmake_install.cmake")
+  INCLUDE("/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags_ros/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/exp_excavator/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/video_stream_opencv-master/cmake_install.cmake")
 

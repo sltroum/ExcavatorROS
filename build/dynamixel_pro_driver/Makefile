@@ -150,20 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-dynamixel_pro_driver/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamixel_pro_driver/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : dynamixel_pro_driver/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: dynamixel_pro_driver/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f dynamixel_pro_driver/CMakeFiles/_catkin_empty_exported_target.dir/build.make dynamixel_pro_driver/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-# Convenience name for target.
 dynamixel_pro_driver/CMakeFiles/dynamixel_pro_driver.dir/rule:
 	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamixel_pro_driver/CMakeFiles/dynamixel_pro_driver.dir/rule
 .PHONY : dynamixel_pro_driver/CMakeFiles/dynamixel_pro_driver.dir/rule
@@ -207,7 +193,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... dynamixel_pro_driver"
 	@echo "... edit_cache"
 	@echo "... install"

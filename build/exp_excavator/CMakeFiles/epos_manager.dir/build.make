@@ -88,11 +88,14 @@ epos_manager_EXTERNAL_OBJECTS =
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/libEposCmd.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/libcontroller_manager.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/librealtime_tools.so
-/home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libtinyxml.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/libclass_loader.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/libPocoFoundation.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libdl.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/libroslib.so
+/home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/librospack.so
+/home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libpython2.7.so
+/home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libboost_program_options.so
+/home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libtinyxml.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /opt/ros/indigo/lib/libroscpp.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libboost_signals.so
 /home/filippos/ros_ws/devel/lib/exp_excavator/epos_manager: /usr/lib/i386-linux-gnu/libboost_filesystem.so
