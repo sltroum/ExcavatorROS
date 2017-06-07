@@ -1,0 +1,36 @@
+#!/usr/bin/python
+'''
+@author: fes
+'''
+
+import rospy
+import opt_flow.msg as opt_msg
+from sensor_msgs.msg import Image
+class LK_tracker:
+    def __init__(self):
+        rospy.init_node('opt_flow_node', anonymous=True)
+       
+        self.rate = 25 #[Hz]
+        self.Img = Image()
+        self.sub_Img = rospy.Subscriber('UBC_Image', Image, self.cb_Img)
+#        self.pub_Clusters = rospy.Publisher('spd_commands', cmsg.JointValues, queue_size=10)
+    
+    def cb_Img(self, msg):
+        self.Img = msg
+    
+    def update(self):
+        r = rospy.Rate(self.rate)
+        
+        # Main Loop
+        while not rospy.is_shutdown():
+
+            r.sleep()
+            
+if __name__ == '__main__':
+    LK = LK_tracker()
+    
+    try:
+        LK.update()
+
+    except rospy.ROSInterruptException:
+        pass

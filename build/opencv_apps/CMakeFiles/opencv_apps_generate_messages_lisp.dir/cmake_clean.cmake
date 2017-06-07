@@ -1,0 +1,39 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/opencv_apps_generate_messages_lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/FaceArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/ContourArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Line.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRectArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2D.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/LineArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/LineArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Contour.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRectArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2DArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/RectArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/FaceArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Face.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/MomentArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Moment.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2DStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Flow.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/CircleArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRect.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Circle.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/MomentArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRectStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Size.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Rect.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2DArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/FlowArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/FlowArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/ContourArray.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/RectArrayStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/FlowStamped.lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/opencv_apps/msg/CircleArray.lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/opencv_apps_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

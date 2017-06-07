@@ -16,12 +16,12 @@
 
     <!-- Describe the tags -->
     <rosparam param="tag_descriptions">[
-      {id: 0, size: 0.163513},
-      {id: 1, size: 0.163513, frame_id: a_frame},
-      {id: 2, size: 0.163513, frame_id: tag_2},
-      {id: 3, size: 0.163513},
-      {id: 4, size: 0.163513},
-      {id: 5, size: 0.163513}]
+      {id: 0, size: 0.021},
+      {id: 1, size: 0.021, frame_id: a_frame},
+      {id: 2, size: 0.021, frame_id: tag_2},
+      {id: 3, size: 0.021},
+      {id: 4, size: 0.021},
+      {id: 5, size: 0.021}]
     </rosparam>
   </node>
 </launch>

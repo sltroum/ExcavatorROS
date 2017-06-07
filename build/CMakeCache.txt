@@ -277,6 +277,9 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Path to a file.
+_file_name:FILEPATH=/home/filippos/ros_ws/src/opencv_apps/test/test-simple_compressed_example.test
+
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 
@@ -368,6 +371,9 @@ diagnostic_msgs_DIR:PATH=/opt/ros/indigo/share/diagnostic_msgs/cmake
 
 //The directory containing a CMake configuration file for diagnostic_updater.
 diagnostic_updater_DIR:PATH=/opt/ros/indigo/share/diagnostic_updater/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
 
 //Value Computed by CMake
 dynamixel_pro_controller_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/dynamixel_pro_controller
@@ -470,6 +476,21 @@ message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
 
 //Value Computed by CMake
+opencv_apps_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/opencv_apps
+
+//Dependencies for the target
+opencv_apps_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libcv_bridge.so;general;/usr/lib/i386-linux-gnu/libopencv_videostab.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_video.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_superres.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_stitching.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_photo.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_ocl.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_objdetect.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_ml.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_legacy.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_imgproc.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_highgui.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_gpu.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_features2d.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_core.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_contrib.so.2.4.8;general;/usr/lib/i386-linux-gnu/libopencv_calib3d.so.2.4.8;general;/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/i386-linux-gnu/libuuid.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/i386-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/librospack.so;general;/usr/lib/i386-linux-gnu/libpython2.7.so;general;/usr/lib/i386-linux-gnu/libboost_program_options.so;general;/usr/lib/i386-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/i386-linux-gnu/libboost_signals.so;general;/usr/lib/i386-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/i386-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/i386-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/i386-linux-gnu/libboost_system.so;general;/usr/lib/i386-linux-gnu/libboost_thread.so;general;/usr/lib/i386-linux-gnu/libpthread.so;general;/usr/lib/i386-linux-gnu/libconsole_bridge.so;general;opencv_videostab;general;opencv_video;general;opencv_superres;general;opencv_stitching;general;opencv_photo;general;opencv_ocl;general;opencv_objdetect;general;opencv_ml;general;opencv_legacy;general;opencv_imgproc;general;opencv_highgui;general;opencv_gpu;general;opencv_flann;general;opencv_features2d;general;opencv_core;general;opencv_contrib;general;opencv_calib3d;
+
+//Value Computed by CMake
+opencv_apps_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/opencv_apps
+
+//Value Computed by CMake
+opt_flow_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/opt_flow
+
+//Value Computed by CMake
+opt_flow_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/opt_flow
+
+//Value Computed by CMake
 optoforce_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/optoforce
 
 //Value Computed by CMake
@@ -499,6 +520,9 @@ rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/opt/ros/indigo/share/roslaunch/cmake
+
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
 
@@ -507,6 +531,9 @@ rospack_DIR:PATH=/opt/ros/indigo/share/rospack/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/indigo/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
@@ -522,6 +549,9 @@ smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
@@ -539,10 +569,19 @@ tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
 tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
 
 //Value Computed by CMake
-video_stream_opencv_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/video_stream_opencv-master
+usb_cam_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/usb_cam
+
+//Dependencies for the target
+usb_cam_LIB_DEPENDS:STATIC=general;avcodec;general;swscale;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/i386-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/librospack.so;general;/usr/lib/i386-linux-gnu/libpython2.7.so;general;/usr/lib/i386-linux-gnu/libboost_program_options.so;general;/usr/lib/i386-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libcamera_info_manager.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/i386-linux-gnu/libboost_signals.so;general;/usr/lib/i386-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/i386-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/i386-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/i386-linux-gnu/libboost_system.so;general;/usr/lib/i386-linux-gnu/libboost_thread.so;general;/usr/lib/i386-linux-gnu/libpthread.so;general;/usr/lib/i386-linux-gnu/libconsole_bridge.so;
 
 //Value Computed by CMake
-video_stream_opencv_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/video_stream_opencv-master
+usb_cam_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/usb_cam
+
+//Value Computed by CMake
+video_stream_opencv_BINARY_DIR:STATIC=/home/filippos/ros_ws/build/video_stream_opencv
+
+//Value Computed by CMake
+video_stream_opencv_SOURCE_DIR:STATIC=/home/filippos/ros_ws/src/video_stream_opencv
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
@@ -652,7 +691,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=10
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -775,7 +814,77 @@ PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
 //ADVANCED property for variable: Subversion_SVN_EXECUTABLE
 Subversion_SVN_EXECUTABLE-ADVANCED:INTERNAL=1
 __pkg_config_checked_PC_EIGEN:INTERNAL=1
+__pkg_config_checked_avcodec:INTERNAL=1
+__pkg_config_checked_swscale:INTERNAL=1
 __pkg_config_checked_yaml-cpp:INTERNAL=1
+avcodec_CFLAGS:INTERNAL=
+avcodec_CFLAGS_I:INTERNAL=
+avcodec_CFLAGS_OTHER:INTERNAL=
+avcodec_FOUND:INTERNAL=1
+avcodec_INCLUDEDIR:INTERNAL=/usr/include
+avcodec_INCLUDE_DIRS:INTERNAL=
+avcodec_LDFLAGS:INTERNAL=-lavcodec
+avcodec_LDFLAGS_OTHER:INTERNAL=
+avcodec_LIBDIR:INTERNAL=/usr/lib/i386-linux-gnu
+avcodec_LIBRARIES:INTERNAL=avcodec
+avcodec_LIBRARY_DIRS:INTERNAL=
+avcodec_LIBS:INTERNAL=
+avcodec_LIBS_L:INTERNAL=
+avcodec_LIBS_OTHER:INTERNAL=
+avcodec_LIBS_PATHS:INTERNAL=
+avcodec_PREFIX:INTERNAL=/usr
+avcodec_STATIC_CFLAGS:INTERNAL=
+avcodec_STATIC_CFLAGS_I:INTERNAL=
+avcodec_STATIC_CFLAGS_OTHER:INTERNAL=
+avcodec_STATIC_INCLUDE_DIRS:INTERNAL=
+avcodec_STATIC_LDFLAGS:INTERNAL=-pthread;-lavcodec;-ldl;-lXfixes;-lXext;-lX11;-lcdio_paranoia;-lcdio_cdda;-lcdio;-ljack;-lasound;-ldc1394;-lraw1394;-lgcrypt;-lxvidcore;-lx264;-lvpx;-lvorbisenc;-lvorbis;-ltheoraenc;-ltheoradec;-logg;-lspeex;-lschroedinger-1.0;-lrtmp;-lpulse-simple;-lpulse;-lopus;-lopenjpeg;-lmp3lame;-lgsm;-lfreetype;-lgnutls;-lva;-lbz2;-lz;-lavutil;-lm
+avcodec_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
+avcodec_STATIC_LIBDIR:INTERNAL=
+avcodec_STATIC_LIBRARIES:INTERNAL=avcodec;dl;Xfixes;Xext;X11;cdio_paranoia;cdio_cdda;cdio;jack;asound;dc1394;raw1394;gcrypt;xvidcore;x264;vpx;vorbisenc;vorbis;theoraenc;theoradec;ogg;speex;schroedinger-1.0;rtmp;pulse-simple;pulse;opus;openjpeg;mp3lame;gsm;freetype;gnutls;va;bz2;z;avutil;m
+avcodec_STATIC_LIBRARY_DIRS:INTERNAL=
+avcodec_STATIC_LIBS:INTERNAL=
+avcodec_STATIC_LIBS_L:INTERNAL=
+avcodec_STATIC_LIBS_OTHER:INTERNAL=
+avcodec_STATIC_LIBS_PATHS:INTERNAL=
+avcodec_VERSION:INTERNAL=54.35.1
+avcodec_libavcodec_INCLUDEDIR:INTERNAL=
+avcodec_libavcodec_LIBDIR:INTERNAL=
+avcodec_libavcodec_PREFIX:INTERNAL=
+avcodec_libavcodec_VERSION:INTERNAL=
+swscale_CFLAGS:INTERNAL=
+swscale_CFLAGS_I:INTERNAL=
+swscale_CFLAGS_OTHER:INTERNAL=
+swscale_FOUND:INTERNAL=1
+swscale_INCLUDEDIR:INTERNAL=/usr/include
+swscale_INCLUDE_DIRS:INTERNAL=
+swscale_LDFLAGS:INTERNAL=-lswscale
+swscale_LDFLAGS_OTHER:INTERNAL=
+swscale_LIBDIR:INTERNAL=/usr/lib/i386-linux-gnu
+swscale_LIBRARIES:INTERNAL=swscale
+swscale_LIBRARY_DIRS:INTERNAL=
+swscale_LIBS:INTERNAL=
+swscale_LIBS_L:INTERNAL=
+swscale_LIBS_OTHER:INTERNAL=
+swscale_LIBS_PATHS:INTERNAL=
+swscale_PREFIX:INTERNAL=/usr
+swscale_STATIC_CFLAGS:INTERNAL=
+swscale_STATIC_CFLAGS_I:INTERNAL=
+swscale_STATIC_CFLAGS_OTHER:INTERNAL=
+swscale_STATIC_INCLUDE_DIRS:INTERNAL=
+swscale_STATIC_LDFLAGS:INTERNAL=-lswscale;-lavutil;-lm
+swscale_STATIC_LDFLAGS_OTHER:INTERNAL=
+swscale_STATIC_LIBDIR:INTERNAL=
+swscale_STATIC_LIBRARIES:INTERNAL=swscale;avutil;m
+swscale_STATIC_LIBRARY_DIRS:INTERNAL=
+swscale_STATIC_LIBS:INTERNAL=
+swscale_STATIC_LIBS_L:INTERNAL=
+swscale_STATIC_LIBS_OTHER:INTERNAL=
+swscale_STATIC_LIBS_PATHS:INTERNAL=
+swscale_VERSION:INTERNAL=2.1.1
+swscale_libswscale_INCLUDEDIR:INTERNAL=
+swscale_libswscale_LIBDIR:INTERNAL=
+swscale_libswscale_PREFIX:INTERNAL=
+swscale_libswscale_VERSION:INTERNAL=
 yaml-cpp_CFLAGS:INTERNAL=
 yaml-cpp_CFLAGS_I:INTERNAL=
 yaml-cpp_CFLAGS_OTHER:INTERNAL=

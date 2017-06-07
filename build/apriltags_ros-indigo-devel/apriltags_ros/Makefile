@@ -317,90 +317,6 @@ apriltags_ros_genpy/fast:
 	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/apriltags_ros_genpy.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/apriltags_ros_genpy.dir/build
 .PHONY : apriltags_ros_genpy/fast
 
-# Convenience name for target.
-apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_cpp.dir/rule
-.PHONY : apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_cpp: apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_cpp.dir/rule
-.PHONY : bond_generate_messages_cpp
-
-# fast build rule for target.
-bond_generate_messages_cpp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_cpp.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_cpp.dir/build
-.PHONY : bond_generate_messages_cpp/fast
-
-# Convenience name for target.
-apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_lisp: apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : bond_generate_messages_lisp
-
-# fast build rule for target.
-bond_generate_messages_lisp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_lisp.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_lisp.dir/build
-.PHONY : bond_generate_messages_lisp/fast
-
-# Convenience name for target.
-apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_py.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_py: apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : bond_generate_messages_py
-
-# fast build rule for target.
-bond_generate_messages_py/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_py.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/bond_generate_messages_py.dir/build
-.PHONY : bond_generate_messages_py/fast
-
-# Convenience name for target.
-apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-.PHONY : apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_cpp: apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-.PHONY : nodelet_generate_messages_cpp
-
-# fast build rule for target.
-nodelet_generate_messages_cpp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/build
-.PHONY : nodelet_generate_messages_cpp/fast
-
-# Convenience name for target.
-apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_lisp: apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : nodelet_generate_messages_lisp
-
-# fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
-
-# Convenience name for target.
-apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_py: apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : nodelet_generate_messages_py
-
-# fast build rule for target.
-nodelet_generate_messages_py/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_py.dir/build.make apriltags_ros-indigo-devel/apriltags_ros/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
-
 src/apriltag_detector.o: src/apriltag_detector.cpp.o
 .PHONY : src/apriltag_detector.o
 
@@ -491,17 +407,11 @@ help:
 	@echo "... apriltags_ros_generate_messages_py"
 	@echo "... apriltags_ros_genlisp"
 	@echo "... apriltags_ros_genpy"
-	@echo "... bond_generate_messages_cpp"
-	@echo "... bond_generate_messages_lisp"
-	@echo "... bond_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... nodelet_generate_messages_cpp"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... nodelet_generate_messages_py"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... src/apriltag_detector.o"

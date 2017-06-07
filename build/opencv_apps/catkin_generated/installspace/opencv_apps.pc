@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/install
+
+Name: opencv_apps
+Description: Description of opencv_apps
+Version: 1.11.15
+Cflags: -I/home/filippos/ros_ws/install/include
+Libs: -L/home/filippos/ros_ws/install/lib -lopencv_apps
+Requires: std_msgs

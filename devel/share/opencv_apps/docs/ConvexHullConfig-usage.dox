@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="convex_hull" pkg="convex_hull" type="convex_hull">
+  <param name="use_camera_info" type="bool" value="False" />
+  <param name="threshold" type="int" value="100" />
+</node>
+\endverbatim
+
