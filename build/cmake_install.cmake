@@ -128,6 +128,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/filippos/ros_ws/build/exp_excavator/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/usb_cam/cmake_install.cmake")
   INCLUDE("/home/filippos/ros_ws/build/video_stream_opencv/cmake_install.cmake")
+  INCLUDE("/home/filippos/ros_ws/build/ximea_camera/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

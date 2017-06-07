@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/filippos/ros_ws/src/exp_excavator/src/epos_manager.cpp
 iostream
 -

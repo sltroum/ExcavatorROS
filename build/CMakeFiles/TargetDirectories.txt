@@ -206,13 +206,6 @@
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/opencv_apps_generate_messages_py.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/opencv_apps_genlisp.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/opencv_apps_genpy.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_gencpp.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_generate_messages.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_generate_messages_cpp.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_generate_messages_lisp.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_generate_messages_py.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_genlisp.dir
-/home/filippos/ros_ws/build/opt_flow/CMakeFiles/opt_flow_genpy.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/people_detect_exe.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/phase_corr_exe.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/rgb_color_filter_exe.dir
@@ -222,6 +215,8 @@
 /home/filippos/ros_ws/build/dynamixel_pro_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 /home/filippos/ros_ws/build/dynamixel_pro_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/filippos/ros_ws/build/dynamixel_pro_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+/home/filippos/ros_ws/build/ximea_camera/CMakeFiles/roslint.dir
+/home/filippos/ros_ws/build/ximea_camera/CMakeFiles/roslint_ximea_camera.dir
 /home/filippos/ros_ws/build/CMakeFiles/run_tests.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/run_tests_opencv_apps.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/run_tests_opencv_apps_roslaunch-check.dir
@@ -337,3 +332,4 @@
 /home/filippos/ros_ws/build/opencv_apps/test/CMakeFiles/vslam_tutorial.bag.dir
 /home/filippos/ros_ws/build/opencv_apps/test/CMakeFiles/vslam_tutorial_bag.dir
 /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/watershed_segmentation_exe.dir
+/home/filippos/ros_ws/build/ximea_camera/CMakeFiles/ximea_camera_node.dir

@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(opt_flow_EXPORTED_TARGETS "opt_flow_generate_messages_cpp;opt_flow_generate_messages_lisp;opt_flow_generate_messages_py")
+set(opt_flow_EXPORTED_TARGETS "")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${opt_flow_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -182,7 +182,7 @@ foreach(depend ${depends})
   list(APPEND opt_flow_EXPORTED_TARGETS ${${opt_flow_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "opt_flow-msg-extras.cmake")
+set(pkg_cfg_extras "")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${opt_flow_DIR}/${extra})

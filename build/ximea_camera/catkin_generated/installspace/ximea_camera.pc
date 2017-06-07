@@ -1,0 +1,8 @@
+prefix=/home/filippos/ros_ws/install
+
+Name: ximea_camera
+Description: Description of ximea_camera
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/filippos/ros_ws/install/lib -lximea_camera
+Requires: roscpp

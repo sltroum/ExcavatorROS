@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package>
+  <version>1.0.0</version>
+  <name>ximea_camera</name>
+  <description>ROS drivers for the ximea xiQ USB 3.0 Cameras</description>
+  <author>Abdelhamid El-Bably, Arun Das, Michael Tribou</author>
+  <maintainer email="ahelbably@uwaterloo.ca">Abdelhamid El-Bably</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://www.ros.org/wiki/ximea_camera</url>
+  <url type="repository">https://github.com/wavelab/ximea_camera/</url>
+  <url type="bugtracker">https://github.com/wavelab/ximea_camera/issues</url>
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use run_depend for packages you need at runtime: -->
+  <!--   <run_depend>message_runtime</run_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+
+  <build_depend>image_transport</build_depend>
+  <run_depend>image_transport</run_depend>
+
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+  <build_depend>camera_info_manager</build_depend>
+  <run_depend>camera_info_manager</run_depend>
+
+  <build_depend>roslint</build_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
