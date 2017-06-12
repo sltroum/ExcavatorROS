@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/filippos/ros_ws/src/exp_excavator/src/epos_manager.cpp
 iostream
 -
@@ -14,6 +30,8 @@ stdio.h
 ros/ros.h
 -
 sensor_msgs/Joy.h
+-
+sensor_msgs/JointState.h
 -
 epos_library/Definitions.h
 -
@@ -665,6 +683,24 @@ ros/forwards.h
 /opt/ros/indigo/include/ros/ros/forwards.h
 
 /opt/ros/indigo/include/rosconsole/macros_generated.h
+
+/opt/ros/indigo/include/sensor_msgs/JointState.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
 
 /opt/ros/indigo/include/sensor_msgs/Joy.h
 string

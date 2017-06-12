@@ -45,16 +45,25 @@ CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
 # Include the progress variables for this target.
 include exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/progress.make
 
+exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/filippos/ros_ws/devel/include/exp_excavator/JointCalibration.h
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h
+
+/home/filippos/ros_ws/devel/include/exp_excavator/JointCalibration.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/filippos/ros_ws/devel/include/exp_excavator/JointCalibration.h: /home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg
+/home/filippos/ros_ws/devel/include/exp_excavator/JointCalibration.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/JointCalibration.msg"
+	cd /home/filippos/ros_ws/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg -Iexp_excavator:/home/filippos/ros_ws/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/filippos/ros_ws/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h: /home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg
 /home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/JointValues.msg"
 	cd /home/filippos/ros_ws/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg -Iexp_excavator:/home/filippos/ros_ws/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/filippos/ros_ws/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
 
 exp_excavator_generate_messages_cpp: exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp
+exp_excavator_generate_messages_cpp: /home/filippos/ros_ws/devel/include/exp_excavator/JointCalibration.h
 exp_excavator_generate_messages_cpp: /home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h
 exp_excavator_generate_messages_cpp: exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/build.make
 .PHONY : exp_excavator_generate_messages_cpp

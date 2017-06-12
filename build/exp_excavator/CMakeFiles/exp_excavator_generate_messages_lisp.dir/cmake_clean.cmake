@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/exp_excavator_generate_messages_lisp"
+  "/home/filippos/ros_ws/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp"
   "/home/filippos/ros_ws/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp"
 )
 

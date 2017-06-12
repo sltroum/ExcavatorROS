@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "exp_excavator: 1 messages, 0 services")
+message(STATUS "exp_excavator: 2 messages, 0 services")
 
 set(MSG_I_FLAGS "-Iexp_excavator:/home/filippos/ros_ws/src/exp_excavator/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -15,6 +15,11 @@ add_custom_target(exp_excavator_generate_messages ALL)
 
 
 
+get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg" NAME_WE)
+add_custom_target(_exp_excavator_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "exp_excavator" "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg" ""
+)
+
 get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_custom_target(_exp_excavator_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "exp_excavator" "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg" ""
@@ -26,6 +31,12 @@ add_custom_target(_exp_excavator_generate_messages_check_deps_${_filename}
 
 ### Section generating for lang: gencpp
 ### Generating Messages
+_generate_msg_cpp(exp_excavator
+  "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/exp_excavator
+)
 _generate_msg_cpp(exp_excavator
   "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg"
   "${MSG_I_FLAGS}"
@@ -47,6 +58,8 @@ add_custom_target(exp_excavator_generate_messages_cpp
 add_dependencies(exp_excavator_generate_messages exp_excavator_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg" NAME_WE)
+add_dependencies(exp_excavator_generate_messages_cpp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_cpp _exp_excavator_generate_messages_check_deps_${_filename})
 
@@ -59,6 +72,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS exp_excavator_generate_messages_cpp
 
 ### Section generating for lang: genlisp
 ### Generating Messages
+_generate_msg_lisp(exp_excavator
+  "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/exp_excavator
+)
 _generate_msg_lisp(exp_excavator
   "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg"
   "${MSG_I_FLAGS}"
@@ -80,6 +99,8 @@ add_custom_target(exp_excavator_generate_messages_lisp
 add_dependencies(exp_excavator_generate_messages exp_excavator_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg" NAME_WE)
+add_dependencies(exp_excavator_generate_messages_lisp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_lisp _exp_excavator_generate_messages_check_deps_${_filename})
 
@@ -92,6 +113,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS exp_excavator_generate_messages_lis
 
 ### Section generating for lang: genpy
 ### Generating Messages
+_generate_msg_py(exp_excavator
+  "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/exp_excavator
+)
 _generate_msg_py(exp_excavator
   "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg"
   "${MSG_I_FLAGS}"
@@ -113,6 +140,8 @@ add_custom_target(exp_excavator_generate_messages_py
 add_dependencies(exp_excavator_generate_messages exp_excavator_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg" NAME_WE)
+add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_messages_check_deps_${_filename})
 

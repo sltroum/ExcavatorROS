@@ -1,0 +1,21 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+<node pkg="um7" type="um7_driver" name="IMU1">
+      <param name="port" value="/dev/ttyUSB0" />
+      <remap from="imu" to="imu1" />
+</node>
+
+<node pkg="um7" type="um7_driver" name="IMU2">
+      <param name="port" value="/dev/ttyUSB1" />
+      <remap from="imu" to="imu2" />
+</node>
+
+<node pkg="exp_excavator" type="joint_calibrator.py" name="joint_calibrator"
+        output="screen" >
+      <remap from="IMUBoom" to="/imu1/data" />
+      <remap from="IMUArm" to="/imu2/data" />
+</node>
+</launch>
+
+

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg"
+messages_str = "/home/filippos/ros_ws/src/exp_excavator/msg/JointValues.msg;/home/filippos/ros_ws/src/exp_excavator/msg/JointCalibration.msg"
 services_str = ""
 pkg_name = "exp_excavator"
 dependencies_str = "std_msgs"
