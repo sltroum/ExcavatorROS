@@ -683,6 +683,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/epos_manager.dir/DependInfo.cmake"
+  "exp_excavator/CMakeFiles/epos_measure.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/DependInfo.cmake"
