@@ -1,0 +1,111 @@
+/*
+ * joint_publisher_EPOS.cpp
+ *
+ *  Created on: Feb 22, 2017
+ *      Author: yutak
+ */
+
+#include <iostream>
+#include <stdio.h>
+
+#include <ros/ros.h>
+#include <sensor_msgs/Joy.h>
+#include <sensor_msgs/JointState.h>
+#include <epos_library/Definitions.h>
+#include <exp_excavator/JointValues.h>
+
+class EposMeasure {
+public:
+	EposMeasure();
+	~EposMeasure();	
+        void GetCurrentPositionAllDevice(double* CurrentPosition);
+        void GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId);
+	void publishJointStates(const ros::TimerEvent&);
+	
+	ros::NodeHandle n;
+	ros::Publisher pubPosIs;
+
+	double motorTHETA[2];
+private:
+	void *pHandleBoom, *pHandleArm;
+	unsigned short nodeIdBoom;
+	unsigned short nodeIdArm;
+
+};
+
+EposMeasure::EposMeasure() {
+	unsigned int err;
+	char *pDeviceName = (char*)"EPOS2";
+	char *pProtocolStackName = (char*)"MAXON SERIAL V2";
+	char *pInterfaceName = (char*)"USB";
+	char *pPortNameBoom = (char*)"USB0";
+	char *pPortNameArm = (char*)"USB1";
+        
+
+	nodeIdBoom = 1;
+	nodeIdArm = 2;
+
+	pHandleBoom = 0x40001;
+	pHandleArm = 0x40002;
+	printf("%p",pHandleBoom);		 	 	 	 	 	 	 	 	 	 	 
+       	printf("%p",pHandleArm);		 	 	 	 	 	 	 	 	 	 	 
+}
+
+EposMeasure::~EposMeasure() {
+	unsigned int err;
+
+	VCS_SetDisableState(pHandleBoom, nodeIdBoom, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom SetDisableState Error:0x%08x", err);
+	}
+
+	VCS_SetDisableState(pHandleArm, nodeIdArm, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm SetDisableState Error:0x%08x", err);
+	}
+}
+
+
+void EposMeasure::GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId){
+        unsigned int err;
+        VCS_GetPositionIs(keyHandle_, nodeId, CurrentPosition, &err); 
+    
+        if(err) {
+	        ROS_ERROR("EPOS for Arm SetVelocityMust Error:0x%08x", err);
+        }
+}
+
+void EposMeasure::GetCurrentPositionAllDevice(double* CurrentPosition){
+	int Pos;
+	GetCurrentPosition(pHandleBoom, &Pos,nodeIdBoom);
+	CurrentPosition[0]=(-2*3.1415926/(50*72))*Pos;
+	GetCurrentPosition(pHandleArm, &Pos,nodeIdArm);
+	CurrentPosition[1]=(-2*3.1415926/(50*72))*Pos;
+}
+
+int main(int argc, char** argv) {
+	ros::init(argc, argv, "epos_manager");
+
+	EposMeasure em;
+	ROS_INFO("EPOS Manager has started.");
+	
+	em.pubPosIs = em.n.advertise<sensor_msgs::JointState>("/joint_states_EPOS2",100);
+
+	sensor_msgs::JointState msg;
+	
+	while(ros::ok()){
+
+        msg.header.stamp = ros::Time::now();
+        em.GetCurrentPositionAllDevice(em.motorTHETA);
+        msg.name.push_back("Boom");
+        msg.position.push_back(em.motorTHETA[0]);
+        msg.name.push_back("Arm");
+        msg.position.push_back(em.motorTHETA[1]);
+        em.pubPosIs.publish(msg); 
+        }
+
+        ros::spin();
+	
+
+	return 0;
+}

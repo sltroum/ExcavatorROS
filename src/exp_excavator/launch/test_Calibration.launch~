@@ -1,13 +1,18 @@
 <!-- -*- mode: XML -*- -->
 
 <launch>
+<include file="$(find optoforce)/launch/optoforce.launch"/> 
+<include file="$(find exp_excavator)/launch/camera_custom.launch"/>
+<!--<include file="$(find opt_flow)/launch/opt.launch"/>-->
+
+<!-- Calibration IMUS node -->
 <node pkg="um7" type="um7_driver" name="IMU1">
-      <param name="port" value="/dev/ttyUSB1" />
+      <param name="port" value="/dev/ttyUSB2" />
       <remap from="imu" to="imu1" />
 </node>
 
 <node pkg="um7" type="um7_driver" name="IMU2">
-      <param name="port" value="/dev/ttyUSB2" />
+      <param name="port" value="/dev/ttyUSB1" />
       <remap from="imu" to="imu2" />
 </node>
 
@@ -21,7 +26,7 @@
 </node>
 
 
-  <!-- joy node -->
+  <!-- JOYSTICK nodes -->
   <node respawn="true" pkg="joy"
         type="joy_node" name="joy_node_right" >
     <remap from="joy" to="joy_right" />
@@ -34,16 +39,17 @@
               file="$(find exp_excavator)/launch/joy_param_left.yaml" />
   </node>
   <node pkg="exp_excavator" type="joy_msg_manager.py" name="joy_msg_manager"
-        output="screen" />
+        output="screen" /> 
   
   <!-- speed commander node -->
   <node pkg="exp_excavator" type="speed_commander_teleop.py"
         name="spd_com_teleop" output="screen" />
   
   <!-- epos node -->
-  <node pkg="exp_excavator" type="epos_manager" name="epos_manager"
-        output="screen" />
-        
+
+   <node pkg="exp_excavator" type="epos_manager" name="epos_manager"
+        output="screen" /> 
+            
   <!-- dynamixel node -->
   <node pkg="exp_excavator" type="dynamixel_manager.py"
         name="dynamixel_manager" output="screen" />
@@ -56,7 +62,7 @@
       servos: [{id: 3, joint_name: 'bucket_joint'}]
       publish_velocities: true
     </rosparam>
-  </node>
+  </node> 
 
 </launch>
 

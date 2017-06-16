@@ -51,6 +51,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   JointValues.msg
+  JointCalibration.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -192,3 +193,6 @@ include_directories(
 
 add_executable(epos_manager src/epos_manager.cpp)
 target_link_libraries(epos_manager ${catkin_LIBRARIES})
+
+add_executable(epos_measure src/epos_measure.cpp)
+target_link_libraries(epos_measure ${catkin_LIBRARIES})

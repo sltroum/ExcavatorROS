@@ -1,15 +1,19 @@
 <!-- -*- mode: XML -*- -->
 
 <launch>
-  <!-- Optoforce Node -->
+  <!--         	       Optoforce Node -->
 	<group>
-		<!-- <include file="$(find optoforce)/launch/optoforce.launch"/> -->
+<node pkg="rosbag" type="record" name="flow_recorder" args="record -o /home/filippos/ros_ws/DATA/ /camera1/image_raw/compressed"/>  
 		<include file="$(find exp_excavator)/launch/camera_custom.launch"/>
-		<include file="$(find apriltags_ros)/launch/example2.launch"/>
-		
-		  <node pkg="exp_excavator" type="joint_calibration.py" name="joint_calibration"
-        output="screen" />
 	</group>
-</launch>
+</launch>		
+		
+		
+		<!--<include file="$(find opt_flow)/launch/opt.launch"/>-->
+		<!--<include file="$(find apriltags_ros)/launch/example2.launch"/>
+		<include file="$(find optoforce)/launch/optoforce.launch"/> 
+		  <node pkg="exp_excavator" type="joint_calibration.py" name="joint_calibration"
+        output="screen" />-->
+
 
 <!--		<include file="$(find pointgrey_camera_driver)/launch/camera.launch"/> -->

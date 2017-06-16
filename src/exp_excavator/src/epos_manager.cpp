@@ -17,24 +17,24 @@
 class EposManager {
 public:
 	EposManager();
-	~EposManager();
-//	void publishJointStates(const ros::TimerEvent&);
-//	void startBroadcastingJointStates();
-private:
+	~EposManager();	
 	void spdComCallback(const exp_excavator::JointValuesConstPtr& msg);
         void GetCurrentPositionAllDevice(double* CurrentPosition);
         void GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId);
 	void publishJointStates(const ros::TimerEvent&);
-	void startBroadcastingJointStates();
 	
 	ros::NodeHandle n;
 	ros::Subscriber subSpdCom;
 	ros::Publisher pubPosIs;
-	
+	ros::Timer timer;
+
+	double motorTHETA[2];
+//	void publishJointStates(const ros::TimerEvent&);
+//	void startBroadcastingJointStates();
+private:
 	void *pHandleBoom, *pHandleArm;
 	unsigned short nodeIdBoom;
 	unsigned short nodeIdArm;
-	double motorTHETA[2];
 
 };
 
@@ -51,41 +51,53 @@ EposManager::EposManager() {
 	nodeIdArm = 2;
 
 	pHandleBoom = VCS_OpenDevice(pDeviceName, pProtocolStackName,
-			 	 	 	 	 	 pInterfaceName, pPortNameBoom, &err);
+			 	 	 	 	 	 pInterfaceName, pPortNameBoom, &err);		 	 	 	 	 	 	 	 	 	 	 
 	if(err) {
 		ROS_ERROR("EPOS for Boom OpenDevice Error:0x%08x", err);
 	}
+	
+	VCS_ClearFault(pHandleBoom,nodeIdBoom, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Boom ClearFault Error:0x%08x", err);
+	}
+		
 	VCS_SetOperationMode(pHandleBoom, nodeIdBoom, OMD_VELOCITY_MODE, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Boom SetOperationMode Error:0x%08x", err);
 	}
+	
 	VCS_SetEnableState(pHandleBoom, nodeIdBoom, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Boom SetEnableStateError:0x%08x", err);
 	}
+	
+	
 
 	pHandleArm = VCS_OpenDevice(pDeviceName, pProtocolStackName,
 	 	 	 	 	 	 	 	pInterfaceName, pPortNameArm, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Arm OpenDevice Error:0x%08x", err);
 	}
+	
+	VCS_ClearFault(pHandleArm,nodeIdArm, &err);
+	if(err) {
+		ROS_ERROR("EPOS for Arm ClearFault Error:0x%08x", err);
+	}
+			
 	VCS_SetOperationMode(pHandleArm, nodeIdArm, OMD_VELOCITY_MODE, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Arm SetOperationMode Error:0x%08x", err);
 	}
+	
 	VCS_SetEnableState(pHandleArm, nodeIdArm, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Arm device set enable state error:0x%08x", err);
 	}
 
 	subSpdCom = n.subscribe<exp_excavator::JointValues>(
-			"spd_commands", 10, &EposManager::spdComCallback, this);
+			"spd_commands", 1, &EposManager::spdComCallback, this);
 			
-        pubPosIs = n.advertise<sensor_msgs::JointState>("/joint_states_EPOS",10);
         
-        ros::Timer broadcastTimer = n.createTimer(ros::Duration(0.5), &EposManager::publishJointStates, this);
-        broadcastTimer.start();
-        ros::spin();
 }
 
 EposManager::~EposManager() {
@@ -116,10 +128,20 @@ void EposManager::spdComCallback(
 		ROS_ERROR("EPOS for Arm SetVelocityMust Error:0x%08x", err);
 	}
 	
+//sensor_msgs::JointState msg2;
+//  msg2.header.stamp = ros::Time::now();
+//    EposManager::GetCurrentPositionAllDevice(motorTHETA);
+//      msg2.name.push_back("Boom");
+//        msg2.position.push_back(motorTHETA[0]);
+//        msg2.name.push_back("Arm");
+//        msg2.position.push_back(motorTHETA[1]);
+//        pubPosIs.publish(msg2); 
+        }
+
 //	EposManager::GetCurrentPositionAllDevice(motorTHETA);
 //	 printf("%f",motorTHETA[0]);
 
-}
+//}
 
 //void EposManager::startBroadcastingJointStates(){
 
@@ -130,13 +152,13 @@ void EposManager::publishJointStates(const ros::TimerEvent& event)
 {
 //    printf("%f",motorTHETA[0]);
     sensor_msgs::JointState msg;
-    msg.header.stamp = ros::Time::now();
-    EposManager::GetCurrentPositionAllDevice(motorTHETA);
+//    msg.header.stamp = ros::Time::now();
+//    EposManager::GetCurrentPositionAllDevice(motorTHETA);
 
     msg.name.push_back("Boom");
-    msg.position.push_back(motorTHETA[0]);
+    msg.position.push_back(0.01);
     msg.name.push_back("Arm");
-    msg.position.push_back(motorTHETA[1]);
+    msg.position.push_back(0.02);
     pubPosIs.publish(msg);    
 }
 
@@ -175,11 +197,26 @@ void EposManager::GetCurrentPositionAllDevice(double* CurrentPosition){
 
 int main(int argc, char** argv) {
 	ros::init(argc, argv, "epos_manager");
-	EposManager em;
-
-	ROS_INFO("EPOS Manager has started.");
-
+        
 	
+	EposManager em;
+	ROS_INFO("EPOS Manager has started.");
+	ros::Rate r(100);
+	em.pubPosIs = em.n.advertise<sensor_msgs::JointState>("/joint_states_EPOS",1);
 
-	return 0;
+
+	ros::AsyncSpinner spinner(4);
+	spinner.start();
+	while(ros::ok()){
+	sensor_msgs::JointState msg2;
+        msg2.header.stamp = ros::Time::now();
+        em.GetCurrentPositionAllDevice(em.motorTHETA);
+        msg2.name.push_back("Boom");
+        msg2.position.push_back(em.motorTHETA[0]);
+        msg2.name.push_back("Arm");
+        msg2.position.push_back(em.motorTHETA[1]);
+        em.pubPosIs.publish(msg2); 
+        
+        }
+        return 0;
 }

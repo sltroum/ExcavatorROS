@@ -1,14 +1,12 @@
 <launch>
-  <!-- WebCam node -->
 
-  <!--	<include file="$(find opencv_apps)/launch/lk_flow2.launch"/> -->
-	<include file="$(find video_stream_opencv)/launch/webcam.launch"/>
+	<include file="$(find video_stream_opencv)/launch/webcam.launch"/> 
   <!-- Optical flow Node -->
   	<node pkg="opt_flow" type="opt_flow.py" name="opt_flow1" output="screen">
   		<remap from="UBC_Image"  to="/webcam/image_raw" />
  	</node>
  	
-  <!--	<test test-name="opt_flow1" pkg="opt_flow" type="opt_flow.py" time-limit="20.0" launch-prefix="valgrind --log-file=/home/filippos/valgrind.log">
+  <!--	<test test-name="opt_flow1" pkg="opt_flow" type="opt_flow.py" time-limit="20.0" launch-prefix="valgrind ">
  		<remap from="UBC_Image"  to="/webcam/image_raw" />
- 	</test>-->
+ 	</test> -->
 </launch>

@@ -1,0 +1,18 @@
+<launch>
+
+  <!-- Experiment Playback -->
+<node pkg="rosbag" type="play" name="player" output="screen" 
+args="--clock -r 0.05 /home/filippos/ros_ws/DATA/_2017-06-14-18-05-47.bag"/>
+
+
+  <!-- Optical flow Node -->
+<node pkg="opt_flow" type="opt_flow.py" name="opt_flow1" output="screen">
+        <remap from="UBC_Image"  to="/camera1/image_raw" />
+        <rosparam>
+     </rosparam>
+</node>
+
+
+  <!-- Record Optical Flow Stats -->
+ <node pkg="rosbag" type="record" name="flow_recorder" args="record -o /home/filippos/ros_ws/DATA/flow  /Flow_Image"/> 	
+</launch>
