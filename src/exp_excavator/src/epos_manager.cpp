@@ -208,6 +208,7 @@ int main(int argc, char** argv) {
 	ros::AsyncSpinner spinner(4);
 	spinner.start();
 	while(ros::ok()){
+	
 	sensor_msgs::JointState msg2;
         msg2.header.stamp = ros::Time::now();
         em.GetCurrentPositionAllDevice(em.motorTHETA);

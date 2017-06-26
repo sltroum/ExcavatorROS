@@ -1,11 +1,14 @@
 <!-- -*- mode: XML -*- -->
 
 <launch>
-<include file="$(find optoforce)/launch/optoforce.launch"/> 
-<include file="$(find exp_excavator)/launch/camera_custom.launch"/>
-<!--<include file="$(find opt_flow)/launch/opt.launch"/>-->
+<!--<node pkg="rosbag" type="record" name="flow_recorder" args="record -o /media/filippos/Data-Storage/Experiment-Data/ /camera1/image_raw/"/>-->
 
-<!-- Calibration IMUS node -->
+
+<include file="$(find exp_excavator)/launch/camera_custom.launch"/>
+<!--<include file="$(find opt_flow)/launch/opt.launch"/>
+<include file="$(find optoforce)/launch/optoforce.launch"/> -->
+
+<!-- Calibration IMUS node 
 <node pkg="um7" type="um7_driver" name="IMU1">
       <param name="port" value="/dev/ttyUSB2" />
       <remap from="imu" to="imu1" />
@@ -24,7 +27,7 @@
       <remap from="CalibratedJointVals" to="/CalibratedJoints" />
 
 </node>
-
+-->
 
   <!-- JOYSTICK nodes -->
   <node respawn="true" pkg="joy"

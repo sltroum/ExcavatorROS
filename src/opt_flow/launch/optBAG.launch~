@@ -2,7 +2,7 @@
 
   <!-- Experiment Playback -->
 <node pkg="rosbag" type="play" name="player" output="screen" 
-args="--clock -r 0.05 /home/filippos/ros_ws/DATA/_2017-06-14-18-05-47.bag"/>
+args="--clock -r 0.005 -s 5 -u 5 /media/filippos/Data-Storage/Experiment-Data/_2017-06-17-16-47-11.bag"/>
 
 
   <!-- Optical flow Node -->
@@ -14,5 +14,5 @@ args="--clock -r 0.05 /home/filippos/ros_ws/DATA/_2017-06-14-18-05-47.bag"/>
 
 
   <!-- Record Optical Flow Stats -->
- <node pkg="rosbag" type="record" name="flow_recorder" args="record -o /home/filippos/ros_ws/DATA/flow  /Flow_Image"/> 	
+ <node pkg="rosbag" type="record" name="flow_recorder" args="record -o /media/filippos/Data-Storage/Experiment-Data/flow  /Flow_Image"/> 	
 </launch>

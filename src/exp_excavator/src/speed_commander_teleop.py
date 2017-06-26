@@ -30,7 +30,7 @@ class SpeedCommanderTeleop:
         while not rospy.is_shutdown():
             spd_com = cmsg.JointValues()
             spd_com.boom = self.joy_val.boom * 200.0
-            spd_com.arm = self.joy_val.arm * 200.0
+            spd_com.arm = self.joy_val.arm * (-200.0)
             spd_com.bucket = self.joy_val.bucket * 0.5
             spd_com.swing = self.joy_val.swing * 0.0
             

@@ -56,7 +56,7 @@ EposManager::EposManager() {
 		ROS_ERROR("EPOS for Boom OpenDevice Error:0x%08x", err);
 	}
 	
-	VCS_ClearFault(pHandleBoom,nodeIdBoom, &err));
+	VCS_ClearFault(pHandleBoom,nodeIdBoom, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Boom ClearFault Error:0x%08x", err);
 	}
@@ -79,7 +79,7 @@ EposManager::EposManager() {
 		ROS_ERROR("EPOS for Arm OpenDevice Error:0x%08x", err);
 	}
 	
-	VCS_ClearFault(pHandleArm,nodeIdArm, &err));
+	VCS_ClearFault(pHandleArm,nodeIdArm, &err);
 	if(err) {
 		ROS_ERROR("EPOS for Arm ClearFault Error:0x%08x", err);
 	}
