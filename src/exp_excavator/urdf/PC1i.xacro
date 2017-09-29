@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="PC1i">
+
+
+  <xacro:property name="L1" value="0.7125"/>
+  <xacro:property name="L2" value="0.3656"/>
+  <xacro:property name="L3" value="0.1858"/>
+  <xacro:property name="theta1_max" value="1.1647"/>
+  <xacro:property name="theta1_min" value="-0.7689"/>
+  <xacro:property name="theta2_max" value="2.7581"/>
+  <xacro:property name="theta2_min" value="0.6059"/>
+  <xacro:property name="theta3_max" value="2.4674"/>
+  <xacro:property name="theta3_min" value="-0.6128"/>
+
+
+  <link name="Base-link" />
+  <link name="Boom-link" />
+  <link name="Arm-link" />
+  <link name="optoforce_0" />
+  <link name="Bucket-link" />
+  
+  <joint name="Boom" type="revolute">
+    <axis xyz = "0 0 1"/>
+    <origin xyz = "1 1 0" rpy="0 0 0"/>
+    <limit effort="30" velocity="100.0" />
+    <parent link="Base-link"/>
+    <child link="Boom-link"/>  
+  </joint>
+
+  <joint name="Arm" type="revolute">
+    <axis xyz = "0 0 1"/>
+    <origin xyz = "${L1} 0 0" rpy="0 0 0"/>
+    <limit effort="30" velocity="100.0" />
+    <parent link="Boom-link"/>
+    <child link="Arm-link"/>  
+  </joint>
+
+  <joint name="Bucket" type="revolute">
+    <axis xyz = "0 0 1"/>
+    <origin xyz = "${L2} 0 0" rpy="0 0 0"/>
+    <limit effort="30" velocity="100.0" />
+    <parent link="Arm-link"/>
+    <child link="optoforce_0"/>  
+  </joint>
+
+ <joint name="optoforce_0" type="fixed">
+    <origin xyz = "${L3} 0 0" rpy="0.5 0 0"/>
+    <parent link="optoforce_0"/>
+    <child link="Bucket-link"/>  
+  </joint>-
+</robot>

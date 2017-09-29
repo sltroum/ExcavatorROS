@@ -234,20 +234,6 @@ epos_manager/fast:
 .PHONY : epos_manager/fast
 
 # Convenience name for target.
-exp_excavator/CMakeFiles/epos_measure.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/epos_measure.dir/rule
-.PHONY : exp_excavator/CMakeFiles/epos_measure.dir/rule
-
-# Convenience name for target.
-epos_measure: exp_excavator/CMakeFiles/epos_measure.dir/rule
-.PHONY : epos_measure
-
-# fast build rule for target.
-epos_measure/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_measure.dir/build.make exp_excavator/CMakeFiles/epos_measure.dir/build
-.PHONY : epos_measure/fast
-
-# Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule:
 	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
@@ -369,30 +355,6 @@ src/epos_manager.cpp.s:
 	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.s
 .PHONY : src/epos_manager.cpp.s
 
-src/epos_measure.o: src/epos_measure.cpp.o
-.PHONY : src/epos_measure.o
-
-# target to build an object file
-src/epos_measure.cpp.o:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_measure.dir/build.make exp_excavator/CMakeFiles/epos_measure.dir/src/epos_measure.cpp.o
-.PHONY : src/epos_measure.cpp.o
-
-src/epos_measure.i: src/epos_measure.cpp.i
-.PHONY : src/epos_measure.i
-
-# target to preprocess a source file
-src/epos_measure.cpp.i:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_measure.dir/build.make exp_excavator/CMakeFiles/epos_measure.dir/src/epos_measure.cpp.i
-.PHONY : src/epos_measure.cpp.i
-
-src/epos_measure.s: src/epos_measure.cpp.s
-.PHONY : src/epos_measure.s
-
-# target to generate assembly for a file
-src/epos_measure.cpp.s:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_measure.dir/build.make exp_excavator/CMakeFiles/epos_measure.dir/src/epos_measure.cpp.s
-.PHONY : src/epos_measure.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -406,7 +368,6 @@ help:
 	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... epos_manager"
-	@echo "... epos_measure"
 	@echo "... exp_excavator_gencpp"
 	@echo "... exp_excavator_generate_messages"
 	@echo "... exp_excavator_generate_messages_cpp"
@@ -423,9 +384,6 @@ help:
 	@echo "... src/epos_manager.o"
 	@echo "... src/epos_manager.i"
 	@echo "... src/epos_manager.s"
-	@echo "... src/epos_measure.o"
-	@echo "... src/epos_measure.i"
-	@echo "... src/epos_measure.s"
 .PHONY : help
 
 

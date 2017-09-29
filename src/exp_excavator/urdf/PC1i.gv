@@ -1,0 +1,17 @@
+digraph G {
+node [shape=box];
+"Base-link" [label="Base-link"];
+"Boom-link" [label="Boom-link"];
+"Arm-link" [label="Arm-link"];
+"Sensor-link" [label="Sensor-link"];
+"Bucket-link" [label="Bucket-link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"Base-link" -> "Boom" [label="xyz: 1 1 0 \nrpy: 0 -0 0"]
+"Boom" -> "Boom-link"
+"Boom-link" -> "Arm" [label="xyz: 0.7125 0 0 \nrpy: 0 -0 0"]
+"Arm" -> "Arm-link"
+"Arm-link" -> "Bucket" [label="xyz: 0.3656 0 0 \nrpy: 0 -0 0"]
+"Bucket" -> "Sensor-link"
+"Sensor-link" -> "Sensor-Bucket" [label="xyz: 0.1858 0 0 \nrpy: 0.5 -0 0"]
+"Sensor-Bucket" -> "Bucket-link"
+}

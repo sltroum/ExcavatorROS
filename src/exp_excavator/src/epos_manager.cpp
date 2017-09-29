@@ -21,7 +21,8 @@ public:
 	void spdComCallback(const exp_excavator::JointValuesConstPtr& msg);
         void GetCurrentPositionAllDevice(double* CurrentPosition);
         void GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId);
-	void publishJointStates(const ros::TimerEvent&);
+        void GetCurrentVelocityAllDevice(double* CurrentVelocity);
+        void GetCurrentVelocity(void *keyHandle_, int *CurrentVelocity, unsigned short nodeId);
 	
 	ros::NodeHandle n;
 	ros::Subscriber subSpdCom;
@@ -29,8 +30,7 @@ public:
 	ros::Timer timer;
 
 	double motorTHETA[2];
-//	void publishJointStates(const ros::TimerEvent&);
-//	void startBroadcastingJointStates();
+	double motorOMEGA[2];
 private:
 	void *pHandleBoom, *pHandleArm;
 	unsigned short nodeIdBoom;
@@ -128,46 +128,23 @@ void EposManager::spdComCallback(
 		ROS_ERROR("EPOS for Arm SetVelocityMust Error:0x%08x", err);
 	}
 	
-//sensor_msgs::JointState msg2;
-//  msg2.header.stamp = ros::Time::now();
-//    EposManager::GetCurrentPositionAllDevice(motorTHETA);
-//      msg2.name.push_back("Boom");
-//        msg2.position.push_back(motorTHETA[0]);
-//        msg2.name.push_back("Arm");
-//        msg2.position.push_back(motorTHETA[1]);
-//        pubPosIs.publish(msg2); 
         }
-
-//	EposManager::GetCurrentPositionAllDevice(motorTHETA);
-//	 printf("%f",motorTHETA[0]);
-
-//}
-
-//void EposManager::startBroadcastingJointStates(){
-
-
-//}
-
-void EposManager::publishJointStates(const ros::TimerEvent& event)
-{
-//    printf("%f",motorTHETA[0]);
-    sensor_msgs::JointState msg;
-//    msg.header.stamp = ros::Time::now();
-//    EposManager::GetCurrentPositionAllDevice(motorTHETA);
-
-    msg.name.push_back("Boom");
-    msg.position.push_back(0.01);
-    msg.name.push_back("Arm");
-    msg.position.push_back(0.02);
-    pubPosIs.publish(msg);    
-}
 
 void EposManager::GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId){
         unsigned int err;
         VCS_GetPositionIs(keyHandle_, nodeId, CurrentPosition, &err); 
     
         if(err) {
-	        ROS_ERROR("EPOS for Arm SetVelocityMust Error:0x%08x", err);
+	        ROS_ERROR("EPOS for Arm GetPositionIS Error:0x%08x", err);
+        }
+}
+
+void EposManager::GetCurrentVelocity(void *keyHandle_, int *CurrentVelocity, unsigned short nodeId){
+        unsigned int err;
+        VCS_GetVelocityIsAveraged(keyHandle_, nodeId, CurrentVelocity, &err); 
+    
+        if(err) {
+	        ROS_ERROR("EPOS for Arm GetVelocityIS Error:0x%08x", err);
         }
 }
 
@@ -179,19 +156,13 @@ void EposManager::GetCurrentPositionAllDevice(double* CurrentPosition){
 	CurrentPosition[1]=(-2*3.1415926/(50*72))*Pos;
 }
 
-
-
-// void EposManager::posGet(double *CurrentPosition) {
-//	double positionBoom;
-//	unsigned int err;
-//      
-//        VCS_GetPositionIs(pHandleBoom, nodeIdBoom, positionBoom, &err);
-//	
-//	if(err) {
-//		ROS_ERROR("EPOS for Boom GetPositionIs Error:0x%08x", err);
-//	}
-//
-//}
+void EposManager::GetCurrentVelocityAllDevice(double* CurrentVelocity){
+	int Vel;
+	GetCurrentVelocity(pHandleBoom, &Vel,nodeIdBoom);
+	CurrentVelocity[0]=(-2*3.1415926/(50*72))*Vel;
+	GetCurrentVelocity(pHandleArm, &Vel,nodeIdArm);
+	CurrentVelocity[1]=(-2*3.1415926/(50*72))*Vel;
+}
 
 
 
@@ -207,15 +178,19 @@ int main(int argc, char** argv) {
 
 	ros::AsyncSpinner spinner(4);
 	spinner.start();
+	
 	while(ros::ok()){
 	
 	sensor_msgs::JointState msg2;
         msg2.header.stamp = ros::Time::now();
         em.GetCurrentPositionAllDevice(em.motorTHETA);
+        em.GetCurrentVelocityAllDevice(em.motorOMEGA);
         msg2.name.push_back("Boom");
         msg2.position.push_back(em.motorTHETA[0]);
+        msg2.velocity.push_back(em.motorOMEGA[0]);
         msg2.name.push_back("Arm");
         msg2.position.push_back(em.motorTHETA[1]);
+        msg2.velocity.push_back(em.motorOMEGA[1]);
         em.pubPosIs.publish(msg2); 
         
         }

@@ -1,0 +1,10 @@
+  <launch>
+  
+      <param name="robot_description" command="cat $(find museumGuide)/urdf_model/peoplebot.xml" />
+  
+  
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+      <remap from="robot_description" to="different_robot_description" />
+      <remap from="joint_states" to="CalibratedJointVals" />
+    </node>
+  </launch>

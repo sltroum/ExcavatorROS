@@ -1,0 +1,17 @@
+  <launch>
+  <param name ="/use_sim_time" value="true"/>
+  <node pkg="rosbag" type="play" name="player" output="screen" 
+args="--clock -r 1 /media/filippos/Data-Storage/Experiment-Data/Stamped2_2017-06-29-15-55-37.bag"/>
+   <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find exp_excavator)/urdf/PC1i.xacro"/>
+   
+     <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+      <remap from="joint_states" to="/CalibratedJointVals3" />
+    </node> 
+    
+ <node pkg="tf" type="static_transform_publisher" name="world" args="0 0 0 0 0 0  world Base-link 100" /> 
+  
+
+    
+    <!--    Experiment Playback -->
+
+  </launch>

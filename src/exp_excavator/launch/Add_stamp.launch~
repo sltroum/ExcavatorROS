@@ -1,0 +1,23 @@
+<launch>
+ <param name ="/use_sim_time" value="true"/>
+  
+  
+  
+<node pkg="exp_excavator" type="joint_calibrator.py" name="joint_calibrator"
+        output="screen" >
+      <remap from="IMUBoom" to="/imu1/data" />
+      <remap from="IMUArm" to="/imu2/data" />
+      <remap from="JointsEPOS" to="/joint_states_EPOS" />
+      <remap from="JointsDYNA" to="/joint_states_DYNA" />
+      <remap from="CalibratedJointVals" to="/CalibratedJoints" />
+</node>
+
+
+  <!--    Experiment Playback -->
+  <node pkg="rosbag" type="play" name="player" output="screen" 
+args="--clock -r 0.9 /media/filippos/Data-Storage/Experiment-Data/6-29/filt_2017-06-29-12-03-01.bag"/>
+ 
+  <node pkg="rosbag" type="record" name="stamper" args="record -a -o /media/filippos/Data-Storage/Experiment-Data/Stamped "/>
+</launch>
+
+
