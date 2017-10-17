@@ -67,14 +67,14 @@ set(opencv_apps_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(opencv_apps_SOURCE_PREFIX /home/filippos/ros_ws/src/opencv_apps)
-  set(opencv_apps_DEVEL_PREFIX /home/filippos/ros_ws/devel)
+  set(opencv_apps_SOURCE_PREFIX /home/d-lab/ExcavatorROS.git/src/opencv_apps)
+  set(opencv_apps_DEVEL_PREFIX /home/d-lab/ExcavatorROS.git/devel)
   set(opencv_apps_INSTALL_PREFIX "")
   set(opencv_apps_PREFIX ${opencv_apps_DEVEL_PREFIX})
 else()
   set(opencv_apps_SOURCE_PREFIX "")
   set(opencv_apps_DEVEL_PREFIX "")
-  set(opencv_apps_INSTALL_PREFIX /home/filippos/ros_ws/install)
+  set(opencv_apps_INSTALL_PREFIX /home/d-lab/ExcavatorROS.git/install)
   set(opencv_apps_PREFIX ${opencv_apps_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(opencv_apps_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/filippos/ros_ws/devel/include;/home/filippos/ros_ws/src/opencv_apps/include " STREQUAL " ")
+if(NOT "/home/d-lab/ExcavatorROS.git/devel/include;/home/d-lab/ExcavatorROS.git/src/opencv_apps/include " STREQUAL " ")
   set(opencv_apps_INCLUDE_DIRS "")
-  set(_include_dirs "/home/filippos/ros_ws/devel/include;/home/filippos/ros_ws/src/opencv_apps/include")
+  set(_include_dirs "/home/d-lab/ExcavatorROS.git/devel/include;/home/d-lab/ExcavatorROS.git/src/opencv_apps/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/filippos/ros_ws/devel/include;/home/filippos/ros_ws/src/opencv_app
         message(FATAL_ERROR "Project 'opencv_apps' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Kei Okada <kei.okada@gmail.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'opencv_apps' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/filippos/ros_ws/src/opencv_apps/${idir}'.  Ask the maintainer 'Kei Okada <kei.okada@gmail.com>' to fix it.")
+      message(FATAL_ERROR "Project 'opencv_apps' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/d-lab/ExcavatorROS.git/src/opencv_apps/${idir}'.  Ask the maintainer 'Kei Okada <kei.okada@gmail.com>' to fix it.")
     endif()
     _list_append_unique(opencv_apps_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/filippos/ros_ws/devel/lib;/home/filippos/ros_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/d-lab/ExcavatorROS.git/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

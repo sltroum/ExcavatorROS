@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/hls_color_filter_exe.dir/hls_color_filter.cpp.o"
-  "/home/filippos/ros_ws/devel/lib/opencv_apps/hls_color_filter.pdb"
-  "/home/filippos/ros_ws/devel/lib/opencv_apps/hls_color_filter"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/opencv_apps/hls_color_filter.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/opencv_apps/hls_color_filter"
 )
 
 # Per-language clean rules from dependency scanning.

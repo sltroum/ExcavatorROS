@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/filippos/ros_ws/build/CMakeFiles /home/filippos/ros_ws/build/exp_excavator/CMakeFiles/progress.marks
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/filippos/ros_ws/build/CMakeFiles 0
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/d-lab/ExcavatorROS.git/build/CMakeFiles /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/progress.marks
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/d-lab/ExcavatorROS.git/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/clean
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/preinstall
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/preinstall
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule
 .PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _exp_excavator_generate_messages_check_deps_JointCalibration: exp_excavator/CMak
 
 # fast build rule for target.
 _exp_excavator_generate_messages_check_deps_JointCalibration/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/build
 .PHONY : _exp_excavator_generate_messages_check_deps_JointCalibration/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule
 .PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ _exp_excavator_generate_messages_check_deps_JointValues: exp_excavator/CMakeFile
 
 # fast build rule for target.
 _exp_excavator_generate_messages_check_deps_JointValues/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/build
 .PHONY : _exp_excavator_generate_messages_check_deps_JointValues/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ controller_manager_msgs_generate_messages_cpp: exp_excavator/CMakeFiles/controll
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_cpp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ controller_manager_msgs_generate_messages_lisp: exp_excavator/CMakeFiles/control
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_lisp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
 .PHONY : exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ controller_manager_msgs_generate_messages_py: exp_excavator/CMakeFiles/controlle
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_py/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build.make exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build.make exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
 .PHONY : controller_manager_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/epos_manager.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/epos_manager.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/epos_manager.dir/rule
 .PHONY : exp_excavator/CMakeFiles/epos_manager.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ epos_manager: exp_excavator/CMakeFiles/epos_manager.dir/rule
 
 # fast build rule for target.
 epos_manager/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/build
 .PHONY : epos_manager/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ exp_excavator_gencpp: exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
 
 # fast build rule for target.
 exp_excavator_gencpp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/build
 .PHONY : exp_excavator_gencpp/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ exp_excavator_generate_messages: exp_excavator/CMakeFiles/exp_excavator_generate
 
 # fast build rule for target.
 exp_excavator_generate_messages/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir/build
 .PHONY : exp_excavator_generate_messages/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ exp_excavator_generate_messages_cpp: exp_excavator/CMakeFiles/exp_excavator_gene
 
 # fast build rule for target.
 exp_excavator_generate_messages_cpp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/build
 .PHONY : exp_excavator_generate_messages_cpp/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ exp_excavator_generate_messages_lisp: exp_excavator/CMakeFiles/exp_excavator_gen
 
 # fast build rule for target.
 exp_excavator_generate_messages_lisp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/build
 .PHONY : exp_excavator_generate_messages_lisp/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ exp_excavator_generate_messages_py: exp_excavator/CMakeFiles/exp_excavator_gener
 
 # fast build rule for target.
 exp_excavator_generate_messages_py/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/build.make exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/build
 .PHONY : exp_excavator_generate_messages_py/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ exp_excavator_genlisp: exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/rule
 
 # fast build rule for target.
 exp_excavator_genlisp/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/build.make exp_excavator/CMakeFiles/exp_excavator_genlisp.dir/build
 .PHONY : exp_excavator_genlisp/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_genpy.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_genpy.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_genpy.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_genpy.dir/rule
 
 # Convenience name for target.
@@ -328,7 +328,7 @@ exp_excavator_genpy: exp_excavator/CMakeFiles/exp_excavator_genpy.dir/rule
 
 # fast build rule for target.
 exp_excavator_genpy/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_genpy.dir/build.make exp_excavator/CMakeFiles/exp_excavator_genpy.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/exp_excavator_genpy.dir/build.make exp_excavator/CMakeFiles/exp_excavator_genpy.dir/build
 .PHONY : exp_excavator_genpy/fast
 
 src/epos_manager.o: src/epos_manager.cpp.o
@@ -336,7 +336,7 @@ src/epos_manager.o: src/epos_manager.cpp.o
 
 # target to build an object file
 src/epos_manager.cpp.o:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.o
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.o
 .PHONY : src/epos_manager.cpp.o
 
 src/epos_manager.i: src/epos_manager.cpp.i
@@ -344,7 +344,7 @@ src/epos_manager.i: src/epos_manager.cpp.i
 
 # target to preprocess a source file
 src/epos_manager.cpp.i:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.i
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.i
 .PHONY : src/epos_manager.cpp.i
 
 src/epos_manager.s: src/epos_manager.cpp.s
@@ -352,7 +352,7 @@ src/epos_manager.s: src/epos_manager.cpp.s
 
 # target to generate assembly for a file
 src/epos_manager.cpp.s:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.s
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.s
 .PHONY : src/epos_manager.cpp.s
 
 # Help Target
@@ -395,6 +395,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

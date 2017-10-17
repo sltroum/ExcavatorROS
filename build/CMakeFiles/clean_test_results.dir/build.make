@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Utility rule file for clean_test_results.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/filippos/ros_ws/build/test_results
+	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/d-lab/ExcavatorROS.git/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src /home/filippos/ros_ws/build /home/filippos/ros_ws/build /home/filippos/ros_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

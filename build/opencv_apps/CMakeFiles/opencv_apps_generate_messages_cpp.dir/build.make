@@ -35,357 +35,357 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Utility rule file for opencv_apps_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/progress.make
 
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Line.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2D.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Contour.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2DArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RectArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Face.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Moment.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Flow.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Circle.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Size.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Rect.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h
-opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Moment.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Flow.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Face.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Size.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2D.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Circle.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Line.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Contour.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Rect.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h
+opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/FaceArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Face.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FaceArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/FaceArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/ContourArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Contour.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/ContourArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/ContourArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Line.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Line.h: /home/filippos/ros_ws/src/opencv_apps/msg/Line.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Line.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Line.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Line.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Line.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRectArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Size.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRectArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRectArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2D.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2D.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2D.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2D.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/LineArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Line.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/LineArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/LineArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/LineArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Line.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/LineArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/LineArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Contour.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Contour.h: /home/filippos/ros_ws/src/opencv_apps/msg/Contour.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Contour.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Contour.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Contour.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Contour.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRectArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Size.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRectArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRectArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2DArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2DArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Point2DArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/RectArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RectArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/RectArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/FaceArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Face.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FaceArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/FaceArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Face.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Face.h: /home/filippos/ros_ws/src/opencv_apps/msg/Face.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Face.h: /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Face.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Face.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Face.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/MomentArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Moment.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/MomentArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/MomentArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Moment.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Moment.h: /home/filippos/ros_ws/src/opencv_apps/msg/Moment.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Moment.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Moment.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_15)
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Moment.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Moment.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Moment.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Moment.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Moment.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Moment.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Moment.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Moment.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2DStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2DStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Point2DStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Flow.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Flow.h: /home/filippos/ros_ws/src/opencv_apps/msg/Flow.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Flow.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Flow.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_17)
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Flow.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Flow.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Flow.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Flow.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Flow.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Flow.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Flow.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Flow.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/CircleArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Circle.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/CircleArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/CircleArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Face.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Face.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Face.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Face.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Face.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Face.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Face.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h: /home/filippos/ros_ws/src/opencv_apps/msg/Size.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRect.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRect.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Circle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Circle.h: /home/filippos/ros_ws/src/opencv_apps/msg/Circle.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Circle.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Circle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Circle.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Circle.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/MomentArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Moment.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/MomentArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/MomentArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRectStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Size.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRectStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/RotatedRectStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Size.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Size.h: /home/filippos/ros_ws/src/opencv_apps/msg/Size.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Size.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Size.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Size.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Rect.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Rect.h: /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Rect.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Rect.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2DArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2DArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/Point2DArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/FlowArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Flow.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_26)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FlowArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/FlowArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/FlowArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Flow.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_27)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FlowArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/FlowArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/ContourArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Contour.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_28)
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/ContourArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Contour.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/ContourArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/ContourArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/ContourArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/RectArrayStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Rect.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_29)
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Size.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Size.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Size.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Size.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Size.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Size.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2DArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2DArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2DArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FaceArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Face.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FaceArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FaceArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2D.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2D.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2D.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2D.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/MomentArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Moment.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/MomentArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/MomentArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRectStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Size.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRectStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRectStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Circle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Circle.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Circle.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Circle.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Circle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Circle.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Circle.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/LineArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Line.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/LineArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/LineArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Line.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Line.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Line.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Line.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Line.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Line.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Line.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Contour.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Contour.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Contour.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Contour.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Contour.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Contour.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Contour.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RectArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RectArrayStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/RectArrayStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RectArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/FlowStamped.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Flow.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_30)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FlowStamped.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/FlowStamped.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RectArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RectArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RectArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/CircleArray.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Point2D.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h: /home/filippos/ros_ws/src/opencv_apps/msg/Circle.msg
-/home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_31)
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FlowArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Flow.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FlowArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FlowArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FaceArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Face.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FaceArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FaceArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/MomentArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Moment.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/MomentArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/MomentArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRectArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Size.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRectArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRectArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/CircleArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Circle.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/CircleArray.msg"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/filippos/ros_ws/src/opencv_apps/msg/CircleArray.msg -Iopencv_apps:/home/filippos/ros_ws/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/filippos/ros_ws/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/CircleArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2DArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2DArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2DArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FlowArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Flow.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FlowArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FlowArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Rect.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Rect.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Rect.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Rect.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Rect.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FlowStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Flow.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/FlowStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/FlowStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/ContourArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Contour.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/ContourArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/ContourArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2DStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/Point2DStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2DStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/LineArray.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Line.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/LineArray.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/LineArray.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRectArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Size.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRectArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRectArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRect.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Size.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/RotatedRect.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/RotatedRect.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/CircleArrayStamped.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Circle.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/Point2D.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from opencv_apps/CircleArrayStamped.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/opencv_apps/msg/CircleArrayStamped.msg -Iopencv_apps:/home/d-lab/ExcavatorROS.git/src/opencv_apps/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p opencv_apps -o /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps -e /opt/ros/indigo/share/gencpp/cmake/..
 
 opencv_apps_generate_messages_cpp: opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FaceArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/ContourArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Line.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2D.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/LineArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/LineArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Contour.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2DArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RectArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FaceArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Face.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/MomentArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Moment.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2DStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Flow.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/CircleArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRect.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Circle.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/MomentArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RotatedRectStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Size.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Rect.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/Point2DArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FlowArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FlowArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/ContourArray.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/RectArrayStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/FlowStamped.h
-opencv_apps_generate_messages_cpp: /home/filippos/ros_ws/devel/include/opencv_apps/CircleArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Moment.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Flow.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Face.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Size.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2D.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Circle.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Line.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Contour.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RectArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/MomentArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Rect.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FlowStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/Point2DStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LineArray.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRectArrayStamped.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RotatedRect.h
+opencv_apps_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CircleArrayStamped.h
 opencv_apps_generate_messages_cpp: opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/build.make
 .PHONY : opencv_apps_generate_messages_cpp
 
@@ -394,10 +394,10 @@ opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/build: opencv_apps_
 .PHONY : opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/build
 
 opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/clean:
-	cd /home/filippos/ros_ws/build/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/opencv_apps_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/opencv_apps_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/clean
 
 opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src/opencv_apps /home/filippos/ros_ws/build /home/filippos/ros_ws/build/opencv_apps /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src/opencv_apps /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/opencv_apps /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : opencv_apps/CMakeFiles/opencv_apps_generate_messages_cpp.dir/depend
 

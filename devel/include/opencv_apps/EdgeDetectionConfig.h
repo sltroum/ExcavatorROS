@@ -433,9 +433,9 @@ EdgeDetectionConfig::GroupDescription<EdgeDetectionConfig::DEFAULT, EdgeDetectio
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __default__.edge_type = 0;
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(EdgeDetectionConfig::AbstractParamDescriptionConstPtr(new EdgeDetectionConfig::ParamDescription<int>("edge_type", "int", 0, "Edge Detection Methods", "{'enum_description': 'An enum for Edge Detection Mehtods', 'enum': [{'srcline': 42, 'description': 'Sobel Derivatives', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Sobel'}, {'srcline': 43, 'description': 'Laplace Operator', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Laplace'}, {'srcline': 44, 'description': 'Canny Edge Detector', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &EdgeDetectionConfig::edge_type)));
+      Default.abstract_parameters.push_back(EdgeDetectionConfig::AbstractParamDescriptionConstPtr(new EdgeDetectionConfig::ParamDescription<int>("edge_type", "int", 0, "Edge Detection Methods", "{'enum_description': 'An enum for Edge Detection Mehtods', 'enum': [{'srcline': 42, 'description': 'Sobel Derivatives', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Sobel'}, {'srcline': 43, 'description': 'Laplace Operator', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Laplace'}, {'srcline': 44, 'description': 'Canny Edge Detector', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &EdgeDetectionConfig::edge_type)));
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(EdgeDetectionConfig::AbstractParamDescriptionConstPtr(new EdgeDetectionConfig::ParamDescription<int>("edge_type", "int", 0, "Edge Detection Methods", "{'enum_description': 'An enum for Edge Detection Mehtods', 'enum': [{'srcline': 42, 'description': 'Sobel Derivatives', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Sobel'}, {'srcline': 43, 'description': 'Laplace Operator', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Laplace'}, {'srcline': 44, 'description': 'Canny Edge Detector', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &EdgeDetectionConfig::edge_type)));
+      __param_descriptions__.push_back(EdgeDetectionConfig::AbstractParamDescriptionConstPtr(new EdgeDetectionConfig::ParamDescription<int>("edge_type", "int", 0, "Edge Detection Methods", "{'enum_description': 'An enum for Edge Detection Mehtods', 'enum': [{'srcline': 42, 'description': 'Sobel Derivatives', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Sobel'}, {'srcline': 43, 'description': 'Laplace Operator', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Laplace'}, {'srcline': 44, 'description': 'Canny Edge Detector', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &EdgeDetectionConfig::edge_type)));
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __min__.canny_threshold1 = 0;
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -595,11 +595,11 @@ EdgeDetectionConfig::GroupDescription<EdgeDetectionConfig::DEFAULT, EdgeDetectio
     return statics;
   }
 
-//#line 42 "/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg"
+//#line 42 "/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg"
       const int EdgeDetection_Sobel = 0;
-//#line 43 "/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg"
+//#line 43 "/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg"
       const int EdgeDetection_Laplace = 1;
-//#line 44 "/home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg"
+//#line 44 "/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg"
       const int EdgeDetection_Canny = 2;
 }
 

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/find_contours_exe.dir/find_contours.cpp.o"
-  "/home/filippos/ros_ws/devel/lib/opencv_apps/find_contours.pdb"
-  "/home/filippos/ros_ws/devel/lib/opencv_apps/find_contours"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/opencv_apps/find_contours.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/opencv_apps/find_contours"
 )
 
 # Per-language clean rules from dependency scanning.

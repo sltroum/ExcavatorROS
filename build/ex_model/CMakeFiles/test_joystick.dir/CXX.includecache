@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/src/ex_model/src/test_joystick.cpp
+/home/d-lab/ExcavatorROS.git/src/ex_model/src/test_joystick.cpp
 std_msgs/Float64.h
 -
 sensor_msgs/Joy.h

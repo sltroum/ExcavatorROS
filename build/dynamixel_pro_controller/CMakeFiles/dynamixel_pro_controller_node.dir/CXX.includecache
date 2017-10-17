@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/devel/include/dynamixel_pro_controller/ChainEnable.h
+/home/d-lab/ExcavatorROS.git/devel/include/dynamixel_pro_controller/ChainEnable.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 dynamixel_pro_controller/JointEnable.h
 -
 
-/home/filippos/ros_ws/devel/include/dynamixel_pro_controller/ChainLimits.h
+/home/d-lab/ExcavatorROS.git/devel/include/dynamixel_pro_controller/ChainLimits.h
 string
 -
 vector
@@ -42,7 +42,7 @@ ros/message_operations.h
 dynamixel_pro_controller/JointLimits.h
 -
 
-/home/filippos/ros_ws/devel/include/dynamixel_pro_controller/JointEnable.h
+/home/d-lab/ExcavatorROS.git/devel/include/dynamixel_pro_controller/JointEnable.h
 string
 -
 vector
@@ -58,7 +58,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/filippos/ros_ws/devel/include/dynamixel_pro_controller/JointLimits.h
+/home/d-lab/ExcavatorROS.git/devel/include/dynamixel_pro_controller/JointLimits.h
 string
 -
 vector
@@ -74,7 +74,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/filippos/ros_ws/src/dynamixel_pro_controller/include/dynamixel_pro_controller/dynamixel_pro_controller.h
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_controller/include/dynamixel_pro_controller/dynamixel_pro_controller.h
 string
 -
 map
@@ -90,7 +90,7 @@ dynamixel_pro_controller/ChainLimits.h
 dynamixel_pro_driver/dynamixel_pro_driver.h
 -
 
-/home/filippos/ros_ws/src/dynamixel_pro_controller/src/dynamixel_pro_controller.cpp
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_controller/src/dynamixel_pro_controller.cpp
 string
 -
 stdlib.h
@@ -102,7 +102,7 @@ fstream
 cmath
 -
 yaml-cpp/yaml.h
-/home/filippos/ros_ws/src/dynamixel_pro_controller/src/yaml-cpp/yaml.h
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_controller/src/yaml-cpp/yaml.h
 ros/package.h
 -
 XmlRpcValue.h
@@ -112,7 +112,7 @@ dynamixel_pro_controller/dynamixel_pro_controller.h
 dynamixel_pro_driver/dynamixel_pro_driver.h
 -
 
-/home/filippos/ros_ws/src/dynamixel_pro_driver/include/dynamixel_pro_driver/dynamixel_pro_driver.h
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/include/dynamixel_pro_driver/dynamixel_pro_driver.h
 pthread.h
 -
 stdint.h
@@ -214,6 +214,8 @@ cstdarg
 ros/macros.h
 -
 map
+-
+vector
 -
 log4cxx/level.h
 /opt/ros/indigo/include/ros/log4cxx/level.h

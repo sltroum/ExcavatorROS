@@ -3,8 +3,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/ximea_camera_node.dir/src/ximea_ros_driver.cpp.o"
   "CMakeFiles/ximea_camera_node.dir/src/ximea_ros_cluster.cpp.o"
   "CMakeFiles/ximea_camera_node.dir/src/ximea.cpp.o"
-  "/home/filippos/ros_ws/devel/lib/ximea_camera/ximea_camera_node.pdb"
-  "/home/filippos/ros_ws/devel/lib/ximea_camera/ximea_camera_node"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/ximea_camera/ximea_camera_node.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/ximea_camera/ximea_camera_node"
 )
 
 # Per-language clean rules from dependency scanning.

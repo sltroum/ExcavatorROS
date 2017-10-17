@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/hough_circles_exe.dir/hough_circles.cpp.o"
-  "/home/filippos/ros_ws/devel/lib/opencv_apps/hough_circles.pdb"
-  "/home/filippos/ros_ws/devel/lib/opencv_apps/hough_circles"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/opencv_apps/hough_circles.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/opencv_apps/hough_circles"
 )
 
 # Per-language clean rules from dependency scanning.

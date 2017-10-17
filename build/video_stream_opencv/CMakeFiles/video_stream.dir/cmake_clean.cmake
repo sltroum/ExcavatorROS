@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/video_stream.dir/src/video_stream.cpp.o"
-  "/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream.pdb"
-  "/home/filippos/ros_ws/devel/lib/video_stream_opencv/video_stream"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/video_stream_opencv/video_stream.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/video_stream_opencv/video_stream"
 )
 
 # Per-language clean rules from dependency scanning.

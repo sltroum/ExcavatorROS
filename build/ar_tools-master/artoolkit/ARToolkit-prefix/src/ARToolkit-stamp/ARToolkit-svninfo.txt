@@ -1,3 +1,0 @@
-repository='svn://svn.code.sf.net/p/artoolkit/code/trunk/artoolkit user= password='
-module=''
-tag=''

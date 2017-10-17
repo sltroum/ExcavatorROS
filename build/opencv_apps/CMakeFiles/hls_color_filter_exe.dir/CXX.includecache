@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/build/opencv_apps/hls_color_filter.cpp
+/home/d-lab/ExcavatorROS.git/build/opencv_apps/hls_color_filter.cpp
 ros/ros.h
 -
 nodelet/loader.h

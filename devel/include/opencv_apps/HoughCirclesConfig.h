@@ -527,9 +527,9 @@ HoughCirclesConfig::GroupDescription<HoughCirclesConfig::DEFAULT, HoughCirclesCo
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __default__.debug_image_type = 0;
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(HoughCirclesConfig::AbstractParamDescriptionConstPtr(new HoughCirclesConfig::ParamDescription<int>("debug_image_type", "int", 0, "Select image type for debug output", "{'enum_description': 'An enum for debug view', 'enum': [{'srcline': 53, 'description': 'Input image', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Input'}, {'srcline': 54, 'description': 'GaussianBlur image', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Blur'}, {'srcline': 55, 'description': 'Canny edge image', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &HoughCirclesConfig::debug_image_type)));
+      Default.abstract_parameters.push_back(HoughCirclesConfig::AbstractParamDescriptionConstPtr(new HoughCirclesConfig::ParamDescription<int>("debug_image_type", "int", 0, "Select image type for debug output", "{'enum_description': 'An enum for debug view', 'enum': [{'srcline': 53, 'description': 'Input image', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Input'}, {'srcline': 54, 'description': 'GaussianBlur image', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Blur'}, {'srcline': 55, 'description': 'Canny edge image', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &HoughCirclesConfig::debug_image_type)));
 //#line 293 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(HoughCirclesConfig::AbstractParamDescriptionConstPtr(new HoughCirclesConfig::ParamDescription<int>("debug_image_type", "int", 0, "Select image type for debug output", "{'enum_description': 'An enum for debug view', 'enum': [{'srcline': 53, 'description': 'Input image', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Input'}, {'srcline': 54, 'description': 'GaussianBlur image', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Blur'}, {'srcline': 55, 'description': 'Canny edge image', 'srcfile': '/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &HoughCirclesConfig::debug_image_type)));
+      __param_descriptions__.push_back(HoughCirclesConfig::AbstractParamDescriptionConstPtr(new HoughCirclesConfig::ParamDescription<int>("debug_image_type", "int", 0, "Select image type for debug output", "{'enum_description': 'An enum for debug view', 'enum': [{'srcline': 53, 'description': 'Input image', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Input'}, {'srcline': 54, 'description': 'GaussianBlur image', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Blur'}, {'srcline': 55, 'description': 'Canny edge image', 'srcfile': '/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Canny'}]}", &HoughCirclesConfig::debug_image_type)));
 //#line 246 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "/opt/ros/indigo/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -609,11 +609,11 @@ HoughCirclesConfig::GroupDescription<HoughCirclesConfig::DEFAULT, HoughCirclesCo
     return statics;
   }
 
-//#line 53 "/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg"
+//#line 53 "/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg"
       const int HoughCircles_Input = 0;
-//#line 54 "/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg"
+//#line 54 "/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg"
       const int HoughCircles_Blur = 1;
-//#line 55 "/home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg"
+//#line 55 "/home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg"
       const int HoughCircles_Canny = 2;
 }
 

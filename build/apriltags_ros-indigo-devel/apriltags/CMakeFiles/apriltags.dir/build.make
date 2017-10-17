@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Include any dependencies generated for this target.
 include apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/depend.make
@@ -50,18 +50,18 @@ include apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/progress.m
 include apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Edge.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Edge.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/Edge.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc > CMakeFiles/apriltags.dir/src/Edge.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc > CMakeFiles/apriltags.dir/src/Edge.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/Edge.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc -o CMakeFiles/apriltags.dir/src/Edge.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc -o CMakeFiles/apriltags.dir/src/Edge.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o.requires
@@ -73,18 +73,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o.prov
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/FloatImage.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/FloatImage.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/FloatImage.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc > CMakeFiles/apriltags.dir/src/FloatImage.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc > CMakeFiles/apriltags.dir/src/FloatImage.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/FloatImage.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc -o CMakeFiles/apriltags.dir/src/FloatImage.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc -o CMakeFiles/apriltags.dir/src/FloatImage.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o.requires
@@ -96,18 +96,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/GLine2D.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/GLine2D.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/GLine2D.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc > CMakeFiles/apriltags.dir/src/GLine2D.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc > CMakeFiles/apriltags.dir/src/GLine2D.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/GLine2D.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc -o CMakeFiles/apriltags.dir/src/GLine2D.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc -o CMakeFiles/apriltags.dir/src/GLine2D.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o.requires
@@ -119,18 +119,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o.p
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc > CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc > CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc -o CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc -o CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o.requires
@@ -142,18 +142,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Gaussian.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Gaussian.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/Gaussian.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc > CMakeFiles/apriltags.dir/src/Gaussian.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc > CMakeFiles/apriltags.dir/src/Gaussian.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/Gaussian.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc -o CMakeFiles/apriltags.dir/src/Gaussian.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc -o CMakeFiles/apriltags.dir/src/Gaussian.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o.requires
@@ -165,18 +165,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o.
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/GrayModel.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/GrayModel.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/GrayModel.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc > CMakeFiles/apriltags.dir/src/GrayModel.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc > CMakeFiles/apriltags.dir/src/GrayModel.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/GrayModel.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc -o CMakeFiles/apriltags.dir/src/GrayModel.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc -o CMakeFiles/apriltags.dir/src/GrayModel.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o.requires
@@ -188,18 +188,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_7)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Homography33.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Homography33.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/Homography33.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc > CMakeFiles/apriltags.dir/src/Homography33.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc > CMakeFiles/apriltags.dir/src/Homography33.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/Homography33.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc -o CMakeFiles/apriltags.dir/src/Homography33.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc -o CMakeFiles/apriltags.dir/src/Homography33.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o.requires
@@ -211,18 +211,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.c
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_8)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/MathUtil.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/MathUtil.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/MathUtil.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc > CMakeFiles/apriltags.dir/src/MathUtil.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc > CMakeFiles/apriltags.dir/src/MathUtil.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/MathUtil.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc -o CMakeFiles/apriltags.dir/src/MathUtil.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc -o CMakeFiles/apriltags.dir/src/MathUtil.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o.requires
@@ -234,18 +234,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o.
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_9)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Quad.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Quad.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/Quad.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc > CMakeFiles/apriltags.dir/src/Quad.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc > CMakeFiles/apriltags.dir/src/Quad.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/Quad.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc -o CMakeFiles/apriltags.dir/src/Quad.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc -o CMakeFiles/apriltags.dir/src/Quad.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o.requires
@@ -257,18 +257,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o.prov
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_10)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Segment.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/Segment.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/Segment.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc > CMakeFiles/apriltags.dir/src/Segment.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc > CMakeFiles/apriltags.dir/src/Segment.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/Segment.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc -o CMakeFiles/apriltags.dir/src/Segment.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc -o CMakeFiles/apriltags.dir/src/Segment.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o.requires
@@ -280,18 +280,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o.p
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_11)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/TagDetection.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/TagDetection.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/TagDetection.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc > CMakeFiles/apriltags.dir/src/TagDetection.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc > CMakeFiles/apriltags.dir/src/TagDetection.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/TagDetection.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc -o CMakeFiles/apriltags.dir/src/TagDetection.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc -o CMakeFiles/apriltags.dir/src/TagDetection.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o.requires
@@ -303,18 +303,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.c
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_12)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/TagDetector.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/TagDetector.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/TagDetector.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc > CMakeFiles/apriltags.dir/src/TagDetector.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc > CMakeFiles/apriltags.dir/src/TagDetector.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/TagDetector.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc -o CMakeFiles/apriltags.dir/src/TagDetector.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc -o CMakeFiles/apriltags.dir/src/TagDetector.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o.requires
@@ -326,18 +326,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_13)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/TagFamily.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/TagFamily.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/TagFamily.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc > CMakeFiles/apriltags.dir/src/TagFamily.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc > CMakeFiles/apriltags.dir/src/TagFamily.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/TagFamily.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc -o CMakeFiles/apriltags.dir/src/TagFamily.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc -o CMakeFiles/apriltags.dir/src/TagFamily.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o.requires
@@ -349,18 +349,18 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o.provides.build: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/flags.make
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_14)
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o -c /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o -c /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.i"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc > CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.i
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc > CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.i
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.s"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc -o CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.s
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc -o CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.s
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o.requires:
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o.requires
@@ -391,55 +391,55 @@ apriltags_OBJECTS = \
 # External object files for target apriltags
 apriltags_EXTERNAL_OBJECTS =
 
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/build.make
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_videostab.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_video.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_superres.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_stitching.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_photo.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_ocl.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_ml.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_legacy.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_highgui.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_gpu.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_features2d.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_core.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_contrib.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_photo.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_legacy.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_video.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_ml.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_features2d.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_highgui.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: /usr/lib/i386-linux-gnu/libopencv_core.so.2.4.8
-/home/filippos/ros_ws/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/filippos/ros_ws/devel/lib/libapriltags.so"
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltags.dir/link.txt --verbose=$(VERBOSE)
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/FloatImage.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLine2D.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GLineSegment2D.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Gaussian.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/GrayModel.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Homography33.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/MathUtil.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Quad.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Segment.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetection.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagDetector.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/TagFamily.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/build.make
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so"
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltags.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/build: /home/filippos/ros_ws/devel/lib/libapriltags.so
+apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/build: /home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/build
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/requires: apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/src/Edge.cc.o.requires
@@ -459,10 +459,10 @@ apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/requires: apriltag
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/requires
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/clean:
-	cd /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags && $(CMAKE_COMMAND) -P CMakeFiles/apriltags.dir/cmake_clean.cmake
+	cd /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags && $(CMAKE_COMMAND) -P CMakeFiles/apriltags.dir/cmake_clean.cmake
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/clean
 
 apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags /home/filippos/ros_ws/build /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags /home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags /home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apriltags_ros-indigo-devel/apriltags/CMakeFiles/apriltags.dir/depend
 

@@ -17,9 +17,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/filippos/ros_ws/devel/include"
-  "/home/filippos/ros_ws/src/dynamixel_pro_controller/include"
-  "/home/filippos/ros_ws/src/dynamixel_pro_driver/include"
+  "/home/d-lab/ExcavatorROS.git/devel/include"
+  "/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_controller/include"
+  "/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

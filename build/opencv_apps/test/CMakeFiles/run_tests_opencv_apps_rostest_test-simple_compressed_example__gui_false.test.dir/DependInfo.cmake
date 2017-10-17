@@ -16,9 +16,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/filippos/ros_ws/devel/include"
+  "/home/d-lab/ExcavatorROS.git/devel/include"
   "/usr/include/opencv"
-  "/home/filippos/ros_ws/src/opencv_apps/include"
+  "/home/d-lab/ExcavatorROS.git/src/opencv_apps/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/filippos/ros_ws/build/opencv_apps/simple_compressed_example.cpp" "/home/filippos/ros_ws/build/opencv_apps/CMakeFiles/simple_compressed_example_exe.dir/simple_compressed_example.cpp.o"
+  "/home/d-lab/ExcavatorROS.git/build/opencv_apps/simple_compressed_example.cpp" "/home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/simple_compressed_example_exe.dir/simple_compressed_example.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,9 +21,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/filippos/ros_ws/devel/include"
+  "/home/d-lab/ExcavatorROS.git/devel/include"
   "/usr/include/opencv"
-  "/home/filippos/ros_ws/src/opencv_apps/include"
+  "/home/d-lab/ExcavatorROS.git/src/opencv_apps/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

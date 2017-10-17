@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/filippos/ros_ws/build/CMakeFiles /home/filippos/ros_ws/build/video_stream_opencv/CMakeFiles/progress.marks
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/filippos/ros_ws/build/CMakeFiles 0
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/d-lab/ExcavatorROS.git/build/CMakeFiles /home/d-lab/ExcavatorROS.git/build/video_stream_opencv/CMakeFiles/progress.marks
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/d-lab/ExcavatorROS.git/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/clean
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/preinstall
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/preinstall
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 video_stream_opencv/CMakeFiles/video_stream.dir/rule:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/video_stream.dir/rule
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/video_stream.dir/rule
 .PHONY : video_stream_opencv/CMakeFiles/video_stream.dir/rule
 
 # Convenience name for target.
@@ -160,7 +160,7 @@ video_stream: video_stream_opencv/CMakeFiles/video_stream.dir/rule
 
 # fast build rule for target.
 video_stream/fast:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/build
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/build
 .PHONY : video_stream/fast
 
 src/video_stream.o: src/video_stream.cpp.o
@@ -168,7 +168,7 @@ src/video_stream.o: src/video_stream.cpp.o
 
 # target to build an object file
 src/video_stream.cpp.o:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/src/video_stream.cpp.o
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/src/video_stream.cpp.o
 .PHONY : src/video_stream.cpp.o
 
 src/video_stream.i: src/video_stream.cpp.i
@@ -176,7 +176,7 @@ src/video_stream.i: src/video_stream.cpp.i
 
 # target to preprocess a source file
 src/video_stream.cpp.i:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/src/video_stream.cpp.i
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/src/video_stream.cpp.i
 .PHONY : src/video_stream.cpp.i
 
 src/video_stream.s: src/video_stream.cpp.s
@@ -184,7 +184,7 @@ src/video_stream.s: src/video_stream.cpp.s
 
 # target to generate assembly for a file
 src/video_stream.cpp.s:
-	cd /home/filippos/ros_ws/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/src/video_stream.cpp.s
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f video_stream_opencv/CMakeFiles/video_stream.dir/build.make video_stream_opencv/CMakeFiles/video_stream.dir/src/video_stream.cpp.s
 .PHONY : src/video_stream.cpp.s
 
 # Help Target
@@ -215,6 +215,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

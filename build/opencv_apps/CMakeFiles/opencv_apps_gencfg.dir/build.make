@@ -35,568 +35,568 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Utility rule file for opencv_apps_gencfg.
 
 # Include the progress variables for this target.
 include opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/progress.make
 
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h
-opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py
-
-/home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/DiscreteFourierTransform.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/DiscreteFourierTransform.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/DiscreteFourierTransform.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
-
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
-
-/home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/AddingImages.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/AddingImages.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/AddingImages.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/AddingImagesConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/AddingImagesConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h
-
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/AddingImagesConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h
-
-/home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/Smoothing.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/Smoothing.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/Smoothing.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SmoothingConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SmoothingConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h
-
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h
-
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SmoothingConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h
-
-/home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/EdgeDetection.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/EdgeDetection.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h
+opencv_apps/CMakeFiles/opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/DiscreteFourierTransform.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/DiscreteFourierTransform.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/DiscreteFourierTransform.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/AddingImages.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/AddingImages.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/AddingImages.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/AddingImagesConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/AddingImagesConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/AddingImagesConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/Smoothing.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/Smoothing.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/Smoothing.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SmoothingConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SmoothingConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SmoothingConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h
+
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/EdgeDetection.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/EdgeDetection.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/EdgeDetectionConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/EdgeDetectionConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/EdgeDetectionConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/EdgeDetectionConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/EdgeDetectionConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/EdgeDetectionConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/HoughLines.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HoughLines.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/HoughLines.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughLines.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HoughLines.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughLines.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughLinesConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughLinesConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughLinesConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughLinesConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughLinesConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughLinesConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HoughCircles.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/HoughCircles.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HoughCircles.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HoughCircles.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughCirclesConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughCirclesConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughCirclesConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughCirclesConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughCirclesConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughCirclesConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/FindContours.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/FindContours.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/FindContours.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/FindContours.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/FindContours.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/FindContours.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FindContoursConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FindContoursConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FindContoursConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FindContoursConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FindContoursConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FindContoursConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/ConvexHull.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/ConvexHull.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/ConvexHull.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/ConvexHull.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/ConvexHull.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/ConvexHull.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ConvexHullConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ConvexHullConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ConvexHullConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ConvexHullConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ConvexHullConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ConvexHullConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/GeneralContours.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/GeneralContours.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/GeneralContours.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/GeneralContours.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/GeneralContours.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/GeneralContours.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/GeneralContoursConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GeneralContoursConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/GeneralContoursConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GeneralContoursConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/GeneralContoursConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GeneralContoursConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/ContourMoments.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/ContourMoments.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/ContourMoments.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/ContourMoments.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/ContourMoments.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/ContourMoments.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ContourMomentsConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ContourMomentsConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ContourMomentsConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ContourMomentsConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ContourMomentsConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ContourMomentsConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/FaceDetection.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/FaceDetection.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/FaceDetection.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/FaceDetection.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/FaceDetection.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/FaceDetection.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FaceDetectionConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FaceDetectionConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FaceDetectionConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FaceDetectionConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FaceDetectionConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FaceDetectionConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/GoodfeatureTrack.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/GoodfeatureTrack.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/GoodfeatureTrack.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/GoodfeatureTrack.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/GoodfeatureTrack.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/GoodfeatureTrack.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/GoodfeatureTrackConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GoodfeatureTrackConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/CornerHarris.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/CornerHarris.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/CornerHarris.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/CornerHarris.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/CornerHarris.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/CornerHarris.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/CornerHarrisConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CornerHarrisConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/CornerHarrisConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CornerHarrisConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/CornerHarrisConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CornerHarrisConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/CamShift.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/CamShift.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/CamShift.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/CamShift.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/CamShift.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/CamShift.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/CamShiftConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CamShiftConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/CamShiftConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CamShiftConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/CamShiftConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CamShiftConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/FBackFlow.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/FBackFlow.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/FBackFlow.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/FBackFlow.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/FBackFlow.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/FBackFlow.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FBackFlowConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FBackFlowConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FBackFlowConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FBackFlowConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/FBackFlowConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FBackFlowConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/LKFlow.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/LKFlow.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/LKFlow.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/LKFlow.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/LKFlow.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/LKFlow.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/LKFlowConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/LKFlowConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/LKFlowConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/LKFlowConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/LKFlowConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/LKFlowConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/PeopleDetect.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PeopleDetect.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/PeopleDetect.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/PeopleDetect.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PeopleDetect.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/PeopleDetect.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/PeopleDetectConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PeopleDetectConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/PeopleDetectConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PeopleDetectConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/PeopleDetectConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PeopleDetectConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/PhaseCorr.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PhaseCorr.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/PhaseCorr.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/PhaseCorr.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PhaseCorr.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/PhaseCorr.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/PhaseCorrConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PhaseCorrConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/PhaseCorrConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PhaseCorrConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/PhaseCorrConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PhaseCorrConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/SegmentObjects.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/SegmentObjects.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/SegmentObjects.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/SegmentObjects.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/SegmentObjects.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/SegmentObjects.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SegmentObjectsConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SegmentObjectsConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SegmentObjectsConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SegmentObjectsConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SegmentObjectsConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SegmentObjectsConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/SimpleFlow.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/SimpleFlow.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/SimpleFlow.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/SimpleFlow.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/SimpleFlow.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/SimpleFlow.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SimpleFlowConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SimpleFlowConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SimpleFlowConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SimpleFlowConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/SimpleFlowConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SimpleFlowConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/Threshold.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/Threshold.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/Threshold.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/Threshold.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/Threshold.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/Threshold.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ThresholdConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ThresholdConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ThresholdConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ThresholdConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/ThresholdConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ThresholdConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/RGBColorFilter.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/RGBColorFilter.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/RGBColorFilter.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/RGBColorFilter.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/RGBColorFilter.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/RGBColorFilter.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/RGBColorFilterConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/RGBColorFilterConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/RGBColorFilterConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/RGBColorFilterConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/RGBColorFilterConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/RGBColorFilterConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/HLSColorFilter.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HLSColorFilter.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/HLSColorFilter.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HLSColorFilter.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HLSColorFilter.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HLSColorFilter.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HLSColorFilterConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HLSColorFilterConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HLSColorFilterConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HLSColorFilterConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HLSColorFilterConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HLSColorFilterConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/HSVColorFilter.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HSVColorFilter.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/HSVColorFilter.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HSVColorFilter.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HSVColorFilter.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/HSVColorFilter.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HSVColorFilterConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HSVColorFilterConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HSVColorFilterConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HSVColorFilterConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/HSVColorFilterConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HSVColorFilterConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h
 
-/home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h: /home/filippos/ros_ws/src/opencv_apps/cfg/WatershedSegmentation.cfg
-/home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/filippos/ros_ws/build/CMakeFiles $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/WatershedSegmentation.cfg: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py"
-	cd /home/filippos/ros_ws/build/opencv_apps && ../catkin_generated/env_cached.sh /home/filippos/ros_ws/build/opencv_apps/setup_custom_pythonpath.sh /home/filippos/ros_ws/src/opencv_apps/cfg/WatershedSegmentation.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/filippos/ros_ws/devel/share/opencv_apps /home/filippos/ros_ws/devel/include/opencv_apps /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h: /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/WatershedSegmentation.cfg
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/WatershedSegmentation.cfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py"
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && ../catkin_generated/env_cached.sh /home/d-lab/ExcavatorROS.git/build/opencv_apps/setup_custom_pythonpath.sh /home/d-lab/ExcavatorROS.git/src/opencv_apps/cfg/WatershedSegmentation.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/WatershedSegmentationConfig.dox: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/WatershedSegmentationConfig.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/WatershedSegmentationConfig-usage.dox: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/WatershedSegmentationConfig-usage.dox: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h
 
-/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h
 
-/home/filippos/ros_ws/devel/share/opencv_apps/docs/WatershedSegmentationConfig.wikidoc: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h
+/home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/WatershedSegmentationConfig.wikidoc: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h
 
 opencv_apps_gencfg: opencv_apps/CMakeFiles/opencv_apps_gencfg
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/AddingImagesConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/AddingImagesConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/AddingImagesConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/AddingImagesConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/SmoothingConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SmoothingConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SmoothingConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SmoothingConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/EdgeDetectionConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/EdgeDetectionConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/EdgeDetectionConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/EdgeDetectionConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HoughLinesConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughLinesConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughLinesConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughLinesConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HoughCirclesConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughCirclesConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughCirclesConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HoughCirclesConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/FindContoursConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FindContoursConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FindContoursConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FindContoursConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/ConvexHullConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ConvexHullConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ConvexHullConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ConvexHullConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/GeneralContoursConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/GeneralContoursConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/GeneralContoursConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/GeneralContoursConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/ContourMomentsConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ContourMomentsConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ContourMomentsConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ContourMomentsConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/FaceDetectionConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FaceDetectionConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FaceDetectionConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FaceDetectionConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/GoodfeatureTrackConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/GoodfeatureTrackConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/CornerHarrisConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/CornerHarrisConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/CornerHarrisConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/CornerHarrisConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/CamShiftConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/CamShiftConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/CamShiftConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/CamShiftConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/FBackFlowConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FBackFlowConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FBackFlowConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/FBackFlowConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/LKFlowConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/LKFlowConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/LKFlowConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/LKFlowConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/PeopleDetectConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/PeopleDetectConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/PeopleDetectConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/PeopleDetectConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/PhaseCorrConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/PhaseCorrConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/PhaseCorrConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/PhaseCorrConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/SegmentObjectsConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SegmentObjectsConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SegmentObjectsConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SegmentObjectsConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/SimpleFlowConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SimpleFlowConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SimpleFlowConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/SimpleFlowConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/ThresholdConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ThresholdConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ThresholdConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/ThresholdConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/RGBColorFilterConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/RGBColorFilterConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/RGBColorFilterConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/RGBColorFilterConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HLSColorFilterConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HLSColorFilterConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HLSColorFilterConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HLSColorFilterConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/HSVColorFilterConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HSVColorFilterConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HSVColorFilterConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/HSVColorFilterConfig.wikidoc
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/include/opencv_apps/WatershedSegmentationConfig.h
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/WatershedSegmentationConfig.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/WatershedSegmentationConfig-usage.dox
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py
-opencv_apps_gencfg: /home/filippos/ros_ws/devel/share/opencv_apps/docs/WatershedSegmentationConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/DiscreteFourierTransformConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/DiscreteFourierTransformConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/DiscreteFourierTransformConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/AddingImagesConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/AddingImagesConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/AddingImagesConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/AddingImagesConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SmoothingConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SmoothingConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SmoothingConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SmoothingConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SmoothingConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/EdgeDetectionConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/EdgeDetectionConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/EdgeDetectionConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/EdgeDetectionConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/EdgeDetectionConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughLinesConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughLinesConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughLinesConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughLinesConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughLinesConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HoughCirclesConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughCirclesConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughCirclesConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HoughCirclesConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HoughCirclesConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FindContoursConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FindContoursConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FindContoursConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FindContoursConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FindContoursConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ConvexHullConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ConvexHullConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ConvexHullConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ConvexHullConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ConvexHullConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GeneralContoursConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GeneralContoursConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GeneralContoursConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GeneralContoursConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GeneralContoursConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ContourMomentsConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ContourMomentsConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ContourMomentsConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ContourMomentsConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ContourMomentsConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FaceDetectionConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FaceDetectionConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FaceDetectionConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FaceDetectionConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FaceDetectionConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/GoodfeatureTrackConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GoodfeatureTrackConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/GoodfeatureTrackConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CornerHarrisConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CornerHarrisConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CornerHarrisConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CornerHarrisConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CornerHarrisConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CamShiftConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CamShiftConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/CamShiftConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/CamShiftConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/FBackFlowConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FBackFlowConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FBackFlowConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/FBackFlowConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/FBackFlowConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/LKFlowConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/LKFlowConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/LKFlowConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/LKFlowConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/LKFlowConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PeopleDetectConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PeopleDetectConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PeopleDetectConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PeopleDetectConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PeopleDetectConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/PhaseCorrConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PhaseCorrConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PhaseCorrConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/PhaseCorrConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/PhaseCorrConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SegmentObjectsConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SegmentObjectsConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SegmentObjectsConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SegmentObjectsConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SegmentObjectsConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/SimpleFlowConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SimpleFlowConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SimpleFlowConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/SimpleFlowConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/SimpleFlowConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/ThresholdConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ThresholdConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ThresholdConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/ThresholdConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/ThresholdConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/RGBColorFilterConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/RGBColorFilterConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/RGBColorFilterConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/RGBColorFilterConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/RGBColorFilterConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HLSColorFilterConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HLSColorFilterConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HLSColorFilterConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HLSColorFilterConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HLSColorFilterConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/HSVColorFilterConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HSVColorFilterConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HSVColorFilterConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/HSVColorFilterConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/HSVColorFilterConfig.wikidoc
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/WatershedSegmentationConfig.h
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/WatershedSegmentationConfig.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/WatershedSegmentationConfig-usage.dox
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/cfg/WatershedSegmentationConfig.py
+opencv_apps_gencfg: /home/d-lab/ExcavatorROS.git/devel/share/opencv_apps/docs/WatershedSegmentationConfig.wikidoc
 opencv_apps_gencfg: opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/build.make
 .PHONY : opencv_apps_gencfg
 
@@ -605,10 +605,10 @@ opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/build: opencv_apps_gencfg
 .PHONY : opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/build
 
 opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/clean:
-	cd /home/filippos/ros_ws/build/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/opencv_apps_gencfg.dir/cmake_clean.cmake
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/opencv_apps_gencfg.dir/cmake_clean.cmake
 .PHONY : opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/clean
 
 opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src/opencv_apps /home/filippos/ros_ws/build /home/filippos/ros_ws/build/opencv_apps /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src/opencv_apps /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/opencv_apps /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : opencv_apps/CMakeFiles/opencv_apps_gencfg.dir/depend
 

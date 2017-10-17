@@ -1,8 +1,8 @@
-# Install script for directory: /home/filippos/ros_ws/src/ximea_camera
+# Install script for directory: /home/d-lab/ExcavatorROS.git/src/ximea_camera
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/filippos/ros_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/d-lab/ExcavatorROS.git/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/filippos/ros_ws/build/ximea_camera/catkin_generated/installspace/ximea_camera.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/build/ximea_camera/catkin_generated/installspace/ximea_camera.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_camera/cmake" TYPE FILE FILES
-    "/home/filippos/ros_ws/build/ximea_camera/catkin_generated/installspace/ximea_cameraConfig.cmake"
-    "/home/filippos/ros_ws/build/ximea_camera/catkin_generated/installspace/ximea_cameraConfig-version.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/ximea_camera/catkin_generated/installspace/ximea_cameraConfig.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/ximea_camera/catkin_generated/installspace/ximea_cameraConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_camera" TYPE FILE FILES "/home/filippos/ros_ws/src/ximea_camera/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_camera" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/src/ximea_camera/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

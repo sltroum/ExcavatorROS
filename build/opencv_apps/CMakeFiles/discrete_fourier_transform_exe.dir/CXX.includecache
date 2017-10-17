@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/build/opencv_apps/discrete_fourier_transform.cpp
+/home/d-lab/ExcavatorROS.git/build/opencv_apps/discrete_fourier_transform.cpp
 ros/ros.h
 -
 nodelet/loader.h

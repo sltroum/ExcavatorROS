@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/src/ex_model/src/test_excavator_model.cpp
+/home/d-lab/ExcavatorROS.git/src/ex_model/src/test_excavator_model.cpp
 sensor_msgs/JointState.h
 -
 

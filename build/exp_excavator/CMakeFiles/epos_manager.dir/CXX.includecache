@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h
+/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/filippos/ros_ws/src/exp_excavator/src/epos_manager.cpp
+/home/d-lab/ExcavatorROS.git/src/exp_excavator/src/epos_manager.cpp
 iostream
 -
 stdio.h
@@ -126,6 +126,8 @@ cstdarg
 ros/macros.h
 -
 map
+-
+vector
 -
 log4cxx/level.h
 /opt/ros/indigo/include/ros/log4cxx/level.h

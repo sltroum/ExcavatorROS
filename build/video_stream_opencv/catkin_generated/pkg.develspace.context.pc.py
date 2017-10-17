@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "video_stream_opencv"
-PROJECT_SPACE_DIR = "/home/filippos/ros_ws/devel"
+PROJECT_SPACE_DIR = "/home/d-lab/ExcavatorROS.git/devel"
 PROJECT_VERSION = "1.0.2"

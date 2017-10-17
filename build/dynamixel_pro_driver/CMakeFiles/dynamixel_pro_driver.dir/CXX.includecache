@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/src/dynamixel_pro_driver/include/dynamixel_pro_driver/dynamixel_const.h
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/include/dynamixel_pro_driver/dynamixel_const.h
 stdint.h
 -
 string
 -
 
-/home/filippos/ros_ws/src/dynamixel_pro_driver/include/dynamixel_pro_driver/dynamixel_pro_driver.h
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/include/dynamixel_pro_driver/dynamixel_pro_driver.h
 pthread.h
 -
 stdint.h
@@ -28,7 +28,7 @@ vector
 serial/serial.h
 -
 
-/home/filippos/ros_ws/src/dynamixel_pro_driver/src/dynamixel_pro_driver.cpp
+/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/src/dynamixel_pro_driver.cpp
 time.h
 -
 stdio.h
@@ -132,6 +132,8 @@ cstdarg
 ros/macros.h
 -
 map
+-
+vector
 -
 log4cxx/level.h
 /opt/ros/indigo/include/ros/log4cxx/level.h

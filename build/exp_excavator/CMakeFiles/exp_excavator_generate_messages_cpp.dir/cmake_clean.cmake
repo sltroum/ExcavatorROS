@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/exp_excavator_generate_messages_cpp"
-  "/home/filippos/ros_ws/devel/include/exp_excavator/JointCalibration.h"
-  "/home/filippos/ros_ws/devel/include/exp_excavator/JointValues.h"
+  "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h"
+  "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h"
 )
 
 # Per-language clean rules from dependency scanning.

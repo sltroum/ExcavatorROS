@@ -13,8 +13,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/apriltags.dir/src/TagDetector.cc.o"
   "CMakeFiles/apriltags.dir/src/TagFamily.cc.o"
   "CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o"
-  "/home/filippos/ros_ws/devel/lib/libapriltags.pdb"
-  "/home/filippos/ros_ws/devel/lib/libapriltags.so"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Utility rule file for tests.
 
@@ -60,6 +60,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src /home/filippos/ros_ws/build /home/filippos/ros_ws/build /home/filippos/ros_ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

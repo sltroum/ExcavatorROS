@@ -16,10 +16,10 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/filippos/ros_ws/devel/include"
-  "/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags_ros/include"
+  "/home/d-lab/ExcavatorROS.git/devel/include"
+  "/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags_ros/include"
   "/usr/include/eigen3"
-  "/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include"
+  "/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include"
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
   )

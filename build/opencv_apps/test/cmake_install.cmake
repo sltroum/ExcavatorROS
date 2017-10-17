@@ -1,8 +1,8 @@
-# Install script for directory: /home/filippos/ros_ws/src/opencv_apps/test
+# Install script for directory: /home/d-lab/ExcavatorROS.git/src/opencv_apps/test
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/filippos/ros_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/d-lab/ExcavatorROS.git/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

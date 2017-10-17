@@ -1,8 +1,8 @@
-# Install script for directory: /home/filippos/ros_ws/src/ex_model
+# Install script for directory: /home/d-lab/ExcavatorROS.git/src/ex_model
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/filippos/ros_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/d-lab/ExcavatorROS.git/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/filippos/ros_ws/build/ex_model/catkin_generated/installspace/ex_model.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/build/ex_model/catkin_generated/installspace/ex_model.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_model/cmake" TYPE FILE FILES
-    "/home/filippos/ros_ws/build/ex_model/catkin_generated/installspace/ex_modelConfig.cmake"
-    "/home/filippos/ros_ws/build/ex_model/catkin_generated/installspace/ex_modelConfig-version.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/ex_model/catkin_generated/installspace/ex_modelConfig.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/ex_model/catkin_generated/installspace/ex_modelConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_model" TYPE FILE FILES "/home/filippos/ros_ws/src/ex_model/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_model" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/src/ex_model/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

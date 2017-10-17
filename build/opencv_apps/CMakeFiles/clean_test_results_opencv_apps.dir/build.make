@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Utility rule file for clean_test_results_opencv_apps.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
 include opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/progress.make
 
 opencv_apps/CMakeFiles/clean_test_results_opencv_apps:
-	cd /home/filippos/ros_ws/build/opencv_apps && /usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/filippos/ros_ws/build/test_results/opencv_apps
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && /usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/d-lab/ExcavatorROS.git/build/test_results/opencv_apps
 
 clean_test_results_opencv_apps: opencv_apps/CMakeFiles/clean_test_results_opencv_apps
 clean_test_results_opencv_apps: opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/build.make
@@ -57,10 +57,10 @@ opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/build: clean_test_resu
 .PHONY : opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/build
 
 opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/clean:
-	cd /home/filippos/ros_ws/build/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_opencv_apps.dir/cmake_clean.cmake
+	cd /home/d-lab/ExcavatorROS.git/build/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_opencv_apps.dir/cmake_clean.cmake
 .PHONY : opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/clean
 
 opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src/opencv_apps /home/filippos/ros_ws/build /home/filippos/ros_ws/build/opencv_apps /home/filippos/ros_ws/build/opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src/opencv_apps /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/opencv_apps /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir/depend
 

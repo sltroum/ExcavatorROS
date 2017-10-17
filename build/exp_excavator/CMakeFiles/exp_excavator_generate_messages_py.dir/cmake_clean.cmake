@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/exp_excavator_generate_messages_py"
-  "/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py"
-  "/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py"
-  "/home/filippos/ros_ws/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

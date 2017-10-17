@@ -1,1 +1,0 @@
-cmd='./Configure;1;n;n;n'

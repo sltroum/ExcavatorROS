@@ -1,8 +1,8 @@
-prefix=/home/filippos/ros_ws/install
+prefix=/home/d-lab/ExcavatorROS.git/install
 
 Name: opt_flow
 Description: Description of opt_flow
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/filippos/ros_ws/install/lib 
+Libs: -L/home/d-lab/ExcavatorROS.git/install/lib 
 Requires: 

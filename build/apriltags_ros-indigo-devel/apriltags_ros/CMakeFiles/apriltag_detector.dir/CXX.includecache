@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/devel/include/apriltags_ros/AprilTagDetection.h
+/home/d-lab/ExcavatorROS.git/devel/include/apriltags_ros/AprilTagDetection.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/filippos/ros_ws/devel/include/apriltags_ros/AprilTagDetectionArray.h
+/home/d-lab/ExcavatorROS.git/devel/include/apriltags_ros/AprilTagDetectionArray.h
 string
 -
 vector
@@ -42,45 +42,45 @@ ros/message_operations.h
 apriltags_ros/AprilTagDetection.h
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/FloatImage.h
 algorithm
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag16h5.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag16h5.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h7.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h7.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h9.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h9.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h11.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h11.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h9.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h9.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetection.h
 Eigen/Dense
 -
 opencv2/opencv.hpp
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
 utility
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetector.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetector.h
 vector
 -
 opencv2/opencv.hpp
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
 AprilTags/TagDetection.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
 AprilTags/TagFamily.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagFamily.h
 AprilTags/FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/FloatImage.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagFamily.h
 climits
 -
 cmath
@@ -92,9 +92,9 @@ vector
 map
 -
 AprilTags/TagDetection.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags_ros/include/apriltags_ros/apriltag_detector.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags_ros/include/apriltags_ros/apriltag_detector.h
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -104,7 +104,7 @@ AprilTags/TagDetector.h
 tf/transform_broadcaster.h
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags_ros/src/apriltag_detector.cpp
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags_ros/src/apriltag_detector.cpp
 apriltags_ros/apriltag_detector.h
 -
 cv_bridge/cv_bridge.h

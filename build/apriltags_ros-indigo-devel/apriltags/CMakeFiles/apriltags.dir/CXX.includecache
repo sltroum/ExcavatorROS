@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Edge.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Edge.h
 vector
 -
 AprilTags/FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/FloatImage.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/FloatImage.h
 algorithm
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GLine2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GLine2D.h
 cmath
 -
 utility
@@ -26,11 +26,11 @@ utility
 vector
 -
 MathUtil.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/MathUtil.h
 XYWeight.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/XYWeight.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/XYWeight.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GLineSegment2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GLineSegment2D.h
 algorithm
 -
 cfloat
@@ -40,23 +40,23 @@ cmath
 utility
 -
 GLine2D.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GLine2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GLine2D.h
 XYWeight.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/XYWeight.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/XYWeight.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Gaussian.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Gaussian.h
 cmath
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GrayModel.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/GrayModel.h
 Eigen/Dense
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Gridder.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Gridder.h
 algorithm
 -
 iterator
@@ -64,9 +64,9 @@ iterator
 vector
 -
 Segment.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Segment.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Segment.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Homography33.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Homography33.h
 utility
 -
 vector
@@ -74,7 +74,7 @@ vector
 Eigen/Dense
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/MathUtil.h
 cmath
 -
 cfloat
@@ -86,7 +86,7 @@ ostream
 utility
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Quad.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Quad.h
 utility
 -
 vector
@@ -94,51 +94,51 @@ vector
 Eigen/Dense
 -
 Homography33.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Homography33.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Homography33.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Segment.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Segment.h
 cmath
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag16h5.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag16h5.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag16h5_other.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag16h5_other.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h7.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h7.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h9.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag25h9.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h11.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h11.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h11_other.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h11_other.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h9.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/Tag36h9.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetection.h
 Eigen/Dense
 -
 opencv2/opencv.hpp
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
 utility
 -
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetector.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagDetector.h
 vector
 -
 opencv2/opencv.hpp
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/opencv2/opencv.hpp
 AprilTags/TagDetection.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
 AprilTags/TagFamily.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagFamily.h
 AprilTags/FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/FloatImage.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/TagFamily.h
 climits
 -
 cmath
@@ -150,49 +150,49 @@ vector
 map
 -
 AprilTags/TagDetection.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/AprilTags/TagDetection.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/UnionFindSimple.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/UnionFindSimple.h
 vector
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/XYWeight.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/AprilTags/XYWeight.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Edge.cc
 AprilTags/Edge.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Edge.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Edge.h
 AprilTags/FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/FloatImage.h
 AprilTags/MathUtil.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/MathUtil.h
 AprilTags/UnionFindSimple.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/UnionFindSimple.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/UnionFindSimple.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.cc
 FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/FloatImage.h
 Gaussian.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.h
 iostream
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.cc
 GLine2D.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLine2D.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.cc
 GLineSegment2D.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GLineSegment2D.h
 limits
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.cc
 Gaussian.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Gaussian.h
 iostream
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/GrayModel.cc
 iostream
 -
 Eigen/Dense
@@ -200,9 +200,9 @@ Eigen/Dense
 Eigen/LU
 -
 AprilTags/GrayModel.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GrayModel.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GrayModel.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.cc
 iostream
 -
 Eigen/Dense
@@ -210,41 +210,41 @@ Eigen/Dense
 opencv2/opencv.hpp
 -
 Homography33.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Homography33.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.cc
 MathUtil.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Quad.cc
 Eigen/Dense
 -
 AprilTags/FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/FloatImage.h
 AprilTags/MathUtil.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/MathUtil.h
 AprilTags/GLine2D.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GLine2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GLine2D.h
 AprilTags/Quad.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Quad.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Quad.h
 AprilTags/Segment.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Segment.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Segment.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Segment.cc
 Segment.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/Segment.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/Segment.h
 iostream
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.cc
 opencv2/opencv.hpp
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/opencv2/opencv.hpp
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/opencv2/opencv.hpp
 TagDetection.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetection.h
 MathUtil.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/MathUtil.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagDetector.cc
 algorithm
 -
 cmath
@@ -260,67 +260,67 @@ iostream
 Eigen/Dense
 -
 AprilTags/Edge.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Edge.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Edge.h
 AprilTags/FloatImage.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/FloatImage.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/FloatImage.h
 AprilTags/Gaussian.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Gaussian.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Gaussian.h
 AprilTags/GrayModel.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GrayModel.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GrayModel.h
 AprilTags/GLine2D.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GLine2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GLine2D.h
 AprilTags/GLineSegment2D.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GLineSegment2D.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/GLineSegment2D.h
 AprilTags/Gridder.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Gridder.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Gridder.h
 AprilTags/Homography33.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Homography33.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Homography33.h
 AprilTags/MathUtil.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/MathUtil.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/MathUtil.h
 AprilTags/Quad.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Quad.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Quad.h
 AprilTags/Segment.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Segment.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Segment.h
 AprilTags/TagFamily.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/TagFamily.h
 AprilTags/UnionFindSimple.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/UnionFindSimple.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/UnionFindSimple.h
 AprilTags/XYWeight.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/XYWeight.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/XYWeight.h
 AprilTags/TagDetector.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/TagDetector.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/TagDetector.h
 opencv/cv.h
 -
 opencv/highgui.h
 -
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.cc
 iostream
 -
 TagFamily.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/TagFamily.h
 AprilTags/TagFamily.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/TagFamily.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/TagFamily.h
 AprilTags/Tag36h11.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h11.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h11.h
 AprilTags/Tag16h5.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag16h5.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag16h5.h
 AprilTags/Tag16h5_other.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag16h5_other.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag16h5_other.h
 AprilTags/Tag25h7.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag25h7.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag25h7.h
 AprilTags/Tag25h9.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag25h9.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag25h9.h
 AprilTags/Tag36h11.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h11.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h11.h
 AprilTags/Tag36h11_other.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h11_other.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h11_other.h
 AprilTags/Tag36h9.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h9.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/AprilTags/Tag36h9.h
 
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.cc
 UnionFindSimple.h
-/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.h
+/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/src/UnionFindSimple.h
 iostream
 -
 

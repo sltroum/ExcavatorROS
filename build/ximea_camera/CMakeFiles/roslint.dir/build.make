@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filippos/ros_ws/src
+CMAKE_SOURCE_DIR = /home/d-lab/ExcavatorROS.git/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filippos/ros_ws/build
+CMAKE_BINARY_DIR = /home/d-lab/ExcavatorROS.git/build
 
 # Utility rule file for roslint.
 
@@ -56,10 +56,10 @@ ximea_camera/CMakeFiles/roslint.dir/build: roslint
 .PHONY : ximea_camera/CMakeFiles/roslint.dir/build
 
 ximea_camera/CMakeFiles/roslint.dir/clean:
-	cd /home/filippos/ros_ws/build/ximea_camera && $(CMAKE_COMMAND) -P CMakeFiles/roslint.dir/cmake_clean.cmake
+	cd /home/d-lab/ExcavatorROS.git/build/ximea_camera && $(CMAKE_COMMAND) -P CMakeFiles/roslint.dir/cmake_clean.cmake
 .PHONY : ximea_camera/CMakeFiles/roslint.dir/clean
 
 ximea_camera/CMakeFiles/roslint.dir/depend:
-	cd /home/filippos/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filippos/ros_ws/src /home/filippos/ros_ws/src/ximea_camera /home/filippos/ros_ws/build /home/filippos/ros_ws/build/ximea_camera /home/filippos/ros_ws/build/ximea_camera/CMakeFiles/roslint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/d-lab/ExcavatorROS.git/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/d-lab/ExcavatorROS.git/src /home/d-lab/ExcavatorROS.git/src/ximea_camera /home/d-lab/ExcavatorROS.git/build /home/d-lab/ExcavatorROS.git/build/ximea_camera /home/d-lab/ExcavatorROS.git/build/ximea_camera/CMakeFiles/roslint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ximea_camera/CMakeFiles/roslint.dir/depend
 

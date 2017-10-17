@@ -1,8 +1,8 @@
-prefix=/home/filippos/ros_ws/devel
+prefix=/home/d-lab/ExcavatorROS.git/devel
 
 Name: dynamixel_pro_driver
 Description: Description of dynamixel_pro_driver
 Version: 0.8.3
-Cflags: -I/home/filippos/ros_ws/src/dynamixel_pro_driver/include
-Libs: -L/home/filippos/ros_ws/devel/lib -ldynamixel_pro_driver
+Cflags: -I/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/include
+Libs: -L/home/d-lab/ExcavatorROS.git/devel/lib -ldynamixel_pro_driver
 Requires: serial

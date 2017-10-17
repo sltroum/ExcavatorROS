@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/filippos/ros_ws/src/optoforce/src".split(";")
+__extended_path = "/home/d-lab/ExcavatorROS.git/src/optoforce/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

@@ -25,8 +25,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/opencv_apps.dir/src/nodelet/simple_example_nodelet.cpp.o"
   "CMakeFiles/opencv_apps.dir/src/nodelet/simple_compressed_example_nodelet.cpp.o"
   "CMakeFiles/opencv_apps.dir/src/nodelet/simple_flow_nodelet.cpp.o"
-  "/home/filippos/ros_ws/devel/lib/libopencv_apps.pdb"
-  "/home/filippos/ros_ws/devel/lib/libopencv_apps.so"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/libopencv_apps.pdb"
+  "/home/d-lab/ExcavatorROS.git/devel/lib/libopencv_apps.so"
 )
 
 # Per-language clean rules from dependency scanning.

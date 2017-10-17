@@ -1,8 +1,8 @@
-# Install script for directory: /home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags
+# Install script for directory: /home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/filippos/ros_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/d-lab/ExcavatorROS.git/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags/catkin_generated/installspace/apriltags.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags/catkin_generated/installspace/apriltags.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags/cmake" TYPE FILE FILES
-    "/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags/catkin_generated/installspace/apriltagsConfig.cmake"
-    "/home/filippos/ros_ws/build/apriltags_ros-indigo-devel/apriltags/catkin_generated/installspace/apriltagsConfig-version.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags/catkin_generated/installspace/apriltagsConfig.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags/catkin_generated/installspace/apriltagsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags" TYPE FILE FILES "/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libapriltags.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/filippos/ros_ws/devel/lib/libapriltags.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/d-lab/ExcavatorROS.git/devel/lib/libapriltags.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libapriltags.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libapriltags.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -64,6 +64,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/filippos/ros_ws/src/apriltags_ros-indigo-devel/apriltags/include/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/d-lab/ExcavatorROS.git/src/apriltags_ros-indigo-devel/apriltags/include/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

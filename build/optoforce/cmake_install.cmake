@@ -1,8 +1,8 @@
-# Install script for directory: /home/filippos/ros_ws/src/optoforce
+# Install script for directory: /home/d-lab/ExcavatorROS.git/src/optoforce
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/filippos/ros_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/d-lab/ExcavatorROS.git/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,29 +33,29 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  INCLUDE("/home/filippos/ros_ws/build/optoforce/catkin_generated/safe_execute_install.cmake")
+  INCLUDE("/home/d-lab/ExcavatorROS.git/build/optoforce/catkin_generated/safe_execute_install.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/filippos/ros_ws/build/optoforce/catkin_generated/installspace/optoforce.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/build/optoforce/catkin_generated/installspace/optoforce.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optoforce/cmake" TYPE FILE FILES
-    "/home/filippos/ros_ws/build/optoforce/catkin_generated/installspace/optoforceConfig.cmake"
-    "/home/filippos/ros_ws/build/optoforce/catkin_generated/installspace/optoforceConfig-version.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/optoforce/catkin_generated/installspace/optoforceConfig.cmake"
+    "/home/d-lab/ExcavatorROS.git/build/optoforce/catkin_generated/installspace/optoforceConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optoforce" TYPE FILE FILES "/home/filippos/ros_ws/src/optoforce/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optoforce" TYPE FILE FILES "/home/d-lab/ExcavatorROS.git/src/optoforce/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/optoforce" TYPE PROGRAM FILES "/home/filippos/ros_ws/src/optoforce/src/optoforce/optoforce_node.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/optoforce" TYPE PROGRAM FILES "/home/d-lab/ExcavatorROS.git/src/optoforce/src/optoforce/optoforce_node.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optoforce/launch" TYPE DIRECTORY FILES "/home/filippos/ros_ws/src/optoforce/launch/")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optoforce/launch" TYPE DIRECTORY FILES "/home/d-lab/ExcavatorROS.git/src/optoforce/launch/")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

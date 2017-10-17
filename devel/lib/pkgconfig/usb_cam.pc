@@ -1,8 +1,8 @@
-prefix=/home/filippos/ros_ws/devel
+prefix=/home/d-lab/ExcavatorROS.git/devel
 
 Name: usb_cam
 Description: Description of usb_cam
 Version: 0.3.4
-Cflags: -I/home/filippos/ros_ws/src/usb_cam/include
-Libs: -L/home/filippos/ros_ws/devel/lib -lusb_cam
+Cflags: -I/home/d-lab/ExcavatorROS.git/src/usb_cam/include
+Libs: -L/home/d-lab/ExcavatorROS.git/devel/lib -lusb_cam
 Requires: 

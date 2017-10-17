@@ -1,8 +1,8 @@
-prefix=/home/filippos/ros_ws/devel
+prefix=/home/d-lab/ExcavatorROS.git/devel
 
 Name: ximea_camera
 Description: Description of ximea_camera
 Version: 1.0.0
 Cflags: 
-Libs: -L/home/filippos/ros_ws/devel/lib -lximea_camera
+Libs: -L/home/d-lab/ExcavatorROS.git/devel/lib -lximea_camera
 Requires: roscpp
