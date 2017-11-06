@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(apriltags_ros-indigo-devel/apriltags)
+SUBDIRS(wjwwood-serial-827c4a7)
 SUBDIRS(dynamixel_pro_driver)
 SUBDIRS(dynamixel_pro_controller)
 SUBDIRS(opt_flow)

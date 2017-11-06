@@ -81,7 +81,7 @@ dynamixel_pro_driver_EXTERNAL_OBJECTS =
 
 /home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so: dynamixel_pro_driver/CMakeFiles/dynamixel_pro_driver.dir/src/dynamixel_pro_driver.cpp.o
 /home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so: dynamixel_pro_driver/CMakeFiles/dynamixel_pro_driver.dir/build.make
-/home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so: /opt/ros/indigo/lib/libserial.so
+/home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so: /home/d-lab/ExcavatorROS.git/devel/lib/libserial.so
 /home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so: dynamixel_pro_driver/CMakeFiles/dynamixel_pro_driver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so"
 	cd /home/d-lab/ExcavatorROS.git/build/dynamixel_pro_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamixel_pro_driver.dir/link.txt --verbose=$(VERBOSE)

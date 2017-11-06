@@ -1,21 +1,21 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1792800775/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1792800775.dir/build.make CMakeFiles/cmTryCompileExec1792800775.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec978615737/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec978615737.dir/build.make CMakeFiles/cmTryCompileExec978615737.dir/build
 make[1]: Entering directory `/home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1792800775.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1792800775.dir/CheckSymbolExists.c.o   -c /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1792800775
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1792800775.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1792800775.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1792800775 -rdynamic 
-CMakeFiles/cmTryCompileExec1792800775.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec978615737.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec978615737.dir/CheckSymbolExists.c.o   -c /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec978615737
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec978615737.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec978615737.dir/CheckSymbolExists.c.o  -o cmTryCompileExec978615737 -rdynamic 
+CMakeFiles/cmTryCompileExec978615737.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1792800775] Error 1
+make[1]: *** [cmTryCompileExec978615737] Error 1
 make[1]: Leaving directory `/home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1792800775/fast] Error 2
+make: *** [cmTryCompileExec978615737/fast] Error 2
 
 File /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -35,19 +35,19 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3598441808/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3598441808.dir/build.make CMakeFiles/cmTryCompileExec3598441808.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec294486281/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec294486281.dir/build.make CMakeFiles/cmTryCompileExec294486281.dir/build
 make[1]: Entering directory `/home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3598441808.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3598441808.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3598441808
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3598441808.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3598441808.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3598441808 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec294486281.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec294486281.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec294486281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec294486281.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec294486281.dir/CheckFunctionExists.c.o  -o cmTryCompileExec294486281 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
 make[1]: Leaving directory `/home/d-lab/ExcavatorROS.git/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec3598441808] Error 1
-make: *** [cmTryCompileExec3598441808/fast] Error 2
+make[1]: *** [cmTryCompileExec294486281] Error 1
+make: *** [cmTryCompileExec294486281/fast] Error 2
 
 

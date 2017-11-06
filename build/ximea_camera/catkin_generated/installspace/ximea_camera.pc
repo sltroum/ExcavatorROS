@@ -1,8 +1,0 @@
-prefix=/home/d-lab/ExcavatorROS.git/install
-
-Name: ximea_camera
-Description: Description of ximea_camera
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/d-lab/ExcavatorROS.git/install/lib -lximea_camera
-Requires: roscpp

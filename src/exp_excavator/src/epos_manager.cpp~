@@ -23,7 +23,6 @@ public:
         void GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId);
         void GetCurrentVelocityAllDevice(double* CurrentVelocity);
         void GetCurrentVelocity(void *keyHandle_, int *CurrentVelocity, unsigned short nodeId);
-	void publishJointStates(const ros::TimerEvent&);
 	
 	ros::NodeHandle n;
 	ros::Subscriber subSpdCom;
@@ -45,7 +44,7 @@ EposManager::EposManager() {
 	char *pProtocolStackName = (char*)"MAXON SERIAL V2";
 	char *pInterfaceName = (char*)"USB";
 	char *pPortNameBoom = (char*)"USB0";
-	char *pPortNameArm = (char*)"USB1";
+	char *pPortNameArm = (char*)"USB4";
         
 
 	nodeIdBoom = 1;
@@ -131,21 +130,6 @@ void EposManager::spdComCallback(
 	
         }
 
-
-void EposManager::publishJointStates(const ros::TimerEvent& event)
-{
-
-    sensor_msgs::JointState msg;
-//    msg.header.stamp = ros::Time::now();
-//    EposManager::GetCurrentPositionAllDevice(motorTHETA);
-
-    msg.name.push_back("Boom");
-    msg.position.push_back(0.01);
-    msg.name.push_back("Arm");
-    msg.position.push_back(0.02);
-    pubPosIs.publish(msg);    
-}
-
 void EposManager::GetCurrentPosition(void *keyHandle_, int *CurrentPosition, unsigned short nodeId){
         unsigned int err;
         VCS_GetPositionIs(keyHandle_, nodeId, CurrentPosition, &err); 
@@ -194,6 +178,7 @@ int main(int argc, char** argv) {
 
 	ros::AsyncSpinner spinner(4);
 	spinner.start();
+	
 	while(ros::ok()){
 	
 	sensor_msgs::JointState msg2;

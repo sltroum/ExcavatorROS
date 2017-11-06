@@ -20,6 +20,7 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/d-lab/ExcavatorROS.git/devel/include"
   "/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_controller/include"
   "/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver/include"
+  "/home/d-lab/ExcavatorROS.git/src/wjwwood-serial-827c4a7/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

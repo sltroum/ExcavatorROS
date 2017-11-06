@@ -14,32 +14,8 @@
 # EXTERNAL cache entries
 ########################
 
-//The threading library used by boost-thread
-BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
-
 //Build shared libraries (DLLs).
 BUILD_SHARED_LIBS:BOOL=ON
-
-//The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=Boost_DIR-NOTFOUND
-
-//Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/include
-
-//Boost library directory
-Boost_LIBRARY_DIR:PATH=/usr/lib/x86_64-linux-gnu
-
-//Boost system library (debug)
-Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
-
-//Boost system library (release)
-Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
-
-//Boost thread library (debug)
-Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
-
-//Boost thread library (release)
-Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
@@ -386,7 +362,7 @@ dynamixel_pro_driver_BINARY_DIR:STATIC=/home/d-lab/ExcavatorROS.git/build/dynami
 dynamixel_pro_driver_DIR:PATH=/home/d-lab/ExcavatorROS.git/devel/share/dynamixel_pro_driver/cmake
 
 //Dependencies for the target
-dynamixel_pro_driver_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libserial.so;
+dynamixel_pro_driver_LIB_DEPENDS:STATIC=general;serial;
 
 //Value Computed by CMake
 dynamixel_pro_driver_SOURCE_DIR:STATIC=/home/d-lab/ExcavatorROS.git/src/dynamixel_pro_driver
@@ -524,9 +500,6 @@ roslaunch_DIR:PATH=/opt/ros/indigo/share/roslaunch/cmake
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
 
-//The directory containing a CMake configuration file for roslint.
-roslint_DIR:PATH=/opt/ros/indigo/share/roslint/cmake
-
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/opt/ros/indigo/share/rospack/cmake
 
@@ -542,8 +515,17 @@ rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
+//Value Computed by CMake
+serial_BINARY_DIR:STATIC=/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7
+
 //The directory containing a CMake configuration file for serial.
-serial_DIR:PATH=/opt/ros/indigo/share/serial/cmake
+serial_DIR:PATH=/home/d-lab/ExcavatorROS.git/devel/share/serial/cmake
+
+//Dependencies for the target
+serial_LIB_DEPENDS:STATIC=general;rt;general;pthread;
+
+//Value Computed by CMake
+serial_SOURCE_DIR:STATIC=/home/d-lab/ExcavatorROS.git/src/wjwwood-serial-827c4a7
 
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
@@ -584,12 +566,6 @@ video_stream_opencv_BINARY_DIR:STATIC=/home/d-lab/ExcavatorROS.git/build/video_s
 //Value Computed by CMake
 video_stream_opencv_SOURCE_DIR:STATIC=/home/d-lab/ExcavatorROS.git/src/video_stream_opencv
 
-//Value Computed by CMake
-ximea_camera_BINARY_DIR:STATIC=/home/d-lab/ExcavatorROS.git/build/ximea_camera
-
-//Value Computed by CMake
-ximea_camera_SOURCE_DIR:STATIC=/home/d-lab/ExcavatorROS.git/src/ximea_camera
-
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 
@@ -598,20 +574,6 @@ xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: Boost_DIR
-Boost_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_INCLUDE_DIR
-Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_LIBRARY_DIR
-Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
-Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
-Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
-Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
-Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/d-lab/ExcavatorROS.git/build/catkin_generated/env_cached.sh
 CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/d-lab/ExcavatorROS.git/build/test_results
@@ -709,7 +671,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=14
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -827,14 +789,6 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //  And it needs to match.  But setuptools won't tell us where
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
-//Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=system;thread
-//Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
-//Last used Boost_LIBRARY_DIR value.
-_Boost_LIBRARY_DIR_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
-//Last used Boost_USE_MULTITHREADED value.
-_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 __pkg_config_checked_PC_EIGEN:INTERNAL=1
 __pkg_config_checked_avcodec:INTERNAL=1
 __pkg_config_checked_swscale:INTERNAL=1

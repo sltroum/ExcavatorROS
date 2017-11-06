@@ -118,6 +118,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/d-lab/ExcavatorROS.git/build/gtest/cmake_install.cmake")
   INCLUDE("/home/d-lab/ExcavatorROS.git/build/apriltags_ros-indigo-devel/apriltags/cmake_install.cmake")
+  INCLUDE("/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/cmake_install.cmake")
   INCLUDE("/home/d-lab/ExcavatorROS.git/build/dynamixel_pro_driver/cmake_install.cmake")
   INCLUDE("/home/d-lab/ExcavatorROS.git/build/dynamixel_pro_controller/cmake_install.cmake")
   INCLUDE("/home/d-lab/ExcavatorROS.git/build/opt_flow/cmake_install.cmake")

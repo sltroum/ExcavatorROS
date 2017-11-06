@@ -1,0 +1,8 @@
+prefix=/home/d-lab/ExcavatorROS.git/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/d-lab/ExcavatorROS.git/src/wjwwood-serial-827c4a7/include
+Libs: -L/home/d-lab/ExcavatorROS.git/devel/lib -lserial
+Requires: 

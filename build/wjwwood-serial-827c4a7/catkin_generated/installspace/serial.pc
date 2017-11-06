@@ -1,0 +1,8 @@
+prefix=/home/d-lab/ExcavatorROS.git/install
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/d-lab/ExcavatorROS.git/install/include
+Libs: -L/home/d-lab/ExcavatorROS.git/install/lib -lserial
+Requires: 

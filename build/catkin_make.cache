@@ -1,2 +1,2 @@
-apriltags_ros-indigo-devel/apriltags:apriltags_ros-indigo-devel/apriltags_ros:dynamixel_pro_controller:dynamixel_pro_driver:ex_model:exp_excavator:opencv_apps:opt_flow:optoforce:usb_cam:video_stream_opencv
+apriltags_ros-indigo-devel/apriltags:apriltags_ros-indigo-devel/apriltags_ros:dynamixel_pro_controller:dynamixel_pro_driver:ex_model:exp_excavator:opencv_apps:opt_flow:optoforce:usb_cam:video_stream_opencv:wjwwood-serial-827c4a7
 -DCATKIN_DEVEL_PREFIX=/home/d-lab/ExcavatorROS.git/devel -DCMAKE_INSTALL_PREFIX=/home/d-lab/ExcavatorROS.git/install -G Unix Makefiles

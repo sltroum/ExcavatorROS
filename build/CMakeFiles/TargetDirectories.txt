@@ -121,6 +121,10 @@
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/test/CMakeFiles/_run_tests_opencv_apps_rostest_test-smoothing__gui_false.test.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/test/CMakeFiles/_run_tests_opencv_apps_rostest_test-threshold__gui_false.test.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/test/CMakeFiles/_run_tests_opencv_apps_rostest_test-watershed_segmentation__gui_false.test.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/_run_tests_serial.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/_run_tests_serial_gtest.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir
 /home/d-lab/ExcavatorROS.git/build/ex_model/CMakeFiles/actionlib_generate_messages_cpp.dir
 /home/d-lab/ExcavatorROS.git/build/ex_model/CMakeFiles/actionlib_generate_messages_lisp.dir
 /home/d-lab/ExcavatorROS.git/build/ex_model/CMakeFiles/actionlib_generate_messages_py.dir
@@ -145,6 +149,7 @@
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/camshift_exe.dir
 /home/d-lab/ExcavatorROS.git/build/CMakeFiles/clean_test_results.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/clean_test_results_opencv_apps.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/clean_test_results_serial.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/contour_moments_exe.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir
@@ -300,10 +305,18 @@
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/test/CMakeFiles/run_tests_opencv_apps_rostest_test-smoothing__gui_false.test.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/test/CMakeFiles/run_tests_opencv_apps_rostest_test-threshold__gui_false.test.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/test/CMakeFiles/run_tests_opencv_apps_rostest_test-watershed_segmentation__gui_false.test.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/run_tests_serial.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/run_tests_serial_gtest.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/segment_objects_exe.dir
 /home/d-lab/ExcavatorROS.git/build/dynamixel_pro_controller/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/d-lab/ExcavatorROS.git/build/dynamixel_pro_controller/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 /home/d-lab/ExcavatorROS.git/build/dynamixel_pro_controller/CMakeFiles/sensor_msgs_generate_messages_py.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/CMakeFiles/serial.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/serial-test.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/tests/CMakeFiles/serial-test-timer.dir
+/home/d-lab/ExcavatorROS.git/build/wjwwood-serial-827c4a7/CMakeFiles/serial_example.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/simple_compressed_example_exe.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/simple_example_exe.dir
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/simple_flow_exe.dir

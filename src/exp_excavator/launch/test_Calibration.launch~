@@ -1,8 +1,8 @@
 <!-- -*- mode: XML -*- -->
 
 <launch>
-<node pkg="rosbag" type="record" name="flow_recorder" args="record -a -o /home/filippos/ros_ws/DATA/"/> 
-
+<!-- <node pkg="rosbag" type="record" name="flow_recorder" args="record -a -o /home/filippos/ros_ws/DATA/pushdig"/> 
+-->
    <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find exp_excavator)/urdf/PC1i.xacro"/>
    
      <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
@@ -14,7 +14,7 @@
 <!--<include file="$(find exp_excavator)/launch/camera_custom.launch"/> 
 <include file="$(find opt_flow)/launch/opt.launch"/>-->
 
-<include file="$(find optoforce)/launch/optoforce.launch"/>
+<include file="$(find optoforce)/launch/optoforce.launch"/> 
 <!--<include file="$(find exp_excavator)/launch/state_publish.launch"/> -->
 <!-- Calibration IMUS node -->
 <node pkg="um7" type="um7_driver" name="IMU1">
@@ -23,7 +23,7 @@
 </node>
 
 <node pkg="um7" type="um7_driver" name="IMU2">
-      <param name="port" value="/dev/ttyUSB0" />
+      <param name="port" value="/dev/ttyUSB2" />
       <remap from="imu" to="imu2" />
 </node>
 
@@ -69,7 +69,7 @@
         type="dynamixel_pro_controller_node" output="screen">
     <remap from="joint_states" to="/joint_states_DYNA" />
     <rosparam>
-      device: '/dev/ttyUSB2'
+      device: '/dev/ttyUSB0'
       baudrate: 1000000
       serial_timeout_ms: 10
       servos: [{id: 3, joint_name: 'bucket_joint'}]

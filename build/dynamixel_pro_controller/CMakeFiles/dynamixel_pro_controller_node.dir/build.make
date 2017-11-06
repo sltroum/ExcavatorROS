@@ -82,7 +82,7 @@ dynamixel_pro_controller_node_EXTERNAL_OBJECTS =
 /home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: dynamixel_pro_controller/CMakeFiles/dynamixel_pro_controller_node.dir/src/dynamixel_pro_controller.cpp.o
 /home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: dynamixel_pro_controller/CMakeFiles/dynamixel_pro_controller_node.dir/build.make
 /home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /home/d-lab/ExcavatorROS.git/devel/lib/libdynamixel_pro_driver.so
-/home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libserial.so
+/home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /home/d-lab/ExcavatorROS.git/devel/lib/libserial.so
 /home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/libroscpp.so
 /home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/d-lab/ExcavatorROS.git/devel/lib/dynamixel_pro_controller/dynamixel_pro_controller_node: /opt/ros/indigo/lib/librosconsole.so
