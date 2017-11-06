@@ -2,4 +2,4 @@
 source_root_dir = "/home/d-lab/ExcavatorROS.git/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/opt/ros/indigo".split(';') if "/opt/ros/indigo" != "" else []
+underlay_workspaces = "/home/d-lab/ExcavatorROS.git/devel;/opt/ros/indigo".split(';') if "/home/d-lab/ExcavatorROS.git/devel;/opt/ros/indigo" != "" else []

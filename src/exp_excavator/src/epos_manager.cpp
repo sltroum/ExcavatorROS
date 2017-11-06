@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <stdio.h>
+#include <string>
 
 #include <ros/ros.h>
 #include <sensor_msgs/Joy.h>

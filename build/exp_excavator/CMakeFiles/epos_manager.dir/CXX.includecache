@@ -27,6 +27,8 @@ iostream
 -
 stdio.h
 -
+string
+-
 ros/ros.h
 -
 sensor_msgs/Joy.h

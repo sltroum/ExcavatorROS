@@ -36,6 +36,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/exp_excavator/msg" TYPE FILE FILES
     "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg"
     "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg"
+    "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/Jacobian.msg"
+    "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg"
+    "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerMachine.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

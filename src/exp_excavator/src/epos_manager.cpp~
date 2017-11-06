@@ -44,7 +44,7 @@ EposManager::EposManager() {
 	char *pProtocolStackName = (char*)"MAXON SERIAL V2";
 	char *pInterfaceName = (char*)"USB";
 	char *pPortNameBoom = (char*)"USB0";
-	char *pPortNameArm = (char*)"USB4";
+	char *pPortNameArm = (char*)"USB1";
         
 
 	nodeIdBoom = 1;

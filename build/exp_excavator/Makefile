@@ -150,6 +150,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_Jacobian.dir/rule:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_Jacobian.dir/rule
+.PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_Jacobian.dir/rule
+
+# Convenience name for target.
+_exp_excavator_generate_messages_check_deps_Jacobian: exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_Jacobian.dir/rule
+.PHONY : _exp_excavator_generate_messages_check_deps_Jacobian
+
+# fast build rule for target.
+_exp_excavator_generate_messages_check_deps_Jacobian/fast:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_Jacobian.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_Jacobian.dir/build
+.PHONY : _exp_excavator_generate_messages_check_deps_Jacobian/fast
+
+# Convenience name for target.
 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule
 .PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/rule
@@ -164,6 +178,20 @@ _exp_excavator_generate_messages_check_deps_JointCalibration/fast:
 .PHONY : _exp_excavator_generate_messages_check_deps_JointCalibration/fast
 
 # Convenience name for target.
+exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/rule:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/rule
+.PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/rule
+
+# Convenience name for target.
+_exp_excavator_generate_messages_check_deps_JointCommand: exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/rule
+.PHONY : _exp_excavator_generate_messages_check_deps_JointCommand
+
+# fast build rule for target.
+_exp_excavator_generate_messages_check_deps_JointCommand/fast:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/build
+.PHONY : _exp_excavator_generate_messages_check_deps_JointCommand/fast
+
+# Convenience name for target.
 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule
 .PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/rule
@@ -176,6 +204,20 @@ _exp_excavator_generate_messages_check_deps_JointValues: exp_excavator/CMakeFile
 _exp_excavator_generate_messages_check_deps_JointValues/fast:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/build
 .PHONY : _exp_excavator_generate_messages_check_deps_JointValues/fast
+
+# Convenience name for target.
+exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule
+.PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule
+
+# Convenience name for target.
+_exp_excavator_generate_messages_check_deps_PowerMachine: exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule
+.PHONY : _exp_excavator_generate_messages_check_deps_PowerMachine
+
+# fast build rule for target.
+_exp_excavator_generate_messages_check_deps_PowerMachine/fast:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/build
+.PHONY : _exp_excavator_generate_messages_check_deps_PowerMachine/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule:
@@ -232,6 +274,20 @@ epos_manager: exp_excavator/CMakeFiles/epos_manager.dir/rule
 epos_manager/fast:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/build
 .PHONY : epos_manager/fast
+
+# Convenience name for target.
+exp_excavator/CMakeFiles/epos_manager2.dir/rule:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/epos_manager2.dir/rule
+.PHONY : exp_excavator/CMakeFiles/epos_manager2.dir/rule
+
+# Convenience name for target.
+epos_manager2: exp_excavator/CMakeFiles/epos_manager2.dir/rule
+.PHONY : epos_manager2
+
+# fast build rule for target.
+epos_manager2/fast:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/build
+.PHONY : epos_manager2/fast
 
 # Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule:
@@ -355,19 +411,47 @@ src/epos_manager.cpp.s:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager.dir/build.make exp_excavator/CMakeFiles/epos_manager.dir/src/epos_manager.cpp.s
 .PHONY : src/epos_manager.cpp.s
 
+src/epos_manager2.o: src/epos_manager2.cpp.o
+.PHONY : src/epos_manager2.o
+
+# target to build an object file
+src/epos_manager2.cpp.o:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/src/epos_manager2.cpp.o
+.PHONY : src/epos_manager2.cpp.o
+
+src/epos_manager2.i: src/epos_manager2.cpp.i
+.PHONY : src/epos_manager2.i
+
+# target to preprocess a source file
+src/epos_manager2.cpp.i:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/src/epos_manager2.cpp.i
+.PHONY : src/epos_manager2.cpp.i
+
+src/epos_manager2.s: src/epos_manager2.cpp.s
+.PHONY : src/epos_manager2.s
+
+# target to generate assembly for a file
+src/epos_manager2.cpp.s:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/src/epos_manager2.cpp.s
+.PHONY : src/epos_manager2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... _exp_excavator_generate_messages_check_deps_Jacobian"
 	@echo "... _exp_excavator_generate_messages_check_deps_JointCalibration"
+	@echo "... _exp_excavator_generate_messages_check_deps_JointCommand"
 	@echo "... _exp_excavator_generate_messages_check_deps_JointValues"
+	@echo "... _exp_excavator_generate_messages_check_deps_PowerMachine"
 	@echo "... controller_manager_msgs_generate_messages_cpp"
 	@echo "... controller_manager_msgs_generate_messages_lisp"
 	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... epos_manager"
+	@echo "... epos_manager2"
 	@echo "... exp_excavator_gencpp"
 	@echo "... exp_excavator_generate_messages"
 	@echo "... exp_excavator_generate_messages_cpp"
@@ -384,6 +468,9 @@ help:
 	@echo "... src/epos_manager.o"
 	@echo "... src/epos_manager.i"
 	@echo "... src/epos_manager.s"
+	@echo "... src/epos_manager2.o"
+	@echo "... src/epos_manager2.i"
+	@echo "... src/epos_manager2.s"
 .PHONY : help
 
 

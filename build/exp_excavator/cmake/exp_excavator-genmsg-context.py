@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg;/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg"
+messages_str = "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg;/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg;/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/Jacobian.msg;/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg;/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerMachine.msg"
 services_str = ""
 pkg_name = "exp_excavator"
 dependencies_str = "std_msgs"
