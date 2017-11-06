@@ -1,0 +1,82 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+<!-- <node pkg="rosbag" type="record" name="flow_recorder" args="record -a -o /home/filippos/ros_ws/DATA/pushdig"/> 
+-->
+   <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find exp_excavator)/urdf/PC1i.xacro"/>
+   
+     <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+      <remap from="joint_states" to="/CalibratedJointVals3" />
+    </node> 
+    
+ <node pkg="tf" type="static_transform_publisher" name="world" args="0 0 0 0 0 0  world Base-link 100" /> 
+  
+<!--<include file="$(find exp_excavator)/launch/camera_custom.launch"/> 
+<include file="$(find opt_flow)/launch/opt.launch"/>-->
+
+<include file="$(find optoforce)/launch/optoforce.launch"/> 
+<!--<include file="$(find exp_excavator)/launch/state_publish.launch"/> -->
+<!-- Calibration IMUS node -->
+<node pkg="um7" type="um7_driver" name="IMU1">
+      <param name="port" value="/dev/ttyUSB2" />
+      <remap from="imu" to="imu1" />
+</node>
+
+<node pkg="um7" type="um7_driver" name="IMU2">
+      <param name="port" value="/dev/ttyUSB1" />
+      <remap from="imu" to="imu2" />
+</node>
+
+<node pkg="exp_excavator" type="joint_calibrator.py" name="joint_calibrator"
+        output="screen" >
+      <remap from="IMUBoom" to="/imu1/data" />
+      <remap from="IMUArm" to="/imu2/data" />
+      <remap from="JointsEPOS" to="/joint_states_EPOS" />
+      <remap from="JointsDYNA" to="/joint_states_DYNA" />
+      <remap from="CalibratedJointVals" to="/CalibratedJoints" />
+
+</node>
+
+
+  <!-- JOYSTICK nodes -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy_node_right" >
+    <remap from="joy" to="joy_right" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_right.yaml" />
+  </node>
+  <node pkg="joy" type="joy_node" name="joy_node_left" >
+    <remap from="joy" to="joy_left" />
+    <rosparam command="load"
+              file="$(find exp_excavator)/launch/joy_param_left.yaml" />
+  </node>
+  <node pkg="exp_excavator" type="joy_msg_manager.py" name="joy_msg_manager"
+        output="screen" /> 
+  
+  <!-- speed commander node -->
+  <node pkg="exp_excavator" type="speed_commander_teleop.py"
+        name="spd_com_teleop" output="screen" />
+  
+  <!-- epos node -->
+
+   <node pkg="exp_excavator" type="epos_manager" name="epos_manager"
+        output="screen" /> 
+            
+  <!-- dynamixel node -->
+  <node pkg="exp_excavator" type="dynamixel_manager.py"
+        name="dynamixel_manager" output="screen" />
+  <node name="dynamixel_pro_controller" pkg="dynamixel_pro_controller"
+        type="dynamixel_pro_controller_node" output="screen">
+    <remap from="joint_states" to="/joint_states_DYNA" />
+    <rosparam>
+      device: '/dev/ttyUSB0'
+      baudrate: 1000000
+      serial_timeout_ms: 10
+      servos: [{id: 3, joint_name: 'bucket_joint'}]
+      publish_velocities: true
+    </rosparam>
+  </node>  
+
+</launch>
+
+
