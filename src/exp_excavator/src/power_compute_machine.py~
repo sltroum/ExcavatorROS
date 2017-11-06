@@ -63,8 +63,8 @@ class PowerMachine:
             
         while not rospy.is_shutdown(): 
 
-            self.powBoom  = np.float64(self.Torque_constant)*np.float64(self.curBoom)*np.float64(self.velBoom)*50
-            self.powArm   = np.float64(self.Torque_constant)*np.float64(self.curArm)*np.float64(self.velArm)*50
+            self.powBoom  = self.np.float64(self.Torque_constant)*np.float64(self.curBoom)*np.float64(self.velBoom)*50
+            self.powArm   = self.np.float64(self.Torque_constant)*np.float64(self.curArm)*np.float64(self.velArm)*50
             
             self.powMsg = cmsg.PowerMachine()
             

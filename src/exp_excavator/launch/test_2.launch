@@ -61,9 +61,13 @@
   <!-- Controller node -->
   <node pkg="exp_excavator" type="controller.py"
         name="controller" output="screen" />
-  <!-- epos node -->
 
-   <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
+  <!-- Power Machine node -->
+  <node pkg="exp_excavator" type="power_compute_machine.py"
+        name="power_machine" output="screen" />
+  
+<!-- epos node -->
+  <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
         output="screen" /> 
             
   <!-- dynamixel node -->

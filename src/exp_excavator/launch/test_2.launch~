@@ -53,13 +53,21 @@
   <node pkg="exp_excavator" type="joy_msg_manager.py" name="joy_msg_manager"
         output="screen" /> 
   
-  <!-- speed commander node -->
+  <!-- speed commander node 
   <node pkg="exp_excavator" type="speed_commander_teleop.py"
         name="spd_com_teleop" output="screen" />
-  
+  -->
+
+  <!-- Controller node -->
+  <node pkg="exp_excavator" type="controller.py"
+        name="controller" output="screen" />
+
+  <!-- Controller node -->
+  <node pkg="exp_excavator" type="power_compute_machine.py"
+        name="power_machine" output="screen" />
   <!-- epos node -->
 
-   <node pkg="exp_excavator" type="epos_manager" name="epos_manager"
+   <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
         output="screen" /> 
             
   <!-- dynamixel node -->
