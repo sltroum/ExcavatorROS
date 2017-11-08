@@ -6,6 +6,7 @@
 import rospy
 import exp_excavator.msg as cmsg
 import sensor_msgs.msg as smsg
+from geometry_msgs.msg import WrenchStamped
 import numpy as np
 
 class PowerBucket:
@@ -23,8 +24,8 @@ class PowerBucket:
                                                 ,smsg.JointState,self.cb_joints)
         self.sub_jacobian = rospy.Subscriber('/jacobian'
                                                 ,cmsg.Jacobian,self.cb_jacobian)
-        self.sub_jacobian = rospy.Subscriber('/jacobian'
-                                                ,cmsg.Jacobian,self.cb_force)
+        self.sub_force = rospy.Subscriber('/optoforce_0'
+                                                ,WrenchStamped,self.cb_force)
         self.pub_Power      = rospy.Publisher('Power', cmsg.PowerMachine, queue_size=10)
 
 
@@ -57,11 +58,13 @@ class PowerBucket:
             self.powBoom  = np.float64(self.Torque_constant)*np.float64(self.curBoom)*np.float64(self.velBoom)*50
             self.powArm   = np.float64(self.Torque_constant)*np.float64(self.curArm)*np.float64(self.velArm)*50
             
-            self.powMsg = cmsg.PowerMachine()
+            self.powMsg = cmsg.PowerBucket()
             
             self.powMsg.header.stamp = rospy.Time.now()
-            self.powMsg.powerBoom = self.powBoom
-            self.powMsg.powerArm  = self.powArm
+            
+            self.powMsg.powerX    = self.powBoom
+            self.powMsg.powerZ    = self.powArm
+            self.powMsg.powerPhi  = self.powArm
             
             self.pub_Power.publish(self.powMsg)
             r.sleep()
