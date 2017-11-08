@@ -72,7 +72,7 @@ class SpeedCommanderTeleop:
             
 if __name__ == '__main__':
     sc = SpeedCommanderTeleop()
-    
+    rospy.sleep(0.2)
     try:
         sc.update()
 

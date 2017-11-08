@@ -47,6 +47,7 @@ include exp_excavator/CMakeFiles/exp_excavator_generate_messages_py.dir/progress
 
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_Jacobian.py
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_PowerMachine.py
+exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_ForceWorld.py
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py
@@ -54,6 +55,7 @@ exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/Excavat
 
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_Jacobian.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_Jacobian.py: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/Jacobian.msg
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_Jacobian.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG exp_excavator/Jacobian"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/Jacobian.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg
@@ -65,38 +67,47 @@ exp_excavator/CMakeFiles/exp_excavator_generate_messages_py: /home/d-lab/Excavat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG exp_excavator/PowerMachine"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerMachine.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg
 
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_ForceWorld.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_ForceWorld.py: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_ForceWorld.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG exp_excavator/ForceWorld"
+	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg
+
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG exp_excavator/JointValues"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg
 
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG exp_excavator/JointCalibration"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg
 
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG exp_excavator/JointCommand"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg
 
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_Jacobian.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_PowerMachine.py
+/home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_ForceWorld.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py
 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for exp_excavator"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg --initpy
 
 exp_excavator_generate_messages_py: exp_excavator/CMakeFiles/exp_excavator_generate_messages_py
 exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_Jacobian.py
 exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_PowerMachine.py
+exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_ForceWorld.py
 exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py
 exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py
 exp_excavator_generate_messages_py: /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py

@@ -63,7 +63,7 @@ class SpeedCommanderTeleop:
                 controller_msg.swingV  = self.joy_val.swing*0.0
             else:
                 controller_msg.boomP   =  self.initial_position_boom
-                controller_msg.armI    = 100.0        
+                controller_msg.armI    = 500.0        
                 controller_msg.bucketV = self.joy_val.bucket * 0.5
             
             controller_msg.Kmode = self.Kmode

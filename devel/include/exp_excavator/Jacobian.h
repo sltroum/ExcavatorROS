@@ -15,6 +15,7 @@
 #include <ros/builtin_message_traits.h>
 #include <ros/message_operations.h>
 
+#include <std_msgs/Header.h>
 
 namespace exp_excavator
 {
@@ -24,17 +25,62 @@ struct Jacobian_
   typedef Jacobian_<ContainerAllocator> Type;
 
   Jacobian_()
-    : Jacobian()  {
+    : header()
+    , dxdtboom(0.0)
+    , dxdtarm(0.0)
+    , dxdtbucket(0.0)
+    , dydtboom(0.0)
+    , dydtarm(0.0)
+    , dydtbucket(0.0)
+    , dphdtboom(0.0)
+    , dphdtarm(0.0)
+    , dphdtbucket(0.0)  {
     }
   Jacobian_(const ContainerAllocator& _alloc)
-    : Jacobian(_alloc)  {
+    : header(_alloc)
+    , dxdtboom(0.0)
+    , dxdtarm(0.0)
+    , dxdtbucket(0.0)
+    , dydtboom(0.0)
+    , dydtarm(0.0)
+    , dydtbucket(0.0)
+    , dphdtboom(0.0)
+    , dphdtarm(0.0)
+    , dphdtbucket(0.0)  {
   (void)_alloc;
     }
 
 
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _Jacobian_type;
-  _Jacobian_type Jacobian;
+   typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
+  _header_type header;
+
+   typedef double _dxdtboom_type;
+  _dxdtboom_type dxdtboom;
+
+   typedef double _dxdtarm_type;
+  _dxdtarm_type dxdtarm;
+
+   typedef double _dxdtbucket_type;
+  _dxdtbucket_type dxdtbucket;
+
+   typedef double _dydtboom_type;
+  _dydtboom_type dydtboom;
+
+   typedef double _dydtarm_type;
+  _dydtarm_type dydtarm;
+
+   typedef double _dydtbucket_type;
+  _dydtbucket_type dydtbucket;
+
+   typedef double _dphdtboom_type;
+  _dphdtboom_type dphdtboom;
+
+   typedef double _dphdtarm_type;
+  _dphdtarm_type dphdtarm;
+
+   typedef double _dphdtbucket_type;
+  _dphdtbucket_type dphdtbucket;
 
 
 
@@ -69,7 +115,7 @@ namespace message_traits
 
 
 
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
+// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
 // {'exp_excavator': ['/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg'], 'std_msgs': ['/opt/ros/indigo/share/std_msgs/cmake/../msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
@@ -99,12 +145,12 @@ struct IsMessage< ::exp_excavator::Jacobian_<ContainerAllocator> const>
 
 template <class ContainerAllocator>
 struct HasHeader< ::exp_excavator::Jacobian_<ContainerAllocator> >
-  : FalseType
+  : TrueType
   { };
 
 template <class ContainerAllocator>
 struct HasHeader< ::exp_excavator::Jacobian_<ContainerAllocator> const>
-  : FalseType
+  : TrueType
   { };
 
 
@@ -113,12 +159,12 @@ struct MD5Sum< ::exp_excavator::Jacobian_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "8a2548826baa65273568a06e13730e1b";
+    return "cb85e038bdda9398bb669185babc8e9a";
   }
 
   static const char* value(const ::exp_excavator::Jacobian_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x8a2548826baa6527ULL;
-  static const uint64_t static_value2 = 0x3568a06e13730e1bULL;
+  static const uint64_t static_value1 = 0xcb85e038bdda9398ULL;
+  static const uint64_t static_value2 = 0xbb669185babc8e9aULL;
 };
 
 template<class ContainerAllocator>
@@ -137,7 +183,34 @@ struct Definition< ::exp_excavator::Jacobian_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "float64[] Jacobian \n\
+    return "Header header\n\
+float64 dxdtboom\n\
+float64 dxdtarm\n\
+float64 dxdtbucket\n\
+float64 dydtboom\n\
+float64 dydtarm\n\
+float64 dydtbucket\n\
+float64 dphdtboom\n\
+float64 dphdtarm\n\
+float64 dphdtbucket\n\
+\n\
+================================================================================\n\
+MSG: std_msgs/Header\n\
+# Standard metadata for higher-level stamped data types.\n\
+# This is generally used to communicate timestamped data \n\
+# in a particular coordinate frame.\n\
+# \n\
+# sequence ID: consecutively increasing ID \n\
+uint32 seq\n\
+#Two-integer timestamp that is expressed as:\n\
+# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n\
+# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n\
+# time-handling sugar is provided by the client library\n\
+time stamp\n\
+#Frame this data is associated with\n\
+# 0: no frame\n\
+# 1: global frame\n\
+string frame_id\n\
 ";
   }
 
@@ -156,7 +229,16 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.Jacobian);
+      stream.next(m.header);
+      stream.next(m.dxdtboom);
+      stream.next(m.dxdtarm);
+      stream.next(m.dxdtbucket);
+      stream.next(m.dydtboom);
+      stream.next(m.dydtarm);
+      stream.next(m.dydtbucket);
+      stream.next(m.dphdtboom);
+      stream.next(m.dphdtarm);
+      stream.next(m.dphdtbucket);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -175,12 +257,27 @@ struct Printer< ::exp_excavator::Jacobian_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::exp_excavator::Jacobian_<ContainerAllocator>& v)
   {
-    s << indent << "Jacobian[]" << std::endl;
-    for (size_t i = 0; i < v.Jacobian.size(); ++i)
-    {
-      s << indent << "  Jacobian[" << i << "]: ";
-      Printer<double>::stream(s, indent + "  ", v.Jacobian[i]);
-    }
+    s << indent << "header: ";
+    s << std::endl;
+    Printer< ::std_msgs::Header_<ContainerAllocator> >::stream(s, indent + "  ", v.header);
+    s << indent << "dxdtboom: ";
+    Printer<double>::stream(s, indent + "  ", v.dxdtboom);
+    s << indent << "dxdtarm: ";
+    Printer<double>::stream(s, indent + "  ", v.dxdtarm);
+    s << indent << "dxdtbucket: ";
+    Printer<double>::stream(s, indent + "  ", v.dxdtbucket);
+    s << indent << "dydtboom: ";
+    Printer<double>::stream(s, indent + "  ", v.dydtboom);
+    s << indent << "dydtarm: ";
+    Printer<double>::stream(s, indent + "  ", v.dydtarm);
+    s << indent << "dydtbucket: ";
+    Printer<double>::stream(s, indent + "  ", v.dydtbucket);
+    s << indent << "dphdtboom: ";
+    Printer<double>::stream(s, indent + "  ", v.dphdtboom);
+    s << indent << "dphdtarm: ";
+    Printer<double>::stream(s, indent + "  ", v.dphdtarm);
+    s << indent << "dphdtbucket: ";
+    Printer<double>::stream(s, indent + "  ", v.dphdtbucket);
   }
 };
 

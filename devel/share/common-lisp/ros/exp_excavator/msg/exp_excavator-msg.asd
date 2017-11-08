@@ -5,6 +5,8 @@
   :depends-on (:roslisp-msg-protocol :roslisp-utils :std_msgs-msg
 )
   :components ((:file "_package")
+    (:file "ForceWorld" :depends-on ("_package_ForceWorld"))
+    (:file "_package_ForceWorld" :depends-on ("_package"))
     (:file "JointValues" :depends-on ("_package_JointValues"))
     (:file "_package_JointValues" :depends-on ("_package"))
     (:file "JointCalibration" :depends-on ("_package_JointCalibration"))

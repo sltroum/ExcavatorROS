@@ -14,8 +14,8 @@ class DynamixelManager:
     def __init__(self):
         rospy.init_node('dynamixel_manager', anonymous=True)
         
-        self.sub_spd_com = rospy.Subscriber('spd_commands',
-                                            cmsg.JointValues,
+        self.sub_spd_com = rospy.Subscriber('commands',
+                                            cmsg.JointCommand,
                                             self.cb_spd_com)
         self.pub_joint_bucket = rospy.Publisher('joint_commands',
                                                 smsg.JointState,
@@ -23,7 +23,7 @@ class DynamixelManager:
         
     def cb_spd_com(self, msg):
         self.pub_joint_bucket.publish(name=['bucket_joint'],
-                                      velocity=[msg.bucket])
+                                      velocity=[msg.bucketV])
 
 if __name__ == '__main__':
     dm = DynamixelManager()

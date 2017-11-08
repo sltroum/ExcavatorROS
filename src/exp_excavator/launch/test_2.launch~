@@ -33,7 +33,7 @@
       <remap from="IMUArm" to="/imu2/data" />
       <remap from="JointsEPOS" to="/joint_states_EPOS" />
       <remap from="JointsDYNA" to="/joint_states_DYNA" />
-      <remap from="CalibratedJointVals" to="/CalibratedJoints" />
+      <remap from="CalibratedJointVals3" to="/CalibratedJoints" />
 
 </node>
 
@@ -62,12 +62,20 @@
   <node pkg="exp_excavator" type="controller.py"
         name="controller" output="screen" />
 
-  <!-- Controller node -->
+  <!-- Power Machine node -->
   <node pkg="exp_excavator" type="power_compute_machine.py"
         name="power_machine" output="screen" />
-  <!-- epos node -->
+  
+  <!-- Jacobian Machine node -->
+  <node pkg="exp_excavator" type="jacobian.py"
+        name="jacobian" output="screen" />
 
-   <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
+  <!-- Jacobian Machine node -->
+  <node pkg="exp_excavator" type="force_transform.py"
+        name="forcetransformer" output="screen" />
+
+<!-- epos node -->
+  <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
         output="screen" /> 
             
   <!-- dynamixel node -->

@@ -52,9 +52,10 @@ add_message_files(
   FILES
   JointValues.msg
   JointCalibration.msg
-  Jacobian.msg
   JointCommand.msg
   PowerMachine.msg
+  Jacobian.msg
+  ForceWorld.msg
 )
 
 ## Generate services in the 'srv' folder
