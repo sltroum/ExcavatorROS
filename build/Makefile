@@ -4466,6 +4466,19 @@ _exp_excavator_generate_messages_check_deps_JointValues/fast:
 .PHONY : _exp_excavator_generate_messages_check_deps_JointValues/fast
 
 #=============================================================================
+# Target rules for targets named _exp_excavator_generate_messages_check_deps_PowerBucket
+
+# Build rule for target.
+_exp_excavator_generate_messages_check_deps_PowerBucket: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _exp_excavator_generate_messages_check_deps_PowerBucket
+.PHONY : _exp_excavator_generate_messages_check_deps_PowerBucket
+
+# fast build rule for target.
+_exp_excavator_generate_messages_check_deps_PowerBucket/fast:
+	$(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/build
+.PHONY : _exp_excavator_generate_messages_check_deps_PowerBucket/fast
+
+#=============================================================================
 # Target rules for targets named _exp_excavator_generate_messages_check_deps_PowerMachine
 
 # Build rule for target.
@@ -5057,6 +5070,7 @@ help:
 	@echo "... _exp_excavator_generate_messages_check_deps_JointCalibration"
 	@echo "... _exp_excavator_generate_messages_check_deps_JointCommand"
 	@echo "... _exp_excavator_generate_messages_check_deps_JointValues"
+	@echo "... _exp_excavator_generate_messages_check_deps_PowerBucket"
 	@echo "... _exp_excavator_generate_messages_check_deps_PowerMachine"
 	@echo "... controller_manager_msgs_generate_messages_cpp"
 	@echo "... controller_manager_msgs_generate_messages_lisp"

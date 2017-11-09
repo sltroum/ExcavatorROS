@@ -60,7 +60,7 @@ EposManager::EposManager() {
 	char *pPortNameBoom = (char*)"USB0";
 	char *pPortNameArm = (char*)"USB1";
         
-        Kmode = false;
+    Kmode = false;
 	Lastmode = true;
 	
 	nodeIdBoom = 1;

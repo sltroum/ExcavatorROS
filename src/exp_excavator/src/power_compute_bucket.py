@@ -17,23 +17,28 @@ class PowerBucket:
         self.rate = 100 #[Hz]
 
         self.powMsg = cmsg.PowerBucket()
-             
-        self.Torque_constant = 1.0
-        
+        self.force  = cmsg.ForceWorld()    
+        self.Jacobian  = cmsg.Jacobian()  
+        self.velBoom    = 0.0
+        self.velArm     = 0.0
+        self.velBucket  = 0.0
+
+
+         
         self.sub_joints   = rospy.Subscriber('/CalibratedJoints'
                                                 ,smsg.JointState,self.cb_joints)
         self.sub_jacobian = rospy.Subscriber('/jacobian'
                                                 ,cmsg.Jacobian,self.cb_jacobian)
-        self.sub_force = rospy.Subscriber('/optoforce_0'
-                                                ,WrenchStamped,self.cb_force)
-        self.pub_Power      = rospy.Publisher('Power', cmsg.PowerMachine, queue_size=10)
+        self.sub_force = rospy.Subscriber('/SensorForceWorld'
+                                                ,cmsg.ForceWorld,self.cb_force)
+        self.pub_Power      = rospy.Publisher('PowerBucket', cmsg.PowerBucket, queue_size=10)
 
 
     def cb_joints(self, msg):
         try:
             self.velBoom    = msg.velocity[0]
             self.velArm     = msg.velocity[1]
-            self.velBucket  = msg.velocity[1]
+            self.velBucket  = msg.velocity[2]
         except :
             print("ERROR-message-EPOS")  
   
@@ -55,24 +60,28 @@ class PowerBucket:
             
         while not rospy.is_shutdown(): 
 
-            self.powBoom  = np.float64(self.Torque_constant)*np.float64(self.curBoom)*np.float64(self.velBoom)*50
-            self.powArm   = np.float64(self.Torque_constant)*np.float64(self.curArm)*np.float64(self.velArm)*50
-            
             self.powMsg = cmsg.PowerBucket()
             
             self.powMsg.header.stamp = rospy.Time.now()
             
-            self.powMsg.powerX    = self.powBoom
-            self.powMsg.powerZ    = self.powArm
-            self.powMsg.powerPhi  = self.powArm
-            
+            self.powMsg.powerX    = self.force.Fx*(
+                                    self.Jacobian.dxdtboom*self.velBoom +
+                                    self.Jacobian.dxdtarm*self.velArm + 
+                                    self.Jacobian.dxdtbucket*self.velBucket)
+            self.powMsg.powerZ    = self.force.Fz*(
+                                    self.Jacobian.dzdtboom*self.velBoom + 
+                                    self.Jacobian.dzdtarm*self.velArm + 
+                                    self.Jacobian.dzdtbucket*self.velBucket)
+            self.powMsg.powerPhi  = self.force.My*(
+                                    self.velBoom + self.velArm + self.velBucket)
+            self.powMsg.powerTotal = self.powMsg.powerX + self.powMsg.powerZ
             self.pub_Power.publish(self.powMsg)
             r.sleep()
              
 if __name__ == '__main__':
-    pm = PowerMachine()
+    pb = PowerBucket()
     try:
-        pm.Power_update()
+        pb.Power_update()
 #        rospy.spin()
     except KeyboardInterrupt:
         print("Shutting down")

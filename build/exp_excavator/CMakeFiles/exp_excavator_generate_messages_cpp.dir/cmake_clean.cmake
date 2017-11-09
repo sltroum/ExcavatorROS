@@ -3,6 +3,7 @@ FILE(REMOVE_RECURSE
   "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/Jacobian.h"
   "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerMachine.h"
   "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/ForceWorld.h"
+  "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h"
   "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h"
   "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h"
   "/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h"

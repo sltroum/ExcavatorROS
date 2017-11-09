@@ -11,6 +11,7 @@ bbbfa09b46793768643a6af94f36ae48 /home/d-lab/ExcavatorROS.git/devel/include/exp_
 5e3cabd04381b1d9ba3b8af5de36428d /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h
 0b09f76e8941f988c7bd3bb116a4f26a /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h
 a00a87b0a05f39c45b134cb67a7e1c0a /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h
+7211e3ba6076ef133fdbfe642e3cf15b /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h
 e4beef9459f53b297a28573b591ed37e /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerMachine.h
 f7a3e07477a1082dc9f6a820f8a0c498 /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/AddingImagesConfig.h
 17ffaf28cf8a9badd8234e8591049d44 /home/d-lab/ExcavatorROS.git/devel/include/opencv_apps/CamShiftConfig.h
@@ -82,6 +83,7 @@ bf11e44cd6ef347c8b212b4413712acf /home/d-lab/ExcavatorROS.git/devel/lib/python2.
 aa04c15173c3db1bf1ff040bf96f4f1a /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCalibration.py
 adb988acee1f1224349a2ff3067a43c5 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointCommand.py
 9702602dff7248835533b60e2fb546be /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_JointValues.py
+64c6413e6f8ee4abdb5fe65508756ef6 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_PowerBucket.py
 75b73f415712561bbccbd48fd3ecefcd /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/_PowerMachine.py
 3f654ac7a4b0617ad46fca8e9e7322fb /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/exp_excavator/msg/__init__.py
 a8149903c575e9e121cfc65b7f4800c7 /home/d-lab/ExcavatorROS.git/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Circle.py
@@ -128,6 +130,7 @@ b50e96697310d00adc0a3a8a802d428e /home/d-lab/ExcavatorROS.git/devel/share/common
 af97c8027b99fb8798e19d4c4647e409 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp
 25357c31032b1108771ecbef5f9d7f1c /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp
 97cfa7fd618a86b4934b82c291a77b66 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp
+bbb7c1cded7bb380eb8d6ba1e3f4ecca /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp
 eff2937d937a8bc641fdadb574dbb9da /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerMachine.lisp
 faef652787b9ad6626c1628355027429 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/opencv_apps/msg/Circle.lisp
 37f41f06c2ccfc98845d9b518bfdd60b /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/opencv_apps/msg/CircleArray.lisp
@@ -222,6 +225,7 @@ a0da6a46a806c1c484ff44cd735a33e9 ex_model/CMakeFiles/tf_generate_messages_py
 e2f8059e346ed3b54215d01152c3c88a exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration
 88a4e439ac7d0ffe16dbb86cba2400b0 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand
 f7f20dcc1fe69be941d84cb98c6cbdc6 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues
+6f8bd457fe3b5cc8b78bafe9ff676cf4 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket
 6212e96e1ebf00ad3acc62f3979abccb exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine
 7adf4319533482661b2c18f542925e44 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp
 7adf4319533482661b2c18f542925e44 exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp

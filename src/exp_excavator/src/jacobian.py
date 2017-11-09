@@ -18,9 +18,9 @@ class JacobianCalc:
 
         self.rate = 100 #[Hz]
 
-        self.L1 = 0.6
-        self.L2 = 0.4
-        self.L3 = 0.3
+        self.L1 = 0.5000
+        self.L2 = 0.3830
+        self.L3 = 0.0815
 
         self.joint_val = JointState()
         self.JacobianMsg = cmsg.Jacobian()
@@ -40,18 +40,15 @@ class JacobianCalc:
             self.JacobianMsg = cmsg.Jacobian()
             t1    = self.joint_val.position[0]
             t12   = t1 + self.joint_val.position[1]
-            t123  = t1 + t12 + self.joint_val.position[2]
+            t123  = t12 + self.joint_val.position[2]
             
-            dxdq1 = 1.1;
-            dxdq2 = 2.2; 
-            dxdq3 = 3.3;
-            
+           
             self.JacobianMsg.dxdtboom  = -self.L1*math.sin(t1)  -self.L2*math.sin(t12)  -self.L3*math.sin(t123)
             self.JacobianMsg.dxdtarm  = -self.L2*math.sin(t12) -self.L3*math.sin(t123)          
             self.JacobianMsg.dxdtbucket  = -self.L3*math.sin(t123)
-            self.JacobianMsg.dydtboom  = self.L1*math.cos(t1)  +self.L2*math.cos(t12)  +self.L3*math.cos(t123)
-            self.JacobianMsg.dydtarm  = self.L2*math.cos(t12) +self.L3*math.cos(t123)          
-            self.JacobianMsg.dydtbucket  = self.L3*math.cos(t123)  
+            self.JacobianMsg.dzdtboom  = self.L1*math.cos(t1)  +self.L2*math.cos(t12)  +self.L3*math.cos(t123)
+            self.JacobianMsg.dzdtarm  = self.L2*math.cos(t12) +self.L3*math.cos(t123)          
+            self.JacobianMsg.dzdtbucket  = self.L3*math.cos(t123)  
             self.JacobianMsg.dphdtboom = 1.0; 
             self.JacobianMsg.dphdtarm = 1.0; 
             self.JacobianMsg.dphdtbucket = 1.0;                   

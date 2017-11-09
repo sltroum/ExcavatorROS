@@ -1,5 +1,6 @@
 Header header
 
-float64 powerBoom
-float64 powerArm
-
+float64 powerT
+float64 powerX
+float64 powerZ
+float64 powerPhi

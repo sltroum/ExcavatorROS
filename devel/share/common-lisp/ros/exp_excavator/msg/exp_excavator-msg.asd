@@ -5,6 +5,8 @@
   :depends-on (:roslisp-msg-protocol :roslisp-utils :std_msgs-msg
 )
   :components ((:file "_package")
+    (:file "PowerBucket" :depends-on ("_package_PowerBucket"))
+    (:file "_package_PowerBucket" :depends-on ("_package"))
     (:file "ForceWorld" :depends-on ("_package_ForceWorld"))
     (:file "_package_ForceWorld" :depends-on ("_package"))
     (:file "JointValues" :depends-on ("_package_JointValues"))

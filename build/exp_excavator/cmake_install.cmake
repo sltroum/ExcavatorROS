@@ -40,6 +40,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerMachine.msg"
     "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/Jacobian.msg"
     "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg"
+    "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

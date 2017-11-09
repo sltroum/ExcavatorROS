@@ -1,8 +1,8 @@
 <!-- -*- mode: XML -*- -->
 
 <launch>
-<!-- <node pkg="rosbag" type="record" name="flow_recorder" args="record -a -o /home/filippos/ros_ws/DATA/pushdig"/> 
--->
+<node pkg="rosbag" type="record" name="recorder" args="record -a -o home/test"/> 
+
    <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find exp_excavator)/urdf/PC1i.xacro"/>
    
      <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
@@ -70,10 +70,14 @@
   <node pkg="exp_excavator" type="jacobian.py"
         name="jacobian" output="screen" />
 
-  <!-- Jacobian Machine node -->
+  <!-- Force Transformation node -->
   <node pkg="exp_excavator" type="force_transform.py"
         name="forcetransformer" output="screen" />
-
+  
+<!-- Power Machine node -->
+  <node pkg="exp_excavator" type="power_compute_bucket.py"
+        name="power_bucket" output="screen" />
+  
 <!-- epos node -->
   <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
         output="screen" /> 

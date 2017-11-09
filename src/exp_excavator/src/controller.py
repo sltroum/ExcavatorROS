@@ -8,7 +8,7 @@ Created on Feb 24, 2017
 import rospy
 import exp_excavator.msg as cmsg
 import sensor_msgs.msg as smsg
-
+import math
 class SpeedCommanderTeleop:
     def __init__(self):
         rospy.init_node('controller', anonymous=True)
@@ -19,6 +19,8 @@ class SpeedCommanderTeleop:
         self.joint_states = smsg.JointState()
        
         self.joy_switch = []
+        self.bias_current_scaling = 700.0
+        self.internal_impedance   = 500.0
         self.Kmode = False 
         self.time_switch_last = rospy.get_rostime()
         self.initial_position_boom = 0.0
@@ -36,7 +38,7 @@ class SpeedCommanderTeleop:
         
     def cb_joy_right(self, joy):
         self.joy_switch = joy.buttons[1]
-        print(self.joint_states.position[0]*((50*72)/(-2.0*3.1415926)))
+        self.bias_current = self.bias_current_scaling*joy.axes[2]
         if self.joy_switch == 1 and rospy.get_rostime()-self.time_switch_last>rospy.Duration(1, 0):
             self.initial_position_boom = self.joint_states.position[0]*((50*72)/(-2.0*3.1415926))
             print('switch mode controller FROM:')
@@ -62,8 +64,16 @@ class SpeedCommanderTeleop:
                 controller_msg.bucketV = self.joy_val.bucket*0.5
                 controller_msg.swingV  = self.joy_val.swing*0.0
             else:
+
                 controller_msg.boomP   =  self.initial_position_boom
-                controller_msg.armI    = 500.0        
+                armV = -self.joint_states.velocity[1]
+                #if math.copysign(1,armV) == math.copysign(1,self.bias_current):
+                controller_msg.armI    = math.copysign(750.0,self.bias_current) + self.bias_current - (self.internal_impedance*armV)    
+
+                    
+
+
+   
                 controller_msg.bucketV = self.joy_val.bucket * 0.5
             
             controller_msg.Kmode = self.Kmode

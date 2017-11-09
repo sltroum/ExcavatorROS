@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "exp_excavator: 6 messages, 0 services")
+message(STATUS "exp_excavator: 7 messages, 0 services")
 
 set(MSG_I_FLAGS "-Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -28,6 +28,11 @@ add_custom_target(_exp_excavator_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg" NAME_WE)
 add_custom_target(_exp_excavator_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "exp_excavator" "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg" "std_msgs/Header"
+)
+
+get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg" NAME_WE)
+add_custom_target(_exp_excavator_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "exp_excavator" "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg" "std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg" NAME_WE)
@@ -65,6 +70,12 @@ _generate_msg_cpp(exp_excavator
 )
 _generate_msg_cpp(exp_excavator
   "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/exp_excavator
+)
+_generate_msg_cpp(exp_excavator
+  "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/exp_excavator
@@ -108,6 +119,8 @@ get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator
 add_dependencies(exp_excavator_generate_messages_cpp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_cpp _exp_excavator_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg" NAME_WE)
+add_dependencies(exp_excavator_generate_messages_cpp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_cpp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg" NAME_WE)
@@ -138,6 +151,12 @@ _generate_msg_lisp(exp_excavator
 )
 _generate_msg_lisp(exp_excavator
   "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/exp_excavator
+)
+_generate_msg_lisp(exp_excavator
+  "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/exp_excavator
@@ -181,6 +200,8 @@ get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator
 add_dependencies(exp_excavator_generate_messages_lisp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_lisp _exp_excavator_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg" NAME_WE)
+add_dependencies(exp_excavator_generate_messages_lisp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_lisp _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg" NAME_WE)
@@ -211,6 +232,12 @@ _generate_msg_py(exp_excavator
 )
 _generate_msg_py(exp_excavator
   "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/exp_excavator
+)
+_generate_msg_py(exp_excavator
+  "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/exp_excavator
@@ -253,6 +280,8 @@ add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_mess
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerMachine.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg" NAME_WE)
+add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg" NAME_WE)
 add_dependencies(exp_excavator_generate_messages_py _exp_excavator_generate_messages_check_deps_${_filename})

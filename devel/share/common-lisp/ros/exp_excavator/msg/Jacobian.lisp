@@ -27,19 +27,19 @@
     :initarg :dxdtbucket
     :type cl:float
     :initform 0.0)
-   (dydtboom
-    :reader dydtboom
-    :initarg :dydtboom
+   (dzdtboom
+    :reader dzdtboom
+    :initarg :dzdtboom
     :type cl:float
     :initform 0.0)
-   (dydtarm
-    :reader dydtarm
-    :initarg :dydtarm
+   (dzdtarm
+    :reader dzdtarm
+    :initarg :dzdtarm
     :type cl:float
     :initform 0.0)
-   (dydtbucket
-    :reader dydtbucket
-    :initarg :dydtbucket
+   (dzdtbucket
+    :reader dzdtbucket
+    :initarg :dzdtbucket
     :type cl:float
     :initform 0.0)
    (dphdtboom
@@ -87,20 +87,20 @@
   (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dxdtbucket-val is deprecated.  Use exp_excavator-msg:dxdtbucket instead.")
   (dxdtbucket m))
 
-(cl:ensure-generic-function 'dydtboom-val :lambda-list '(m))
-(cl:defmethod dydtboom-val ((m <Jacobian>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dydtboom-val is deprecated.  Use exp_excavator-msg:dydtboom instead.")
-  (dydtboom m))
+(cl:ensure-generic-function 'dzdtboom-val :lambda-list '(m))
+(cl:defmethod dzdtboom-val ((m <Jacobian>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dzdtboom-val is deprecated.  Use exp_excavator-msg:dzdtboom instead.")
+  (dzdtboom m))
 
-(cl:ensure-generic-function 'dydtarm-val :lambda-list '(m))
-(cl:defmethod dydtarm-val ((m <Jacobian>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dydtarm-val is deprecated.  Use exp_excavator-msg:dydtarm instead.")
-  (dydtarm m))
+(cl:ensure-generic-function 'dzdtarm-val :lambda-list '(m))
+(cl:defmethod dzdtarm-val ((m <Jacobian>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dzdtarm-val is deprecated.  Use exp_excavator-msg:dzdtarm instead.")
+  (dzdtarm m))
 
-(cl:ensure-generic-function 'dydtbucket-val :lambda-list '(m))
-(cl:defmethod dydtbucket-val ((m <Jacobian>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dydtbucket-val is deprecated.  Use exp_excavator-msg:dydtbucket instead.")
-  (dydtbucket m))
+(cl:ensure-generic-function 'dzdtbucket-val :lambda-list '(m))
+(cl:defmethod dzdtbucket-val ((m <Jacobian>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader exp_excavator-msg:dzdtbucket-val is deprecated.  Use exp_excavator-msg:dzdtbucket instead.")
+  (dzdtbucket m))
 
 (cl:ensure-generic-function 'dphdtboom-val :lambda-list '(m))
 (cl:defmethod dphdtboom-val ((m <Jacobian>))
@@ -146,7 +146,7 @@
     (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'dydtboom))))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'dzdtboom))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
@@ -155,7 +155,7 @@
     (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'dydtarm))))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'dzdtarm))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
@@ -164,7 +164,7 @@
     (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'dydtbucket))))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'dzdtbucket))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
@@ -243,7 +243,7 @@
       (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'dydtboom) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:setf (cl:slot-value msg 'dzdtboom) (roslisp-utils:decode-double-float-bits bits)))
     (cl:let ((bits 0))
       (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
@@ -253,7 +253,7 @@
       (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'dydtarm) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:setf (cl:slot-value msg 'dzdtarm) (roslisp-utils:decode-double-float-bits bits)))
     (cl:let ((bits 0))
       (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
@@ -263,7 +263,7 @@
       (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'dydtbucket) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:setf (cl:slot-value msg 'dzdtbucket) (roslisp-utils:decode-double-float-bits bits)))
     (cl:let ((bits 0))
       (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
@@ -304,16 +304,16 @@
   "exp_excavator/Jacobian")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<Jacobian>)))
   "Returns md5sum for a message object of type '<Jacobian>"
-  "cb85e038bdda9398bb669185babc8e9a")
+  "d027c0fe0722f555e8df21a5df02ef47")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'Jacobian)))
   "Returns md5sum for a message object of type 'Jacobian"
-  "cb85e038bdda9398bb669185babc8e9a")
+  "d027c0fe0722f555e8df21a5df02ef47")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<Jacobian>)))
   "Returns full string definition for message of type '<Jacobian>"
-  (cl:format cl:nil "Header header~%float64 dxdtboom~%float64 dxdtarm~%float64 dxdtbucket~%float64 dydtboom~%float64 dydtarm~%float64 dydtbucket~%float64 dphdtboom~%float64 dphdtarm~%float64 dphdtbucket~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
+  (cl:format cl:nil "Header header~%float64 dxdtboom~%float64 dxdtarm~%float64 dxdtbucket~%float64 dzdtboom~%float64 dzdtarm~%float64 dzdtbucket~%float64 dphdtboom~%float64 dphdtarm~%float64 dphdtbucket~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'Jacobian)))
   "Returns full string definition for message of type 'Jacobian"
-  (cl:format cl:nil "Header header~%float64 dxdtboom~%float64 dxdtarm~%float64 dxdtbucket~%float64 dydtboom~%float64 dydtarm~%float64 dydtbucket~%float64 dphdtboom~%float64 dphdtarm~%float64 dphdtbucket~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
+  (cl:format cl:nil "Header header~%float64 dxdtboom~%float64 dxdtarm~%float64 dxdtbucket~%float64 dzdtboom~%float64 dzdtarm~%float64 dzdtbucket~%float64 dphdtboom~%float64 dphdtarm~%float64 dphdtbucket~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <Jacobian>))
   (cl:+ 0
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'header))
@@ -334,9 +334,9 @@
     (cl:cons ':dxdtboom (dxdtboom msg))
     (cl:cons ':dxdtarm (dxdtarm msg))
     (cl:cons ':dxdtbucket (dxdtbucket msg))
-    (cl:cons ':dydtboom (dydtboom msg))
-    (cl:cons ':dydtarm (dydtarm msg))
-    (cl:cons ':dydtbucket (dydtbucket msg))
+    (cl:cons ':dzdtboom (dzdtboom msg))
+    (cl:cons ':dzdtarm (dzdtarm msg))
+    (cl:cons ':dzdtbucket (dzdtbucket msg))
     (cl:cons ':dphdtboom (dphdtboom msg))
     (cl:cons ':dphdtarm (dphdtarm msg))
     (cl:cons ':dphdtbucket (dphdtbucket msg))

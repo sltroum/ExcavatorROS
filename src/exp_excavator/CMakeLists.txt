@@ -56,6 +56,7 @@ add_message_files(
   PowerMachine.msg
   Jacobian.msg
   ForceWorld.msg
+  PowerBucket.msg
 )
 
 ## Generate services in the 'srv' folder

@@ -29,9 +29,9 @@ struct Jacobian_
     , dxdtboom(0.0)
     , dxdtarm(0.0)
     , dxdtbucket(0.0)
-    , dydtboom(0.0)
-    , dydtarm(0.0)
-    , dydtbucket(0.0)
+    , dzdtboom(0.0)
+    , dzdtarm(0.0)
+    , dzdtbucket(0.0)
     , dphdtboom(0.0)
     , dphdtarm(0.0)
     , dphdtbucket(0.0)  {
@@ -41,9 +41,9 @@ struct Jacobian_
     , dxdtboom(0.0)
     , dxdtarm(0.0)
     , dxdtbucket(0.0)
-    , dydtboom(0.0)
-    , dydtarm(0.0)
-    , dydtbucket(0.0)
+    , dzdtboom(0.0)
+    , dzdtarm(0.0)
+    , dzdtbucket(0.0)
     , dphdtboom(0.0)
     , dphdtarm(0.0)
     , dphdtbucket(0.0)  {
@@ -64,14 +64,14 @@ struct Jacobian_
    typedef double _dxdtbucket_type;
   _dxdtbucket_type dxdtbucket;
 
-   typedef double _dydtboom_type;
-  _dydtboom_type dydtboom;
+   typedef double _dzdtboom_type;
+  _dzdtboom_type dzdtboom;
 
-   typedef double _dydtarm_type;
-  _dydtarm_type dydtarm;
+   typedef double _dzdtarm_type;
+  _dzdtarm_type dzdtarm;
 
-   typedef double _dydtbucket_type;
-  _dydtbucket_type dydtbucket;
+   typedef double _dzdtbucket_type;
+  _dzdtbucket_type dzdtbucket;
 
    typedef double _dphdtboom_type;
   _dphdtboom_type dphdtboom;
@@ -159,12 +159,12 @@ struct MD5Sum< ::exp_excavator::Jacobian_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "cb85e038bdda9398bb669185babc8e9a";
+    return "d027c0fe0722f555e8df21a5df02ef47";
   }
 
   static const char* value(const ::exp_excavator::Jacobian_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xcb85e038bdda9398ULL;
-  static const uint64_t static_value2 = 0xbb669185babc8e9aULL;
+  static const uint64_t static_value1 = 0xd027c0fe0722f555ULL;
+  static const uint64_t static_value2 = 0xe8df21a5df02ef47ULL;
 };
 
 template<class ContainerAllocator>
@@ -187,9 +187,9 @@ struct Definition< ::exp_excavator::Jacobian_<ContainerAllocator> >
 float64 dxdtboom\n\
 float64 dxdtarm\n\
 float64 dxdtbucket\n\
-float64 dydtboom\n\
-float64 dydtarm\n\
-float64 dydtbucket\n\
+float64 dzdtboom\n\
+float64 dzdtarm\n\
+float64 dzdtbucket\n\
 float64 dphdtboom\n\
 float64 dphdtarm\n\
 float64 dphdtbucket\n\
@@ -233,9 +233,9 @@ namespace serialization
       stream.next(m.dxdtboom);
       stream.next(m.dxdtarm);
       stream.next(m.dxdtbucket);
-      stream.next(m.dydtboom);
-      stream.next(m.dydtarm);
-      stream.next(m.dydtbucket);
+      stream.next(m.dzdtboom);
+      stream.next(m.dzdtarm);
+      stream.next(m.dzdtbucket);
       stream.next(m.dphdtboom);
       stream.next(m.dphdtarm);
       stream.next(m.dphdtbucket);
@@ -266,12 +266,12 @@ struct Printer< ::exp_excavator::Jacobian_<ContainerAllocator> >
     Printer<double>::stream(s, indent + "  ", v.dxdtarm);
     s << indent << "dxdtbucket: ";
     Printer<double>::stream(s, indent + "  ", v.dxdtbucket);
-    s << indent << "dydtboom: ";
-    Printer<double>::stream(s, indent + "  ", v.dydtboom);
-    s << indent << "dydtarm: ";
-    Printer<double>::stream(s, indent + "  ", v.dydtarm);
-    s << indent << "dydtbucket: ";
-    Printer<double>::stream(s, indent + "  ", v.dydtbucket);
+    s << indent << "dzdtboom: ";
+    Printer<double>::stream(s, indent + "  ", v.dzdtboom);
+    s << indent << "dzdtarm: ";
+    Printer<double>::stream(s, indent + "  ", v.dzdtarm);
+    s << indent << "dzdtbucket: ";
+    Printer<double>::stream(s, indent + "  ", v.dzdtbucket);
     s << indent << "dphdtboom: ";
     Printer<double>::stream(s, indent + "  ", v.dphdtboom);
     s << indent << "dphdtarm: ";

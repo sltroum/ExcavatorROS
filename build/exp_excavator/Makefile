@@ -220,6 +220,20 @@ _exp_excavator_generate_messages_check_deps_JointValues/fast:
 .PHONY : _exp_excavator_generate_messages_check_deps_JointValues/fast
 
 # Convenience name for target.
+exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/rule:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/rule
+.PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/rule
+
+# Convenience name for target.
+_exp_excavator_generate_messages_check_deps_PowerBucket: exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/rule
+.PHONY : _exp_excavator_generate_messages_check_deps_PowerBucket
+
+# fast build rule for target.
+_exp_excavator_generate_messages_check_deps_PowerBucket/fast:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/build.make exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/build
+.PHONY : _exp_excavator_generate_messages_check_deps_PowerBucket/fast
+
+# Convenience name for target.
 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule
 .PHONY : exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/rule
@@ -460,6 +474,7 @@ help:
 	@echo "... _exp_excavator_generate_messages_check_deps_JointCalibration"
 	@echo "... _exp_excavator_generate_messages_check_deps_JointCommand"
 	@echo "... _exp_excavator_generate_messages_check_deps_JointValues"
+	@echo "... _exp_excavator_generate_messages_check_deps_PowerBucket"
 	@echo "... _exp_excavator_generate_messages_check_deps_PowerMachine"
 	@echo "... controller_manager_msgs_generate_messages_cpp"
 	@echo "... controller_manager_msgs_generate_messages_lisp"

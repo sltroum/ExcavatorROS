@@ -7,12 +7,12 @@
           DXDTARM
           DXDTBUCKET-VAL
           DXDTBUCKET
-          DYDTBOOM-VAL
-          DYDTBOOM
-          DYDTARM-VAL
-          DYDTARM
-          DYDTBUCKET-VAL
-          DYDTBUCKET
+          DZDTBOOM-VAL
+          DZDTBOOM
+          DZDTARM-VAL
+          DZDTARM
+          DZDTBUCKET-VAL
+          DZDTBUCKET
           DPHDTBOOM-VAL
           DPHDTBOOM
           DPHDTARM-VAL

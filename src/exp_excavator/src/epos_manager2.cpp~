@@ -98,12 +98,12 @@ void EposManager::spdComCallback(
 	VCS_SetOperationMode(pHandleBoom, nodeIdBoom, OMD_POSITION_MODE, &err);
 	VCS_SetOperationMode(pHandleArm, nodeIdArm, OMD_CURRENT_MODE, &err);
 	Lastmode = true;
-	cout << "switchmodetrue";
+
 	} else{
 	VCS_SetOperationMode(pHandleBoom, nodeIdBoom, OMD_VELOCITY_MODE, &err);
 	VCS_SetOperationMode(pHandleArm, nodeIdArm, OMD_VELOCITY_MODE, &err);
 	Lastmode = false;
-	cout << "switchmodefalse";
+
 	}
 	
 	     
@@ -111,7 +111,7 @@ void EposManager::spdComCallback(
 	VCS_SetEnableState(pHandleArm, nodeIdArm, &err);
 	}
 	
-	cout << (msg->Kmode);
+
 	if((msg->Kmode) == true){
 	VCS_SetPositionMust(pHandleBoom, nodeIdBoom, long(msg->boomP), &err);
 	VCS_SetCurrentMust(pHandleArm, nodeIdArm, long(msg->armI), &err);

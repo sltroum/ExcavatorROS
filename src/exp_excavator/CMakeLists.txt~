@@ -55,7 +55,7 @@ add_message_files(
   JointCommand.msg
   PowerMachine.msg
   Jacobian.msg
-  ForceTransformed.msg
+  ForceWorld.msg
 )
 
 ## Generate services in the 'srv' folder

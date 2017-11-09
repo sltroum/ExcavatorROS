@@ -692,6 +692,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCalibration.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointCommand.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_JointValues.dir/DependInfo.cmake"
+  "exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerBucket.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/_exp_excavator_generate_messages_check_deps_PowerMachine.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "exp_excavator/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/DependInfo.cmake"

@@ -48,6 +48,7 @@ include exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir/progres
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/Jacobian.h
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerMachine.h
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/ForceWorld.h
+exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h
@@ -76,17 +77,25 @@ exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/Excava
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/ForceWorld.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
 
+/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg
+/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/PowerBucket.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
+
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/JointValues.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/JointCalibration.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -94,7 +103,7 @@ exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp: /home/d-lab/Excava
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from exp_excavator/JointCommand.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -102,6 +111,7 @@ exp_excavator_generate_messages_cpp: exp_excavator/CMakeFiles/exp_excavator_gene
 exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/Jacobian.h
 exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerMachine.h
 exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/ForceWorld.h
+exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/PowerBucket.h
 exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointValues.h
 exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCalibration.h
 exp_excavator_generate_messages_cpp: /home/d-lab/ExcavatorROS.git/devel/include/exp_excavator/JointCommand.h

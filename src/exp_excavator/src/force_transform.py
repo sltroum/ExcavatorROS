@@ -39,8 +39,8 @@ class ForceTransform:
         rospy.sleep(3.2)
         while not rospy.is_shutdown(): 
             self.ForceWorldMsg = cmsg.ForceWorld()
-            theta123    = self.joint_val.position[0]+ self.joint_val.position[1]+self.joint_val.position[2]
-            self.ForceWorldMsg.Fx = self.wrench_sensor.wrench.force.x*math.cos(theta123) -self.wrench_sensor.wrench.force.z*math.sin(theta123)
+            theta123    = self.joint_val.position[0] + self.joint_val.position[1] + self.joint_val.position[2] - 0.5*math.pi
+            self.ForceWorldMsg.Fx = self.wrench_sensor.wrench.force.x*math.cos(theta123) - self.wrench_sensor.wrench.force.z*math.sin(theta123)
             self.ForceWorldMsg.Fz = self.wrench_sensor.wrench.force.x*math.sin(theta123) +self.wrench_sensor.wrench.force.z*math.cos(theta123)
             self.ForceWorldMsg.My = self.wrench_sensor.wrench.torque.y
             self.ForceWorldMsg.theta = theta123

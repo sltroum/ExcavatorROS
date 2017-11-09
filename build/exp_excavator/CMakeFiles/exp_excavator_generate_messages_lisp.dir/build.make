@@ -48,6 +48,7 @@ include exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp.dir/progre
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/Jacobian.lisp
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerMachine.lisp
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/ForceWorld.lisp
+exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp
 exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp
@@ -73,22 +74,29 @@ exp_excavator/CMakeFiles/exp_excavator_generate_messages_lisp: /home/d-lab/Excav
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from exp_excavator/ForceWorld.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/ForceWorld.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg
 
+/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg
+/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from exp_excavator/PowerBucket.msg"
+	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/PowerBucket.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg
+
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from exp_excavator/JointValues.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointValues.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg
 
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from exp_excavator/JointCalibration.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCalibration.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg
 
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp: /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg
 /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/d-lab/ExcavatorROS.git/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from exp_excavator/JointCommand.msg"
 	cd /home/d-lab/ExcavatorROS.git/build/exp_excavator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/d-lab/ExcavatorROS.git/src/exp_excavator/msg/JointCommand.msg -Iexp_excavator:/home/d-lab/ExcavatorROS.git/src/exp_excavator/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p exp_excavator -o /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg
 
@@ -96,6 +104,7 @@ exp_excavator_generate_messages_lisp: exp_excavator/CMakeFiles/exp_excavator_gen
 exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/Jacobian.lisp
 exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerMachine.lisp
 exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/ForceWorld.lisp
+exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp
 exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp
 exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp
 exp_excavator_generate_messages_lisp: /home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp

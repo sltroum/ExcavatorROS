@@ -36,7 +36,7 @@ class PowerMachine:
                                                 ,smsg.JointState,self.cb_EPOSstate)
         self.sub_joints_DYNA = rospy.Subscriber('/joint_states_DYNA'
                                                 ,smsg.JointState,self.cb_DYNAstate)
-        self.pub_Power      = rospy.Publisher('Power', cmsg.PowerMachine, queue_size=10)
+        self.pub_Power      = rospy.Publisher('PowerMachine', cmsg.PowerMachine, queue_size=10)
 
 
     def cb_EPOSstate(self, msg):

@@ -3,6 +3,7 @@ FILE(REMOVE_RECURSE
   "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/Jacobian.lisp"
   "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerMachine.lisp"
   "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/ForceWorld.lisp"
+  "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/PowerBucket.lisp"
   "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointValues.lisp"
   "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCalibration.lisp"
   "/home/d-lab/ExcavatorROS.git/devel/share/common-lisp/ros/exp_excavator/msg/JointCommand.lisp"
