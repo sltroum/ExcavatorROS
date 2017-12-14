@@ -55,6 +55,7 @@ class PowerBucket:
             print("ERROR-message-EPOS")  
     
     def Power_update(self):
+        rospy.sleep(1.0)
         r = rospy.Rate(self.rate)
         start_time = rospy.Time.now()
             

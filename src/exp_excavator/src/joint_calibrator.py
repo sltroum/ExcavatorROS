@@ -118,7 +118,7 @@ class CalibratorWithIMU:
             self.CalJointMsg.velocity.append(np.float64(self.velArm))
         
             self.CalJointMsg.name.append("Bucket")
-            self.CalJointMsg.position.append(-np.float64(self.posBucket)-np.pi/2.0 )
+            self.CalJointMsg.position.append(-np.float64(self.posBucket)+np.pi )
             self.CalJointMsg.velocity.append(-np.float64(self.velBucket))
             
             self.pub_JointCalib2.publish(self.CalJointMsg)

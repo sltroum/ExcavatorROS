@@ -58,6 +58,8 @@ class PowerMachine:
             print("ERROR-message-DYNA")  
 
     def Power_update(self):
+        
+        rospy.sleep(1.0)
         r = rospy.Rate(self.rate)
         start_time = rospy.Time.now()
             

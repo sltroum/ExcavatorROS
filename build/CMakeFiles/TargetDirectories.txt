@@ -183,6 +183,7 @@
 /home/d-lab/ExcavatorROS.git/build/opencv_apps/CMakeFiles/edge_detection_exe.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/epos_manager.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/epos_manager2.dir
+/home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/epos_manager3.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/exp_excavator_gencpp.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/exp_excavator_generate_messages.dir
 /home/d-lab/ExcavatorROS.git/build/exp_excavator/CMakeFiles/exp_excavator_generate_messages_cpp.dir

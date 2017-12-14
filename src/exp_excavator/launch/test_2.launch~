@@ -1,18 +1,22 @@
 <!-- -*- mode: XML -*- -->
 
 <launch>
-<node pkg="rosbag" type="record" name="recorder" args="record -a -o home/test"/> 
+<node pkg="rosbag" type="record" name="recorder" args="record -a -o /home/d-lab/ExperimentalData/bucket_video_test"/>
+ <!--<node pkg="rosbag" type="record" name="recorder" args="record -a -o /home/d-lab/ExcavatorROS.git/DATA/new/test -x /camera1/"/> -->
 
-   <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find exp_excavator)/urdf/PC1i.xacro"/>
+<!-- <param name="robot_description" type="str" command="$(find xacro)/xacro.py $(find exp_excavator)/urdf/PC1i.xacro"/>
    
      <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
       <remap from="joint_states" to="/CalibratedJointVals3" />
     </node> 
     
- <node pkg="tf" type="static_transform_publisher" name="world" args="0 0 0 0 0 0  world Base-link 100" /> 
-  
-<!--<include file="$(find exp_excavator)/launch/camera_custom.launch"/> 
-<include file="$(find opt_flow)/launch/opt.launch"/>-->
+ <node pkg="tf" type="static_transform_publisher" name="world" args="0 0 0 0 0 0  world Base-link 100" /> -->
+ 
+<!-- Visual Sensing --> 
+<include file="$(find exp_excavator)/launch/camera_custom.launch"/> 
+<!--<include file="$(find opt_flow)/launch/opt.launch"/>-->
+<include file="$(find opt_flow)/launch/opt_flow_launch.launch"/> 
+
 
 <include file="$(find optoforce)/launch/optoforce.launch"/> 
 <!--<include file="$(find exp_excavator)/launch/state_publish.launch"/> -->
@@ -73,11 +77,24 @@
   <!-- Force Transformation node -->
   <node pkg="exp_excavator" type="force_transform.py"
         name="forcetransformer" output="screen" />
-  
+ 
+   <!-- weight Estimation Node -->
+--<node pkg="exp_excavator" type="weight_est.py" name="weight_estimation" output="screen">
+	<remap from="cal_Data"  to="/CalibratedJoints" />
+	<remap from="force_Data"  to="/optoforce_0" />
+	<param name="nb_sensor" value="1" />
+	<rosparam>
+     </rosparam>
+</node>
+
 <!-- Power Machine node -->
   <node pkg="exp_excavator" type="power_compute_bucket.py"
         name="power_bucket" output="screen" />
-  
+
+<!-- Power Machine node -->
+  <node pkg="exp_excavator" type="gradient_compute.py"
+        name="power_gradient" output="screen" />  
+
 <!-- epos node -->
   <node pkg="exp_excavator" type="epos_manager2" name="epos_manager2"
         output="screen" /> 

@@ -68,7 +68,7 @@ class SpeedCommanderTeleop:
                 controller_msg.boomP   =  self.initial_position_boom
                 armV = -self.joint_states.velocity[1]
                 #if math.copysign(1,armV) == math.copysign(1,self.bias_current):
-                controller_msg.armI    = math.copysign(650.0,self.bias_current) + self.bias_current - (self.internal_impedance*armV)    
+                controller_msg.armI    = math.copysign(750.0,self.bias_current) + self.bias_current - (self.internal_impedance*armV)    
 
                     
 

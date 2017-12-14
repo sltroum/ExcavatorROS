@@ -17,7 +17,7 @@ class PowerBucket:
         self.rate = 100 #[Hz]
 
         self.powMsg = cmsg.PowerBucket()
-        self.force  = WrenchStamped()    
+        self.force  = cmsg.ForceWorld()    
         self.Jacobian  = cmsg.Jacobian()  
         self.velBoom    = 0.0
         self.velArm     = 0.0

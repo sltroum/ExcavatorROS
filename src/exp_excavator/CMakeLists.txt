@@ -198,8 +198,9 @@ include_directories(
 
 add_executable(epos_manager src/epos_manager.cpp)
 add_executable(epos_manager2 src/epos_manager2.cpp)
+add_executable(epos_manager3 src/epos_manager2.cpp)
 target_link_libraries(epos_manager ${catkin_LIBRARIES})
 target_link_libraries(epos_manager2 ${catkin_LIBRARIES})
-
+target_link_libraries(epos_manager3 ${catkin_LIBRARIES})
 #add_executable(epos_measure src/epos_measure.cpp)
 #target_link_libraries(epos_measure ${catkin_LIBRARIES})

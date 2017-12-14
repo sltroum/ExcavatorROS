@@ -4557,6 +4557,19 @@ epos_manager2/fast:
 .PHONY : epos_manager2/fast
 
 #=============================================================================
+# Target rules for targets named epos_manager3
+
+# Build rule for target.
+epos_manager3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 epos_manager3
+.PHONY : epos_manager3
+
+# fast build rule for target.
+epos_manager3/fast:
+	$(MAKE) -f exp_excavator/CMakeFiles/epos_manager3.dir/build.make exp_excavator/CMakeFiles/epos_manager3.dir/build
+.PHONY : epos_manager3/fast
+
+#=============================================================================
 # Target rules for targets named exp_excavator_gencpp
 
 # Build rule for target.
@@ -5077,6 +5090,7 @@ help:
 	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... epos_manager"
 	@echo "... epos_manager2"
+	@echo "... epos_manager3"
 	@echo "... exp_excavator_gencpp"
 	@echo "... exp_excavator_generate_messages"
 	@echo "... exp_excavator_generate_messages_cpp"

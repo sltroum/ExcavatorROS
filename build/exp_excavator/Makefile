@@ -318,6 +318,20 @@ epos_manager2/fast:
 .PHONY : epos_manager2/fast
 
 # Convenience name for target.
+exp_excavator/CMakeFiles/epos_manager3.dir/rule:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/epos_manager3.dir/rule
+.PHONY : exp_excavator/CMakeFiles/epos_manager3.dir/rule
+
+# Convenience name for target.
+epos_manager3: exp_excavator/CMakeFiles/epos_manager3.dir/rule
+.PHONY : epos_manager3
+
+# fast build rule for target.
+epos_manager3/fast:
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager3.dir/build.make exp_excavator/CMakeFiles/epos_manager3.dir/build
+.PHONY : epos_manager3/fast
+
+# Convenience name for target.
 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f CMakeFiles/Makefile2 exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
 .PHONY : exp_excavator/CMakeFiles/exp_excavator_gencpp.dir/rule
@@ -445,6 +459,7 @@ src/epos_manager2.o: src/epos_manager2.cpp.o
 # target to build an object file
 src/epos_manager2.cpp.o:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/src/epos_manager2.cpp.o
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager3.dir/build.make exp_excavator/CMakeFiles/epos_manager3.dir/src/epos_manager2.cpp.o
 .PHONY : src/epos_manager2.cpp.o
 
 src/epos_manager2.i: src/epos_manager2.cpp.i
@@ -453,6 +468,7 @@ src/epos_manager2.i: src/epos_manager2.cpp.i
 # target to preprocess a source file
 src/epos_manager2.cpp.i:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/src/epos_manager2.cpp.i
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager3.dir/build.make exp_excavator/CMakeFiles/epos_manager3.dir/src/epos_manager2.cpp.i
 .PHONY : src/epos_manager2.cpp.i
 
 src/epos_manager2.s: src/epos_manager2.cpp.s
@@ -461,6 +477,7 @@ src/epos_manager2.s: src/epos_manager2.cpp.s
 # target to generate assembly for a file
 src/epos_manager2.cpp.s:
 	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager2.dir/build.make exp_excavator/CMakeFiles/epos_manager2.dir/src/epos_manager2.cpp.s
+	cd /home/d-lab/ExcavatorROS.git/build && $(MAKE) -f exp_excavator/CMakeFiles/epos_manager3.dir/build.make exp_excavator/CMakeFiles/epos_manager3.dir/src/epos_manager2.cpp.s
 .PHONY : src/epos_manager2.cpp.s
 
 # Help Target
@@ -482,6 +499,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... epos_manager"
 	@echo "... epos_manager2"
+	@echo "... epos_manager3"
 	@echo "... exp_excavator_gencpp"
 	@echo "... exp_excavator_generate_messages"
 	@echo "... exp_excavator_generate_messages_cpp"
